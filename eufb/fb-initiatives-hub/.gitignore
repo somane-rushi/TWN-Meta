@@ -1,0 +1,40 @@
+# Debug plugins
+plugins/log-deprecated-notices
+plugins/monster-widget
+plugins/query-monitor
+plugins/user-switching
+
+# Uploads directory
+uploads
+
+# mu-plugins; these are managed at the platform-level
+mu-plugins
+
+# composer files
+client-mu-plugins/vendor
+client-mu-plugins/mercator
+
+# drop-ins; these are managed at the platform-level
+object-cache.php
+db.php
+
+# fieldsmanager
+plugins/wordpress-fieldmanager/tests
+
+
+
+# DS_Store
+.DS_Store
+
+# npm
+package-lock.json
+npm-debug.log
+
+.idea
+
+# php code sniffer
+vendor
+composer.json
+composer.lock
+
+/database/

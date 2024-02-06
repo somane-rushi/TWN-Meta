@@ -1,0 +1,29 @@
+$white: #FFF;
+
+$grey--lighter: #F1F1F1;
+$grey--light: #F5F6F7;
+$grey--medium: #DDDFE2;
+$grey--dark: #7C7C7C;
+$grey--darkest: #565E6B;
+
+$blue--facebook: #4367b1;
+$blue--light: #16A0DC;
+$blue--dark: #213A97;
+
+$blue--primary: #223B98;
+$blue--secondary: #179FDC;
+
+$black: #000;
+
+.blue-primary {
+  color: $blue--primary;
+}
+.blue-secondary {
+  color: $blue--secondary;
+}
+.grey-dark {
+  color: $grey--dark;
+}
+.grey-darkest {
+  color: $grey--darkest;
+}

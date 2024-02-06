@@ -1,0 +1,566 @@
+@font-face {
+    font-family: 'opt_txt';
+    src: url('../fonts/optimistic_text.eot');
+    src: url('../fonts/optimistic_text.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic_text.woff2') format('woff2'), url('../fonts/optimistic_text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'opt_display';
+    src: url('../fonts/optimistic_display.eot');
+    src: url('../fonts/optimistic_display.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic_display.woff2') format('woff2'), url('../fonts/optimistic_display.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'opt_txt_light';
+    src: url('../fonts/optimistic_text_light.eot');
+    src: url('../fonts/optimistic_text_light.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic_text_light.woff2') format('woff2'), url('../fonts/optimistic_text_light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'opt_xtra_light';
+    src: url('../fonts/optimistic_xtra_light.eot');
+    src: url('../fonts/optimistic_xtra_light.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic_xtra_light.woff2') format('woff2'), url('../fonts/optimistic_xtra_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+body{
+    background: white;
+}
+
+.fontXtraLight{
+    font-family: 'opt_xtra_light';
+}
+
+.fontLight{
+    font-family: 'opt_txt_light';
+}
+
+.fontTxt{
+    font-family: 'opt_txt';
+}
+
+.fontDisplay{
+    font-family: 'opt_display';
+}
+
+.bgWhite{
+    background: white !important;
+}
+
+.bgRed{
+   background: #f05d83 !important;
+}
+
+.txtRed{
+    color: #f05d83 !important;
+}
+
+.txtWhite{
+    color: white !important;
+}
+
+.txtGrey{
+    color: #67788a !important;
+}
+
+.txtNavBlue{
+    color: #1877f2 !important;
+}
+
+.txtDarkGrey{
+    color: #1c2b33 !important;
+}
+
+.font12{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.font14{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.font16{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.font18{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.frlLogo{
+    width: auto;
+    height: 35px;
+}
+
+.frlLogoMob{
+    width: auto;
+    height: 20px;
+}
+
+.headerFRL{
+    padding: 24px 0px !important;
+    background: white;
+    width: 100%;
+    height: auto;
+    display: block;
+}    
+
+.loginButton{
+    background: #f05d83 !important;
+    min-height: 38px !important;
+    margin: 9px 0px;
+}
+
+.mainNavFlex{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.imgFull{
+    width: 100%;
+    height: auto;
+}
+
+.img90{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.img80{
+    /*width: 80%;*/
+    width: 275px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    z-index: 15 !important;
+}
+
+.dotPatternLeft{
+    background-image: url(../img/dots-container-full-left.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: auto 400px ;
+}
+
+.dotPatternRight{
+    background-image: url(../img/dots-container-full-left.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto 400px ;
+}
+
+.dotPatternContainer{
+    background-image: url(../img/dots-container.png);
+    background-position: top center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100px;
+}
+
+.dotPatternContainerTwo{
+    background-image: url(../img/dots-container.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+.dotPatternContainerCenter{
+    background-image: url(../img/dots-container.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+.dispBlock{
+    display: block !important;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.dispContainerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dbIconsBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dispTitleFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.iconImg{
+    width: 50px;
+    height: auto;
+}
+
+.iconImgSmall{
+    width: 35px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.contWidth80{
+    /*width: 80%;*/
+    width: 275px;
+    margin: 0 auto;
+    display: block;
+}
+
+.contWidth80Div{
+    width: 80%;    
+    margin: 0 auto;
+    display: block;
+}
+
+.contWidth90{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.tilter{
+    position: relative;
+    z-index: 15 !important;    
+}
+
+.tilter > img{
+    z-index: 15 !important;
+}
+
+.btnBlue{
+    border: 1px solid #209aff !important;
+    background: none !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    color: #209aff !important;
+}
+
+.btnBlue:hover{
+    background: #209aff !important;
+    color: white !important;
+}
+
+
+.btnGrey{
+    border: 1px solid #1c2b33 !important;
+    background: none !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    color: #1c2b33 !important;
+}
+
+.btnGrey:hover{
+    background: #1c2b33 !important;
+    color: white !important;
+}
+
+.foundationImage{
+    width: 90%;
+}
+
+.foundationTitleMarTop{
+    margin-top: -100px;
+}
+
+.foundationContainerTop{
+    margin-top: 24px;
+}
+
+/*Dashboard Page*/
+
+.sidePanelGrey{
+    background: #f7f7f7;
+}
+
+.divFullFlex{
+    width: 100%;
+    display: flex;
+}
+
+.div100{
+    width: 100%;   
+    display: block;
+}
+
+.dbProgIcon{
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    display: block;
+}
+
+.sideBarBottomBorder{
+    width: 100%;
+    height: 4px;
+    border-radius: 6px;
+    background: #e4e4e4;
+}
+
+.whiteBoxFlex{
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    padding: 24px;
+    /*box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2.5px;*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.whiteBoxFlexCol{
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    padding: 24px;
+    /*box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2.5px;*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.transFlexCol{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.whiteBoxIcons{
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    padding: 24px;
+    /*box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2.5px;*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.whiteBoxBlock{
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    padding: 24px 12px;
+    /*box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2.5px;*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    display: block; 
+    
+}
+
+.whiteBoxBlock2{
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    padding: 24px 12px;
+    /*box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2.5px;*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+.expertIcon{
+    width: 125px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.headBoxShadow{
+    box-shadow: 0 1px 5px rgb(0 0 0 / 25%);
+}
+/***Prerna's CSS***/
+
+.owldot .owl-dot span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #f05d83 !important;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.owldot .active  span{ 
+    background-color: #f05d83;
+}
+
+.owldot{ 
+    text-align:center;
+}
+
+/***Prerna's CSS End***/
+
+.sideNavFlex{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+/***Responsive Media Queries***/
+
+@media only screen and (min-width:1440px) {
+    .transFlexCol{
+        flex-direction: row;
+    }
+    .mainNavFlex{
+        justify-content: space-around !important;
+    }
+}/*Large Screens*/
+
+@media only screen and (min-width:992px) {
+    .mainNavFlex{
+        justify-content: space-around !important;
+    }
+    .transFlexCol{
+        flex-direction: row;
+    }
+}/*Medium Screens*/
+
+@media only screen and (min-width:768px) {
+    .mainNavFlex{
+        justify-content: flex-start;
+    }
+    .transFlexCol{
+        flex-direction: row;
+    }
+    
+}/*Tab Screens*/
+
+@media only screen and (max-width:480px) {
+    .headerFRL{
+        padding: 12px 0px !important;
+        background: white;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .contWidth80,
+    .contWidth80Div{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .contWidth90{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .dispContainerFlex{
+        flex-direction: column;
+    }
+    .iconImg{
+        width: 40px;
+        height: auto;
+    }
+    .dotPatternContainer{
+        background-size: cover;
+        width: 100%;
+        height: 100px;
+    }
+    .foundationImage{
+        width: 100%;
+    }
+    
+    .foundationTitleMarTop{
+        margin-top: 24px;
+    }
+
+    .foundationContainerTop{
+        margin-top: 0;
+    }
+    .dotPatternContainerTwo{
+        background-image: url(../img/dots-container.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;    
+    }
+
+    /**For Dashboard**/
+    .divFullFlex{
+        flex-direction: column;                
+    }
+
+    .whiteBoxFlexCol{
+        flex-direction: column;                
+    }
+
+    .iconImgSmall{
+        width: 25px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }   
+
+    .dbIconsBox{
+        flex-direction: row;
+    }
+
+    .whiteBoxIcons{
+        padding: 24px 12px;        
+    }
+    .whiteBoxBlock2{
+        width: 100%;
+        height: auto;
+        border-radius: 24px;
+        padding: 24px 12px;
+        /*box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2.5px;*/
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        display: flex; 
+        flex-direction: column;        
+    }
+
+    .transFlexCol{
+        flex-direction: column;
+    }
+
+}/*col-xs Screens*/

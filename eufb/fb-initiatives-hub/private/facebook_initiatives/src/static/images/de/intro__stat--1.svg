@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="539px" height="260px" viewBox="0 0 539 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-11.4%" y="-26.9%" width="122.7%" height="154.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="40.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="63.2314513%" y1="87.57071%" x2="61.9658801%" y2="31.5041738%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DBDBDB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="FB-Country-Pages---Creating-opportuinity-v3.2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-101.000000, -484.000000)">
+        <g id="1_Figures" filter="url(#filter-1)" transform="translate(101.000000, 470.000000)">
+            <g id="Card-1" transform="translate(0.000000, 14.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle-10" fill="#FAFAFA" x="0" y="0" width="539" height="260"></rect>
+                    <polyline id="Path-4" fill="#E8E8E8" opacity="0.688405797" points="0 258.669038 0 197.65662 262.538745 148.581414 414.652145 104.794449 539 69 539 260"></polyline>
+                    <polygon id="Path-4" fill="url(#linearGradient-2)" opacity="0.688405797" points="0 260 0 212.344851 262.538745 174.831867 414.652145 141.361202 539 114 539 260"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

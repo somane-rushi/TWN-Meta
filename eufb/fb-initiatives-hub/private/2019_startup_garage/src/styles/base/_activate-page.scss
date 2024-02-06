@@ -1,0 +1,7 @@
+.wp-activate-container{
+  padding: 60px 30px;
+  @include make-container();
+  @include desktop-small {
+    padding: 180px 0;
+  }
+}

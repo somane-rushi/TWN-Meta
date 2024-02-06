@@ -1,0 +1,6 @@
+[submodule "plugins/wp-gdpr-consent"]
+	path = plugins/wp-gdpr-consent
+	url = https://github.com/firstandthird/wp-gdpr-consent.git
+[submodule "plugins/wp-disable-authors"]
+	path = plugins/wp-disable-authors
+	url = https://github.com/firstandthird/wp-disable-authors.git

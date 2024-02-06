@@ -1,0 +1,52 @@
+$slick-dots-size: 8px;
+
+.image-slider {
+  max-width: 100%;
+  .slick-dots {
+    bottom: 35px;
+    li {
+      width: $slick-dots-size;
+      height: $slick-dots-size;
+      margin: 0 10px;
+      button {
+        &:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "";
+          width: 12px;
+          height: 12px;
+          line-height: 24px;
+          text-align: center;
+          border: 2px solid $off-white;
+          border-radius: 50%;
+          opacity: 1;
+
+        }
+      }
+      &.slick-active,
+      &:hover {
+        button {
+          &:before {
+            color: $off-white;
+            background: $off-white;
+            border-color: $off-white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.image-slider__item {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.section .video-and-image {
+  padding-bottom: 0;
+
+  @include desktop-small {
+    padding-bottom: 0;
+  }
+}

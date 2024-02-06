@@ -1,0 +1,126 @@
+.section-faq-hero-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_faq_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    width: 100%;
+    height: 314px;
+    color: white;
+
+    .container > .row {
+        padding: 0;
+    }
+
+    h2 {
+        color: $white;
+    }
+}
+
+.section-faq-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_pattern_faq.svg");
+    background-position: bottom left;
+    background-color: $grey--light;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+
+    @include desktop-small {
+        padding: 5rem 0;
+    }
+}
+
+.faq-card {
+    margin: 1rem 0;
+    .faq-card-header {
+        padding: 1rem 2rem;
+        background: white;
+
+        &__text {
+            color: $blue--primary;
+            margin-bottom: 0;
+            line-height: 24px;
+        }
+
+        a {
+            text-decoration: none;
+
+            &__arrow {
+                transform: rotate(180deg);
+            }
+        }
+
+        .collapsed {
+            .faq-card-header__arrow {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .faq-card-body {
+        padding: 1rem 2rem;
+        background: #FAFAFA;
+        h4 {
+            float: left;
+            color: #2EAC29;
+        }
+        .faq-answer {
+            padding-left: 0;
+            p {
+                margin-bottom: 0;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+.section-apply-container {
+    background-color: $blue--primary;
+    height: 307px;
+    color: white;
+
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        .row {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+
+    
+
+    h2 {
+        margin-bottom: 0;
+        color: $white;
+    }
+    
+    .apply-cta {
+        float: right;
+        width: 100%;
+        transition: transform 0.1s ease-in-out;
+        opacity: 0;
+
+        &:hover {
+            transform: translateY(3px);
+        }
+
+        @include desktop-small {
+            width: auto;
+        }
+    }
+    .btn-apply-cta {
+        background: white;
+        color: $blue--primary;
+        width: 100%;
+    }
+    .btn-cta {
+        &.d-lg-none {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .underscore {
+        margin-bottom: .5rem;
+    }
+}

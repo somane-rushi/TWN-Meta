@@ -1,0 +1,88 @@
+.cookies-container {
+    bottom: 0px; }
+
+.cookies-container.slidein {
+    bottom: -100%; }
+
+#cookies_layer {
+    position: fixed;
+    bottom: -100%;
+    width:100% !important;
+    -webkit-transition: bottom 1s ease-in-out;
+    -moz-transition: bottom 1s ease-in-out;
+    -ms-transition: bottom 1s ease-in-out;
+    -o-transition: bottom 1s ease-in-out; }
+
+#cookies_layer.slideup {
+    bottom:  0px;
+    -webkit-transition: bottom 1s ease-in-out;
+    -moz-transition: bottom 1s ease-in-out;
+    -ms-transition: bottom 1s ease-in-out;
+    -o-transition: bottom 1s ease-in-out; }
+
+#eu-cookie-law {
+    font-size:14px !important;
+    padding: 20px 35px !important;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out; }
+#eu-cookie-law form {
+    margin-right: 10px; }
+#eu-cookie-law input {
+    font-size: 13px !important;
+    background: #4165B3 !important;
+    border: none !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    margin: 0 11px 0 30px !important;
+    padding: 11px 22px 10px !important;
+    text-shadow: none !important;
+    transition: background-color .3s ease-in-out !important;
+    color: #fff !important; }
+#eu-cookie-law input:hover {
+    background-color: #5890ff;
+    font-size: 13px; }
+
+.cookies-container #dismiss {
+    color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    padding: 15px;
+    line-height: 0; }
+
+.cookies-container #dismiss:before {
+    content: '\00D7';
+    line-height: 12.5px;
+    font-size: 25px;
+    display: inline-block;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+
+.cookies-container #dismiss:hover:before {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5); }
+
+#eu-cookie-law.hide {
+    opacity: 0; }
+
+#dismiss.disable {
+    opacity: 0; }
+
+@media screen and (max-width: 600px) {
+    #eu-cookie-law {
+        padding: 20px 35px 60px 35px !important; } }

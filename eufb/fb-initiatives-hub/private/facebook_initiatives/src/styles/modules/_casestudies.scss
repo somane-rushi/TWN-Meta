@@ -1,0 +1,136 @@
+.casestudies {
+    background: #F5F6F7;
+
+    .section__heading {
+        margin-bottom: 45px;
+    }
+
+    &__grid {
+        margin-bottom: 45px;
+        box-shadow: $shadow--cloud;
+    }
+}
+
+.casestudy {
+    background: $white;
+
+    &__details {
+        position: relative;
+        overflow: hidden;
+        padding: 20px;
+
+        color: $white;
+        text-shadow: 0 0 15px rgba(0,0,0,0.5);
+        background: $blue--dark no-repeat center;
+        background-size: cover;
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            width: 22px;
+            height: 22px;
+            background: $white;
+            transform: translate3d(-48%, -50%, 0) rotate3d(0, 0, 1, 45deg);
+        }
+    }
+
+    &__category {
+        @extend .heading--small;
+
+        &:after {
+            background: $white;
+        }
+    }
+
+    &__content {
+        padding: 20px;
+        position: relative;
+        min-height: 200px;
+    }
+
+    &__description {
+        margin-bottom: 30px;
+    }
+
+    &__cta {
+        position: absolute;
+
+        right: 20px;
+        bottom: 20px;
+
+        margin-bottom: 0;
+        color: $blue--light;
+
+        font-size: $font_size--6;
+        text-transform: uppercase;
+
+        &:after {
+            content: '';
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-left: 10px;
+            vertical-align: -1px;
+            background: url(../images/icons__external--blue.svg) no-repeat center;
+            background-size: contain;
+        }
+    }
+
+    &:nth-of-type(even) {
+        background: #FAFAFA;
+
+        .casestudy {
+            &__details {
+                &:after {
+                    background: #FAFAFA;
+                }
+            }
+        }
+    }
+}
+
+@include phablet {
+    .casestudy {
+        display: flex;
+
+        &__details {
+            width: 200px;
+            min-height: 200px;
+            flex-shrink: 0;
+
+            &:after {
+                top: 50%;
+                left: 100%;
+            }
+        }
+    }
+}
+
+@include desktop-small {
+    .casestudies {
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+    }
+
+    .casestudy {
+        &--featured {
+            grid-row: span 2;
+
+            .casestudy {
+                &__details {
+                    width: 50%;
+                }
+
+                &__content {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

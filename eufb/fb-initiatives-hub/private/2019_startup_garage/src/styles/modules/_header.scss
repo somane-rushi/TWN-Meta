@@ -1,0 +1,229 @@
+.header {
+
+    color: $white;
+    position: fixed;
+    padding: 0;
+    z-index: 9;
+    background: transparent;
+    -webkit-transition: all 0.4s  ease-in-out; /* Safari prior 6.1 */
+    transition: all 0.4s  ease-in-out;
+    font-family: $optimistic;
+
+    &.active{
+
+        background-color: $white;
+        color: $dark--green;
+
+        .dark_logo{
+            /* display: block;*/
+            opacity: 1;
+            position: inherit;
+            visibility: visible;
+        }
+
+        .language-bar {
+            background: $light--green;
+            -webkit-transition: all 1s ease; /* Safari prior 6.1 */
+            transition: all 1s ease;
+        }
+    }
+
+    .navbar {
+        padding: 0 1em;
+
+        @include desktop-small {
+            padding: 0 81px;
+        }
+    }
+    .navbar-brand img {
+        width:100%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        @include desktop-small {
+            width: 140px;
+            margin-top: 4px;
+        }
+    }
+
+    .navbar-menu-btn {
+        padding: 1rem;
+        padding-right: 0;
+    }
+
+    &--hidden {
+        transform: translateY(-100%);
+        transition: transform 0.25s ease-in-out;
+    }
+
+    @include desktop-small {
+        .navbar {
+            height: 85px;
+        }
+    }
+}
+
+.language-bar {
+    height: 39px;
+    background-color: rgba(35, 35, 35, 0.26);
+    vertical-align: sub;
+    padding: 7px 81px;
+}
+.language-selector {
+    list-style: none;
+    .menu-item a{
+        color: $white;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding-left: 20px;
+        padding-top: 3px;
+        &.current-menu-item a {
+            color: $white;
+            font-weight: bold;
+        }
+    }
+}
+
+#menu-main .menu-item {
+    margin-left: 1.5rem;
+    height: 80px;
+
+
+    &.current-menu-item {
+    }
+
+    a {
+        font-size: 16px;
+        display: inline-block;
+        height: 23px;
+        margin-top: 28px;
+        margin-bottom: 25px;
+        &:hover {
+            text-decoration: none;
+            color:  darken($white, 10%);
+        }
+    }
+
+    &.apply {
+        margin-top: 0;
+
+        &:hover {
+            border: none;
+        }
+
+        a {
+            transition: background 0.1s ease-in-out;
+            background: $blue--dark;
+            padding: 10px 20px;
+
+            &:hover {
+                background: $blue--light;
+                transition: background 0.1s ease-in-out;
+                border: none;
+            }
+        }
+    }
+
+    @include desktop-medium {
+        margin-left: 2.5rem;
+    }
+}
+
+.navbar-offcanvas {
+    position: fixed;
+    z-index: 999;
+    font-family: $optimistic;
+    background:transparent;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    /*  max-width: 320px;*/
+    padding: 1rem 1rem 0 0;
+    transition: all 300ms ease-in-out;
+    transform: translate3d(0, 0 ,0);
+    &.show {
+        background:$off-white;
+        right: 0;
+    }
+    &-close {
+        float: right;
+    }
+
+    .navbar-nav {
+        margin-top: 3.5rem;
+    }
+    #menu-mobile .menu-item {
+        margin-bottom: 1rem;
+        &.current-menu-item > a {
+            color: $dark--green;
+        }
+        a {
+            color: $dark--green;
+            font-size: 20px;
+            &:hover {
+                text-decoration: none;
+                color: $dark--green;
+            }
+        }
+    }
+    .underscore.small {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    #menu-mobile-2 {
+        list-style: none;
+        text-transform: uppercase;
+
+        li {
+            float: left;
+            margin: 1px 1rem;
+            a {
+                color: $dark--green;
+                font-size: 14px;
+            }
+        }
+    }
+
+    #menu-mobile-3 {
+        float: right;
+        list-style: none;
+        margin-top: 1rem;
+        a {
+            display: block;
+            padding: .8rem 2.5rem;
+            color: $dark--green;
+            margin-top: -1rem;
+
+            &:focus, &:hover {
+                text-decoration: none;
+                border-bottom: none;
+            }
+        }
+    }
+
+
+    @include desktop-small {
+        display: none;
+    }
+}
+
+@include desktop-small {
+    body {
+        overflow: auto !important;
+    }
+}
+
+@include desktop-medium {
+    #menu-main .menu-item {
+        margin-left: 3rem;
+    }
+}
+
+#cookies_layer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

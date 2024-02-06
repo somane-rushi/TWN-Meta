@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Banana';
+    font-weight: 300 !important;
+    src: url(../fonts/Banana_Grotesk_0215-Thin.woff2) format('woff2'),
+    url(../fonts/Banana_Grotesk_0215-Thin.woff) format('woff');
+}
+
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$banana: Banana, $helvetica;
+
+$font_size--1: 63px; // 64px can appear broken on hindi site :-S
+$font_size--2: 42px;
+$font_size--3: 30px;
+$font_size--4: 20px;
+$font_size--5: 16px;
+$font_size--6: 12px;
+
+.heading1, .heading2, .heading3 {
+    margin: 0 0 1rem;
+    font-family: $banana;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.heading4, .paragraph, .small {
+    margin: 0 0 1rem;
+    font-family: $helvetica;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.heading1, h1 {
+    font-size: $font_size--2;
+}
+
+.heading2, h2 {
+    font-size: $font_size--3;
+}
+
+.heading3, h3 {
+    font-size: $font_size--4;
+}
+
+.heading4, h4 {
+    font-size: $font_size--5;
+}
+
+.heading--small {
+    font-size: $font_size--6;
+    text-transform: uppercase;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 16px;
+        height: 1px;
+        margin: 8px 0;
+        background: $blue--light;
+    }
+}
+
+.paragraph {
+    font-family: $banana;
+    font-size: $font_size--5;
+    line-height: 1.25;
+}
+
+.small {
+    font-size: $font_size--6;
+}
+
+@include tablet {
+    .heading1, h1 {
+        font-size: $font_size--1;
+    }
+
+    .heading2, h2 {
+        font-size: $font_size--2;
+    }
+
+    .heading3, h3 {
+        font-size: $font_size--3;
+    }
+
+    .heading4, h4 {
+        font-size: $font_size--4;
+    }
+}

@@ -1,0 +1,158 @@
+@keyframes move_up_fade_in_keyframes { 
+    from { 
+        opacity: 0;
+        transform: translateY(10px);
+    } to   {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@mixin move_up_fade_in($animation-delay) {
+    opacity: 0;
+    animation: move_up_fade_in_keyframes 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    @if $animation-delay {
+        animation-delay: $animation-delay;
+    } @else {
+        animation-display: 0s;
+    }
+}
+
+@mixin staggered_transitions($nth:1,$items:1,$initial:0.5,$step:.1){
+	@for $i from $nth through $items{
+		&:nth-of-type(#{$i}){
+			animation-delay:#{$initial}s;
+		}
+		$initial: $initial + $step;
+	}
+}
+
+@keyframes move_up_fade_in_long_keyframes { 
+    from { 
+        opacity: 0;
+        transform: translateY(30px);
+    } to   {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@mixin move_up_fade_in_long($animation-delay) {
+    opacity: 0;
+    animation: move_up_fade_in_long_keyframes 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    @if $animation-delay {
+        animation-delay: $animation-delay;
+    } @else {
+        animation-display: 0s;
+    }
+}
+
+@keyframes move_left_fade_in_keyframes { 
+    from { 
+        opacity: 0;
+        transform: translateX(100px);
+    } to   {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@mixin move_left_fade_in($animation-delay) {
+    opacity: 0;
+    animation: move_left_fade_in_keyframes 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+
+    @if $animation-delay {
+        animation-delay: $animation-delay;
+    } @else {
+        animation-display: 0s;
+    }
+}
+
+@keyframes grow_line_from_left_keyframes { 
+    from { 
+        width: 0px;
+    } to   {
+        width: 50px;
+    }
+}
+
+@mixin grow_line_from_left($animation-delay) {
+    width: 50px;
+    animation: grow_line_from_left_keyframes 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    
+    @if $animation-delay {
+        animation-delay: $animation-delay;
+    } @else {
+        animation-delay: 0s;
+    }
+}
+
+@keyframes scale_from_nothing { 
+    from { 
+        transform: scale(0);
+        opacity: 0;
+    } to   {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.move-left-fade-in {
+    @include move_left_fade_in(0.5s);
+}
+
+.grow-line-from-left {
+    @include grow_line_from_left(0.75s);
+}
+
+.move_up_fade_in {
+    @include staggered_transitions($items:5,$nth:2,$initial:.2,$step:.2);
+    @include move_up_fade_in(0.5s);
+}
+
+.blocks-animate-in {
+    $initial: 10;
+    $step: 1;
+
+    @for $i from 1 through 5 {
+		& > div:nth-of-type(#{$i}){
+			transition-delay: #{100ms * $initial};
+        }
+
+		$initial: $initial + $step;
+	}
+
+    & > div {
+		opacity: 1 !important;
+        transform: translateY(0) !important;
+        transition-property: all !important;
+        transition-duration: 0.2s !important;
+        transition-timing-function: cubic-bezier(.20, .00, .05, 1.00) !important;
+	}
+}
+
+.js-in-viewport--move-left-fade-in {
+    opacity: 0;
+}
+
+.js-in-viewport--fade-in {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+.fade-in {
+    opacity: 1;
+}

@@ -1,0 +1,315 @@
+.section-objectives-hero-container {
+    width: 100%;
+    height: 499px;
+    color: white;
+
+    .container,
+    .container > .row {
+        padding-bottom: 0;
+    }
+
+    h1 {
+        margin-bottom: 7rem;
+    }
+
+    .objectives-caption-block {
+        background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_pattern_objectives_hero.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        color: white;
+        p {
+            font-size: 17px;
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+.section-mentoring-container {
+    padding: 2rem 0;
+
+    a {
+        color: $blue--light;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .animate-complete {
+        @for $i from 1 through 5 {
+            .mentoring-bullet-img-#{$i} {
+                animation: scale_from_nothing 0.4s;
+                animation-delay: $i * 0.25s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+
+    .mentoring-bullet-item {
+        margin-bottom: 1rem;
+        float: left;
+        width: 100%;
+
+        img {
+            opacity: 0;
+            width: 20px;
+            margin-right: 1rem;
+            float: left;
+            margin-top: 7px;
+        }
+        span {
+            float: right;
+            width: 85%;
+        }
+    }
+
+    .col-12 {
+        padding-left: 30px;
+    }
+
+    @include tablet {
+        .col-12 {
+            padding-left: 15px;
+        }
+    }
+
+    @include desktop-small {
+        .mentoring-copy {
+            width: 90%;
+        }
+
+        .mentoring-bullets {
+            margin-top: 7rem;
+            padding-left: 9rem;
+        }
+    }
+}
+
+.section-quotes-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_objectives_quotes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 748px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: white;
+
+    h3 {
+        opacity: 0;
+    }
+
+    .underscore {
+        margin-left: auto;
+    }
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #fff;
+        margin: 0 auto;
+    }
+    @include desktop-small {
+        height: 635px;
+        padding-top: 4px;
+    }
+}
+
+.quotes-wrapper {
+    opacity: 0;
+}
+
+.quotes-slider {
+    background: white;
+
+    .slick-prev {
+        margin-left: -50px;
+    }
+
+    .slick-next{
+        margin-right: -50px;
+    }
+
+    &-item-container {
+        width: 100%;
+        height: 320px;
+        margin: auto;
+        max-width: 816px;
+        padding: 1rem;
+        line-height: 1.1;
+
+        > p {
+            margin-bottom: 0;
+            font-family: $helvetica;
+        }
+    }
+    @include desktop-small {
+        height: 240px;
+        max-width: 700px;
+        margin: 0 auto;
+
+        &-item-container {
+            height: 100%;
+            padding: 2rem 3rem;
+        }
+    }
+}
+
+.quotes-slider-nav {
+    width: 75%;
+    margin: 1rem auto 0;
+    &-item {
+        transform: scale(0.7);
+        transition: opacity 500ms ease-in-out;
+        img, hr {
+            margin: 0 auto;
+        }
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        p, hr {
+            font-family: $helvetica;
+            opacity: 0;
+            transition: opacity 0.1s ease-in-out;
+        }
+        &.slick-current {
+            transform: scale(1);
+            p, hr {
+                opacity: 1;
+            }
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .slick-prev {
+        left: -2rem;
+        background-position: left 25%;
+    }
+    .slick-next {
+        right: -2rem;
+        background-position: right 25%;
+    }
+
+    @include desktop-small {
+        width: 25%;
+    }
+}
+
+.section-design-coaching-container {
+    width: 100%;
+    min-height: 498px;
+
+    .design-coaching-video {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .small.text-right {
+        span {
+            margin: 0 .5rem;
+        }
+    }
+
+    @include desktop-small {
+        height: 498px;
+        padding-top: 5rem;
+        .design-copy {
+            margin-top: -2rem;
+            padding-left: 3rem;
+        }
+    }
+}
+
+.section-objectives-benefits-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/objectives_benefits.png");
+    background-size: cover;
+    background-position: 88% 100%;
+    color: white;
+    min-height: 594px;
+    padding: 2rem 0;
+
+    h2 {
+        color: $white;
+    }
+
+    .left-container {
+        padding-left: 30px;
+    }
+
+    .right-container {
+        padding-left: 30px;
+        padding-top: 50px;
+
+        h4 {
+            margin-bottom: 0;
+        }
+        p {
+            margin-bottom: 2rem;
+        }
+
+    }
+    .objectives-benefits-bullets {
+        li {
+            color: $blue--secondary
+        }
+    }
+
+    @include tablet {
+        .left-container, .right-container {
+            padding-left: 15px;
+        }
+    }
+
+    @include desktop-small {
+        height: 664px;
+        padding-top: 5rem;
+        .left-container {
+            > div {
+                width: 60%;
+            }
+        }
+
+        .right-container {
+            > div {
+                width: 70%;
+                margin-left: 3rem;
+            }
+            h4 {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.section-grow-your-container {
+    background-color: #F5F6F7;
+    min-height: 403px;
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+    h2 {
+        margin-bottom: 0;
+    }
+
+    @include desktop-small {
+        min-height: 403px;
+        .right-container > div {
+            width: 70%;
+        }
+    }
+}
+
+.section-apply-container.programme-objectives {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_pattern_objectives_apply.svg");
+    background-color: #F5F6F7;
+
+}

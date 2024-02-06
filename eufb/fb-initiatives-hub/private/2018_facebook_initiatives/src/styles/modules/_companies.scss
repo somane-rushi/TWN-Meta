@@ -1,0 +1,56 @@
+.companies {
+    background: $white;
+    display: flex;
+
+    @include desktop-small {
+        height: 180px;
+    }
+
+    &--blue {
+        background: #233D93;
+
+        .companies__intro {
+            h4 {
+                color: $white;
+            }
+        }
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    h4 {
+        color: $grey--dark;
+        width: 100%;
+        text-align: center;
+        margin: 30px 0 0 0;
+    }
+
+    .company {
+        text-align: center;
+        width: 100%;
+
+        img {
+            width: 150px;
+        }
+    }
+
+    &__wrap {
+        flex: 1;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__intro {
+        width: 100%;
+    }
+
+    &__carousel {
+        width: 100%;
+    }
+}

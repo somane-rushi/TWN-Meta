@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Optimistic';
+    font-weight: 300 !important;
+    src: url(../fonts/Optimistic_Text_W_Lt.woff2) format('woff2'),
+    url(../fonts/Optimistic_Text_W_Lt.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'FacebookReader';
+    font-weight: 300 !important;
+    src: url(../fonts/FacebookReader-Regular.woff) format('woff2'),
+    url(../fonts/FacebookReader-Regular.woff2) format('woff');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 300 !important;
+    src: url(../fonts/SourceSansPro-Regular.ttf) format('ttf');
+}
+
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$facebook:FacebookReader, $helvetica;
+$optimistic: Optimistic, $helvetica;
+$source:"Source Sans Pro";
+
+@import url('https://fonts.googleapis.com/css?family=Mukta:200');
+
+$font_size--1: 63px; // 64px can appear broken on hindi site :-S
+$font_size--2: 42px;
+$font_size--3: 28px;
+$font_size--4: 24px;
+$font_size--5: 16px;
+$font_size--6: 12px;
+$font_size--7: 18px;
+
+body{
+    font-family: $optimistic;
+    font-size: 14px;
+    line-height: 1.43;
+    word-break: break-word;
+    hyphens: manual;
+    @include desktop-small {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+.heading1, .heading2, .heading3 {
+    margin: 0 0 1rem;
+    font-family: $optimistic;
+    line-height: 1.2;
+    font-weight: 300;
+
+    &:lang(pl-PL) {
+        font-family: 'Mukta', sans-serif;
+    }
+}
+
+.heading4, .paragraph, .small {
+    margin: 0 0 1rem;
+    font-family: $optimistic;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.heading1, h1 {
+    font-size: $font_size--2;
+}
+
+.heading2, h2 {
+    font-size: $font_size--3;
+    line-height: 36px;
+    @include desktop-small {
+        font-size: 36px;
+        line-height: 1.13;
+    }
+    @include desktop-medium {
+        font-size: 42px;
+        line-height: 1.3;
+    }
+}
+
+.heading3, h3 {
+    font-size: $font_size--7;
+    line-height: 1.33;
+    @include desktop-small {
+        font-size: $font_size--4;
+        line-height: 1.67;
+    }
+}
+
+.heading4, h4 {
+    font-size: $font_size--5;
+}
+
+
+a{
+    color: $dark--green;
+    text-decoration: underline;
+    &:hover{
+        color: $dark--green;
+    }
+}
+
+.heading--small {
+    font-size: $font_size--6;
+    text-transform: uppercase;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 16px;
+        height: 1px;
+        margin: 8px 0;
+    }
+}
+
+.paragraph {
+    font-family: $optimistic;
+    font-size: 14px;
+    line-height: 1.43;
+    @include desktop-small {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    word-break: break-word;
+
+
+
+    &:lang(pl-PL) {
+        font-family: 'Mukta', sans-serif;
+    }
+}
+
+.small {
+    font-size: $font_size--6;
+}
+
+/*
+@include tablet {
+    .heading1, h1 {
+        font-size: $font_size--1;
+    }
+
+    .heading2, h2 {
+        font-size: $font_size--2;
+    }
+
+    .heading3, h3 {
+        font-size: $font_size--3;
+    }
+
+    .heading4, h4 {
+        font-size: $font_size--4;
+    }
+}
+*/

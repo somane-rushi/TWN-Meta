@@ -1,0 +1,51 @@
+.hero {
+    padding: 210px 0 90px;
+
+    color: $white;
+    background: $grey--darkest no-repeat 50% 25%;
+    background-size: cover;
+    background-position-x: 70%;
+
+    > .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    &__heading {
+        text-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    &__description {
+        max-width: 500px;
+        font-family: $helvetica;
+        text-shadow: 0 0 15px rgba(0,0,0,0.5);
+
+        p {
+            font-family: $helvetica;
+        }
+    }
+
+    &__cta {
+        margin-top: 30px;
+
+        color: $white;
+        font-size: 12px;
+        text-transform: uppercase;
+
+        a {
+            padding-right: 30px;
+        }
+
+        &:after {
+            content: '';
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-left: -20px;
+            vertical-align: -1px;
+            background: url(../images/icons__external--white.svg) no-repeat center;
+            background-size: contain;
+            pointer-events: none;
+        }
+    }
+}

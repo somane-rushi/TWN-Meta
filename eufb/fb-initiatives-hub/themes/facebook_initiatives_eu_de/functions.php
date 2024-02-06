@@ -1,0 +1,3 @@
+<?php
+
+// Silents in golden

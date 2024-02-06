@@ -1,0 +1,203 @@
+.section-startups-hero-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_startups_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    width: 100%;
+    height: 499px;
+    color: white;
+
+    .container,
+    .container > .row {
+        padding-bottom: 0;
+    }
+
+    .objectives-caption-block {
+        background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_pattern_objectives_hero.png");
+        background-position: bottom right;
+        background-color: rgba($blue--secondary, 0.95);
+        background-repeat: no-repeat;
+        color: white;
+
+        p {
+            font-size: 17px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.section-startups-intro-container {
+    padding: 3rem 0;
+    .col-12 {
+        padding-left: 30px;
+    }
+
+    @include tablet {
+        .col-12 {
+            padding-left: 15px;
+        }
+    }
+
+
+    @include desktop-small {
+        height: 385px;
+        padding: 0;
+
+        .container-right {
+            >div {
+                width: 75%;
+            }
+        }
+    }
+}
+
+.section-meet-startups-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_pattern_meet_startups.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: $blue--secondary;
+    width: 100%;
+    min-height: 827px;
+    color: white;
+    padding-top: 2rem;
+    .underscore {
+        margin-left: auto;
+        &.white {
+            border-color: white;
+        }
+    }
+
+    @include desktop-small {
+        min-height: 680px;
+        height: 680px;
+    }
+}
+
+.meet-startups-slider,
+.meet-startups-modal-slider{
+    min-height: 373px;
+
+    &-item {
+        margin: 0 .5rem;
+    }
+    &-item-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background: white;
+        padding: 2rem;
+        text-align: left;
+
+        .video-container {
+            padding: 0;
+            img {
+                margin: 0;
+            }
+        }
+        .copy-container {
+            padding: 1rem 0 0;
+        }
+        .underscore.small {
+            margin-left: 0;
+            margin-top: 0.5rem;
+            width: 13px;
+        }
+        .startup-logo {
+            max-width: 160px;
+            max-height: 150px;
+            margin: 1rem 0;
+        }
+
+        p {
+            margin-bottom: 0;
+            width: 90%;
+        }
+        .slide-footer-links {
+            margin-top: 1rem;
+            text-transform: uppercase;
+            font-size: 12px;
+            a {
+                margin-right: 3rem;
+            }
+        }
+    }
+
+    .slick-dots {
+        bottom: -60px;
+        li button:before {
+            font-size: 14px;
+            color: white;
+        }
+        li.slick-active button:before {
+            font-size: 18px;
+        }
+    }
+
+    .slick-prev {
+        left: -2rem;
+    }
+    .slick-next {
+        right: -2rem;
+    }
+
+    @include desktop-small {
+        height: 383px;
+        &-item-container {
+            .copy-container {
+                padding-left: 3rem;
+                padding-top: 0;
+            }
+        }
+    }
+}
+
+.meet-startups-slider {
+    .slick-prev {
+        background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/chevron-left-white.svg");
+    }
+    .slick-next {
+        background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/chevron-right-white.svg");
+    }
+}
+
+.section-startups-grid-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_pattern_startups_grid.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: 100%;
+    min-height: 1160px;
+    padding: 3rem 0;
+    img {
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .modal {
+        background: rgba(#F5F6F7, 0.95);
+    }
+    .modal-content {
+        background: transparent;
+        border: none;
+    }
+    .modal-dialog {
+        margin-top: 3rem;
+    }
+    .slick-dots {
+        bottom: -60px;
+        li {
+            width: 18px;
+        }
+        li button:before {
+            color: $blue--secondary;
+        }
+    }
+
+    @include desktop-small {
+        height: 1160px;
+        .modal-dialog {
+            max-width: 1140px;
+            width: 80%;
+            margin-top: 10rem;
+        }
+    }
+}

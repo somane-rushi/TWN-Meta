@@ -1,0 +1,61 @@
+.about {
+    color: $white;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
+    background: $blue--dark no-repeat center;
+    background-size: cover;
+
+    .section__heading {
+        color: $white;
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        max-width: 900px;
+        margin-bottom: 30px;
+    }
+}
+
+.employee {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 5px 0 0 75px;
+    margin: 0 0 15px;
+    min-height: 60px;
+
+    &__image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 55px;
+        height: 55px;
+    }
+
+    &__name {
+        margin: 0 0 5px;
+        font-size: 14px;
+    }
+
+    &__title {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
+@include desktop-small {
+    .about {
+        &__employees {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    .employee {
+        width: 33%;
+    }
+}

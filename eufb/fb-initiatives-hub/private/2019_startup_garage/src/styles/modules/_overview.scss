@@ -1,0 +1,439 @@
+.section {
+  overflow: hidden;
+
+  .container,
+  .container > .row {
+    height: 100%;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 145px 100px 0 0;
+    height: 100%;
+    width: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    &--left {
+      background-image: url("/wp-content/themes/2018_facebook_initiatives_startupgarage/assets/images/en/bg_pattern_circle_dark.svg");
+      background-position: left -30px center;
+
+      &-light {
+        background-image: url("/wp-content/themes/2018_facebook_initiatives_startupgarage/assets/images/en/bg_pattern_circle_light.svg");
+        background-position: left -30px center;
+      }
+    }
+
+    &--right {
+      background-image: url("/wp-content/themes/2018_facebook_initiatives_startupgarage/assets/images/en/bg_pattern_circle_dark.svg");
+      background-position: right -30px center;
+
+      &-light {
+        background-image: url("/wp-content/themes/2018_facebook_initiatives_startupgarage/assets/images/en/bg_pattern_circle_light.svg");
+        background-position: right -30px center;
+      }
+    }
+
+    @include desktop-small {
+      background-size: 20%;
+    }
+  }
+
+  .media-col{
+    padding: 0;
+  }
+
+
+  .media {
+    display: block;
+    top: 0;
+    bottom: 0;
+    width:100%;
+    height:100%;
+    min-height: 229px;
+    background: transparent;
+
+
+
+    img {
+      width: 100%;
+      height: inherit;
+      object-fit: cover;
+      min-height: 350px;
+    }
+    iframe {
+      height: 100%;
+
+      @include phablet {
+        min-height: 273px;
+      }
+
+      @include tablet {
+        min-height: 436px;
+      }
+
+      @include desktop-small {
+        min-height: 229px;
+        height: 73%;
+      }
+
+      @include desktop-medium {
+        min-height: 350px;
+        height: 76%;
+      }
+
+      @include desktop-medium {
+        min-height: 452px;
+
+      }
+
+      @include television {
+        min-height: 539px;
+      }
+
+      @include uhd {
+        min-height: 1075px;
+      }
+
+      object-fit: cover;
+      width: 100%;
+
+    }
+  }
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.hero {
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    will-change: opacity;
+
+    &--primary {
+      background-color: $dark--green;
+    }
+
+    &--light {
+      background-color: $blue--light;
+    }
+  }
+}
+
+hr.underscore {
+  width: 60px;
+  margin-left: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-color: $blue--secondary;
+  border-width: 2px;
+
+  &.small {
+    width: 25px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.btn-cta {
+  display: inline-block;
+  background: $dark--green;
+  padding: 0.8rem 2.5rem;
+  color: white;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.7;
+  }
+
+  img {
+    vertical-align: inherit;
+    padding-left: 1em;
+  }
+}
+
+.arrow{
+  font-family: $source;
+  vertical-align: bottom;
+  padding-left: 0.3em;
+}
+
+.section-benefits-container {
+  background-color: $grey--light;
+  width: 100%;
+  color: white;
+  padding-top: 2rem;
+
+  .objective-blocks {
+    width: auto;
+
+    @include desktop-small {
+      top: -4rem;
+    }
+  }
+
+  .objective-block {
+    background: white;
+    margin: 1rem 0;
+    height: 110px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(50px);
+
+    &:hover {
+      transform: translateY(-10px);
+
+      .objective-block-img {
+        transform: scale(1.1);
+        transition: transform 2s linear;
+      }
+    }
+
+    a {
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        box-shadow: $shadow--cloud;
+        transition: opacity 0.2s ease-in-out;
+      }
+
+      &:hover::after {
+        opacity: 1;
+      }
+    }
+
+    @include phablet {
+      width: 100%;
+    }
+  }
+
+  .objective-block-img-wrap {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+
+  .objective-block-img {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .objective-block-content {
+    padding: 1rem;
+    height: 100%;
+    width: 65%;
+    position: relative;
+
+    .underscore {
+      position: absolute;
+      bottom: 1rem;
+    }
+  }
+
+  .btn-cta {
+    width: 100%;
+  }
+
+  @include desktop-small {
+    .objective-blocks {
+      flex-wrap: nowrap;
+      width: 100%;
+    }
+
+    .objective-block {
+      margin: 1rem;
+      height: 280px;
+      width: 100%;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .objective-block-content {
+      height: 30%;
+      width: 100%;
+      overflow: hidden;
+
+      &--small {
+        height: 45%;
+      }
+    }
+
+    .btn-cta {
+      width: auto;
+    }
+
+    .container > .row {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+
+.section-startups-container {
+  width: 100%;
+  min-height: 350px;
+  color: white;
+
+  a{
+
+    &:hover{
+      color: lighten($dark--green, 10%);
+    }
+
+  }
+
+  .startups-links{
+    a{
+      text-decoration:underline;
+      font-size: 16px;
+      line-height: 2.5;
+
+      &:hover{
+        color: lighten($dark--green, 10%);
+      }
+
+      @include desktop-small {
+        font-size: 18px;
+        line-height: 1.78;
+      }
+
+    }
+
+  }
+
+  .btn-cta {
+    margin-top: 1rem;
+    width: 100%;
+    text-decoration:none !important;
+
+  }
+
+  @include desktop-small {
+    .btn-cta {
+      width: auto;
+    }
+  }
+}
+
+.section-startup-logo-bar {
+  background-color: $blue--dark;
+  width: 100%;
+  height: 120px;
+
+  @include desktop-small {
+    height: 157px;
+  }
+
+  .logo-slider {
+    .slick-track {
+      height: 120px;
+
+      @include desktop-small {
+        height: 157px;
+      }
+    }
+
+    .slick-slide img {
+      max-height: 80%;
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.section-resources-container {
+  background: $grey--light;
+  min-height: 391px;
+  padding-top: 2rem;
+
+  a {
+    color: $blue--light;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .resources {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .resources-block {
+    margin-bottom: 2rem;
+    width: 100%;
+
+    &-img {
+      max-width: 100px;
+
+      img {
+        max-height: 100%;
+      }
+    }
+  }
+
+  .resources-block-content {
+    padding: 0 1.5rem;
+
+    h4 {
+      margin: 0;
+    }
+  }
+
+  @include desktop-small {
+    .resources-block {
+      width: 50%;
+    }
+
+    .row {
+
+    }
+
+    .resources-copy {
+      width: 70%;
+    }
+  }
+}
+
+@include desktop-medium {
+  .container {
+    max-width: 1280px;
+  }
+}

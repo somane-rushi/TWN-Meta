@@ -1,0 +1,17 @@
+.section {
+    position: relative;
+
+    &__heading {
+        @extend .heading3;
+        color: $blue--dark;
+
+        &:after {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 2px;
+            margin: 15px 0;
+            background: $blue--light;
+        }
+    }
+}

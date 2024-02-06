@@ -1,0 +1,152 @@
+.about {
+    background: url("../images/about__background.png") no-repeat center;
+    background-size: cover;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+
+    &__companies {
+        min-height: 200px;
+
+        @include desktop-small {
+            flex: 1;
+        }
+    }
+
+    &__facebook {
+        height: auto;
+        display: flex;
+        flex: 3;
+        overflow: hidden;
+        padding-bottom: 2rem;
+
+        @include desktop-small {    
+            align-items: center;
+            padding-bottom: 0;
+
+            > .container {
+                max-height: 100%;
+            }
+        }
+
+        
+    }
+    
+    &__wrap {
+        display: block;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+
+        @include desktop-small {
+            display: flex;
+            margin: 0;
+            align-items: center;
+        }
+    }
+
+    &__body {
+        flex: 2;
+        padding-top: 30px;
+
+        a {
+            color: $blue--light;
+        }
+
+        h2 {
+            margin-bottom: 0.8em;
+        }
+
+        p {
+            line-height: 1.5em;
+        }
+
+        hr {
+            width: 50px;
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid $blue--light;
+            margin: 2em 0;
+            padding: 0; 
+        }
+        
+        @include desktop-small {
+            margin-right: 100px;
+        }
+    }
+
+    &__image {
+        display: none;
+        flex: 2;
+
+        @include desktop-small {
+            display: block;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &__profiles {
+        display: none;
+        flex-wrap: wrap;
+        font-family: $banana;
+        margin: 50px 0;
+
+        &:lang(pl-PL) {
+            font-family: 'Mukta', sans-serif;
+        }
+
+        @include desktop-small {
+            display: flex;
+        }
+
+        .profile {
+            width: 100%;
+            margin: 10px 0;
+
+            &__image {
+                float: left;
+                width: 50px;
+
+                img {
+                    border-radius: 50%;
+                    width: 100%;
+                }
+            }
+
+            &__details {
+                padding-left: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+
+            &__name {
+                font-size: 14px;
+                letter-spacing: 1px;
+                width: 100%;
+            }
+
+            &__title {
+                text-transform: uppercase;
+                font-size: 12px;
+                letter-spacing: 1px;
+                opacity: 0.6;
+                width: 100%;
+            }
+
+            @include desktop-small {
+                width: 50%;
+
+            }
+        }
+    }
+}

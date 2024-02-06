@@ -1,0 +1,84 @@
+.section-faq-hero-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_faq_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    width: 100%;
+    height: 314px;
+    color: white;
+
+    .container > .row {
+        padding: 0;
+    }
+}
+
+.section-faq-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_pattern_faq.svg");
+    background-position: bottom left;
+    background-color: $grey--light;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+
+    @include desktop-small {
+        padding: 5rem 0;
+    }
+}
+
+.faq-card {
+    margin: 1rem 0;
+    .faq-card-header {
+        padding: 1rem 2rem;
+        background: white;
+        a {
+            text-decoration: none;
+            &.collapsed {
+                img {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+    .faq-card-body {
+        padding: 1rem 2rem;
+        background: #FAFAFA;
+        h4 {
+            float: left;
+            color: #2EAC29;
+        }
+        .faq-answer {
+            padding-left: 2rem;
+        }
+    }
+}
+
+.section-apply-container {
+    background-image: url("/wp-content/themes/facebook_initiatives_startupgarage/assets/images/en/bg_pattern_faq_apply.svg");
+    background-position: bottom right;
+    background-color: $blue--primary;
+    background-repeat: no-repeat;
+    height: 307px;
+    color: white;
+
+    h2 {
+        margin-bottom: 0;
+    }
+    .apply-cta {
+        float: right;
+        margin-top: -2rem;
+        opacity: 0;
+    }
+    .btn-apply-cta {
+        background: white;
+        color: $blue--primary;
+    }
+    .btn-cta {
+        &.d-lg-none {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .underscore {
+        margin-bottom: .5rem;
+    }
+}

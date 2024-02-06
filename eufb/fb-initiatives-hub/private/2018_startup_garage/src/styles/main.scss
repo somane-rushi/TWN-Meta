@@ -1,0 +1,34 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/transitions";
+@import "node_modules/bootstrap/scss/nav";
+@import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/media";
+@import "node_modules/bootstrap/scss/modal";
+@import "node_modules/bootstrap/scss/carousel";
+@import "node_modules/bootstrap/scss/utilities";
+
+@import "base/colors";
+@import "base/animations";
+@import "base/z_indexes";
+@import "base/breakpoints";
+@import "base/typography";
+@import "base/variables";
+@import "base/reset";
+@import "base/section";
+
+@import "external/slick";
+@import "external/slick-theme";
+
+@import "modules/header";
+@import "modules/overview";
+@import "modules/programme_objectives";
+@import "modules/startups";
+@import "modules/faq";
+@import "modules/footer";
+@import "modules/video_embed";
+@import "modules/cookies";
