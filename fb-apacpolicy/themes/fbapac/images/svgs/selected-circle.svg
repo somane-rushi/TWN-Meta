@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Selected Cirlce</title>
+    <g id="Selected-Cirlce" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <circle id="Oval" stroke="#009ED7" stroke-width="2" fill="#009ED7" cx="10" cy="10" r="9"></circle>
+            <polygon id="Path" fill="#FFFFFF" points="14.1425 5 8.5 11.0878947 5.857 8.45052632 4 10.4063158 8.5 15 16 6.95526316"></polygon>
+        </g>
+    </g>
+</svg>

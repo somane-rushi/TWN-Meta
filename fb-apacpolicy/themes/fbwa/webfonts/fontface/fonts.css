@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Optimist';
+    src: url('Optimist-Bold.woff2') format('woff2'),
+        url('Optimist-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optimist';
+    src: url('Optimist-Normal.woff2') format('woff2'),
+        url('Optimist-Normal.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optimistic Display';
+    src: url('OptimisticDisplay-Medium.woff2') format('woff2'),
+        url('OptimisticDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optimistic Display';
+    src: url('OptimisticDisplay-Bold.woff2') format('woff2'),
+        url('OptimisticDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optimistic Text';
+    src: url('OptimisticText-Bold.woff2') format('woff2'),
+        url('OptimisticText-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optimistic Display';
+    src: url('OptimisticDisplay-Light.woff2') format('woff2'),
+        url('OptimisticDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optimistic Text';
+    src: url('OptimisticText-Light.woff2') format('woff2'),
+        url('OptimisticText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optimistic Text';
+    src: url('OptimisticText-Regular.woff2') format('woff2'),
+        url('OptimisticText-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+

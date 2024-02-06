@@ -1,0 +1,372 @@
+.lookback--sections {
+
+	.grey-light {
+		color: $grey-light;
+	}
+
+	.grey-light-bg {
+		background-color: $grey-light;
+		color: $grey-dark;
+	}
+
+	.grey-medium {
+		color: $grey-medium;
+	}
+
+	.grey-medium-bg {
+		background-color: $grey-medium;
+		color: $grey-darker;
+	}
+
+	.grey-dark {
+		color: $grey-dark;
+	}
+
+	.grey-dark-bg {
+		background-color: $grey-dark;
+		color: $grey-light;
+	}
+
+	.grey-darker {
+		color: $grey-darker;
+	}
+
+	.grey-darker-bg {
+		background-color: $grey-darker;
+		color: $grey-light;
+	}
+
+
+	.blue {
+		color: $blue-deep;
+	}
+
+	.blue-deep {
+		color: $blue-deep;
+	}
+
+	.blue-deep-bg {
+		background-color: $blue-deep;
+		color: $blue-light;
+	}
+
+	.blue-core {
+		color: $blue-core;
+	}
+
+	.blue-core-bg {
+		background-color: $blue-core;
+		color: $blue-light;
+	}
+
+	.blue-pale {
+		color: $blue-pale;
+	}
+
+	.blue-pale-bg {
+		background-color: $blue-pale;
+		color: $blue-deep;
+	}
+
+	.blue-light {
+		color: $blue-light;
+	}
+
+	.blue-light-bg {
+		background-color: $blue-light;
+		color: $blue-deep;
+	}
+
+
+	.green {
+		color: $green-deep;
+	}
+
+	.green-deep {
+		color: $green-deep;
+	}
+
+	.green-deep-bg {
+		background-color: $green-deep;
+		color: $green-light;
+	}
+
+	.green-core {
+		color: $green-core;
+	}
+
+	.green-core-bg {
+		background-color: $green-core;
+		color: $green-light;
+	}
+
+	.green-pale {
+		color: $green-pale;
+	}
+
+	.green-pale-bg {
+		background-color: $green-pale;
+		color: $green-deep;
+	}
+
+	.green-light {
+		color: $green-light;
+	}
+
+	.green-light-bg {
+		background-color: $green-light;
+		color: $green-deep;
+	}
+
+
+	.indigo {
+		color: $indigo-deep;
+	}
+
+	.indigo-deep {
+		color: $indigo-deep;
+	}
+
+	.indigo-deep-bg {
+		background-color: $indigo-deep;
+		color: $indigo-light;
+	}
+
+	.indigo-pale {
+		color: $indigo-pale;
+	}
+
+	.indigo-pale-bg {
+		background-color: $indigo-pale;
+		color: $indigo-deep;
+	}
+
+	.indigo-light {
+		color: $indigo-light;
+	}
+
+	.indigo-light-bg {
+		background-color: $indigo-light;
+		color: $indigo-deep;
+	}
+
+
+	.navy {
+		color: $navy-deep;
+	}
+
+	.navy-deep {
+		color: $navy-deep;
+	}
+
+	.navy-deep-bg {
+		background-color: $navy-deep;
+		color: $navy-light;
+	}
+
+	.navy-core {
+		color: $navy-core;
+	}
+
+	.navy-core-bg {
+		background-color: $navy-core;
+		color: $navy-light;
+	}
+
+	.navy-pale {
+		color: $navy-pale;
+	}
+
+	.navy-pale-bg {
+		background-color: $navy-pale;
+		color: $navy-deep;
+	}
+
+	.navy-light {
+		color: $navy-light;
+	}
+
+	.navy-light-bg {
+		background-color: $navy-light;
+		color: $navy-deep;
+	}
+
+
+	.orange {
+		color: $orange-deep;
+	}
+
+	.orange-deep {
+		color: $orange-deep;
+	}
+
+	.orange-deep-bg {
+		background-color: $orange-deep;
+		color: $orange-light;
+	}
+
+	.orange-core {
+		color: $orange-core;
+	}
+
+	.orange-core-bg {
+		background-color: $orange-core;
+		color: $orange-light;
+	}
+
+	.orange-pale {
+		color: $orange-pale;
+	}
+
+	.orange-pale-bg {
+		background-color: $orange-pale;
+		color: $orange-deep;
+	}
+
+	.orange-light {
+		color: $orange-light;
+	}
+
+	.orange-light-bg {
+		background-color: $orange-light;
+		color: $orange-deep;
+	}
+
+	
+	.purple {
+		color: $purple-deep;
+	}
+
+	.purple-deep {
+		color: $purple-deep;
+	}
+
+	.purple-deep-bg {
+		background-color: $purple-deep;
+		color: $purple-light
+	}
+
+	.purple-pale {
+		color: $purple-pale;
+	}
+
+	.purple-pale-bg {
+		background-color: $purple-pale;
+		color: $purple-deep;
+	}
+
+	.purple-light {
+		color: $purple-light
+	}
+
+	.purple-light-bg {
+		background-color: $purple-light;
+		color: $purple-deep;
+	}
+
+
+	.red {
+		color: $red-deep;
+	}
+
+	.red-deep {
+		color: $red-deep;
+	}
+
+	.red-deep-bg {
+		background-color: $red-deep;
+		color: $red-light;
+	}
+
+	.red-core {
+		color: $red-core;
+	}
+
+	.red-core-bg {
+		background-color: $red-core;
+		color: $red-light;
+	}
+
+	.red-pale {
+		color: $red-pale;
+	}
+
+	.red-pale-bg {
+		background-color: $red-pale;
+		color: $red-deep;
+	}
+
+	.red-light {
+		color: $red-light;
+	}
+
+	.red-light-bg {
+		background-color: $red-light;
+		color: $red-deep;
+	}
+
+
+	.teal {
+		color: $teal-deep;
+	}
+
+	.teal-deep {
+		color: $teal-deep;
+	}
+
+	.teal-deep-bg {
+		background-color: $teal-deep;
+		color: $teal-light;
+	}
+
+	.teal-pale {
+		color: $teal-pale;
+	}
+
+	.teal-pale-bg {
+		background-color: $teal-pale;
+		color: $teal-dark;
+	}
+
+	.teal-light {
+		color: $teal-light;
+	}
+
+	.teal-light-bg {
+		background-color: $teal-light;
+		color: $teal-dark;
+	}
+
+
+	.yellow {
+		color: $yellow-deep;
+	}
+
+	.yellow-deep {
+		color: $yellow-deep;
+	}
+
+	.yellow-deep-bg {
+		background-color: $yellow-deep;
+		color: $yellow-light;
+	}
+
+	.yellow-pale {
+		color: $yellow-pale;
+	}
+
+	.yellow-pale-bg {
+		background-color: $yellow-pale;
+		color: $yellow-deep;
+	}
+
+	.yellow-light {
+		color: $yellow-light;
+	}
+
+	.yellow-light-bg {
+		background-color: $yellow-light;
+		color: $yellow-deep;
+	}
+
+}/*...lookback--sections*/

@@ -1,0 +1,174 @@
+.lookback--sections {
+
+
+	.number-container {
+
+    padding: 75px 0;
+    color: $grey-dark;
+
+		h2 {
+		    text-align: center;
+		    font-weight: 500;
+		    padding: 0;
+		    margin: 0 0 50px 0;
+		}
+
+		.tab-container {
+
+		  display: flex;
+		  justify-content: space-between;
+		  min-height: 300px;
+			
+			.tab-icon-set {
+    		width: 49%;
+			}
+
+			.icon-holder {
+
+		    width: 100px;
+		    margin: 0 auto;
+
+		    .normal-state { 
+		    	display: block; 
+		    }
+
+		    .hover-state { 
+		    	display: none; 
+		    }
+
+			}
+
+			.tabs {
+
+		    width: 100%;
+		    padding: 0;
+		    margin: 0;
+		    display: flex;
+		    flex-wrap: wrap;
+		    position: relative;
+		    top: 50%;
+		    transform: translateY(-50%);
+
+				li {
+
+			    width: 33.33%;
+			    height: 120px;
+			    overflow: hidden;
+			    display: flex;
+			    align-items: center;
+			    cursor: pointer;
+
+			    &.current {
+			    	.icon-holder {
+			    		.normal-state { 
+			    			display: none; 
+			    		}
+			    		.hover-state { 
+			    			display: block; 
+			    		}
+			    	}
+			    }
+
+
+				}
+
+			}/*...tabs*/
+
+
+			.tab-content-preview {
+
+		    width: 45%;
+		    display: flex;
+		    align-items: center;
+		    padding: 40px 0;
+		    border-left: $grey-dark 2px solid;
+		    overflow: hidden;
+		    position: relative;
+
+		    .tab-content-preview-inner {
+
+		    	position: absolute;
+		    	width: 100%;
+
+			    .tab-content {
+
+				    width: 224px;
+				    height: auto;
+				    margin: 0 auto;
+				    display: none;
+
+				    &.current {
+			    		display: block;
+						}
+
+						h2 {
+					    text-align: center;
+					    color: $teal-deep;
+					    padding: 0;
+					    margin: 0 0 15px;
+						}
+
+						.icon-preview {
+					    width: 150px;
+					    margin: 0 auto 15px;
+						}
+
+					}
+
+				}
+
+			}/*...tab-content-preview*/
+
+		}/*...tab-container*/
+
+		@media only screen and (max-width: 767px) {
+
+    	.tab-container { 
+    		display: none; 
+    	}
+
+    }
+
+	}/*...number-container*/
+
+
+	.mobile-tab-scroller {
+
+    padding: 0 0 50px;
+		
+		.owl-nav {
+	    text-align: center;
+		}
+
+		.tab-content-preview {
+
+			.tab-content { 
+				display: block; 
+			  width: 224px;
+			  margin: 0 auto;
+			}
+
+			h2 {
+		    text-align: center;
+		    color: $teal-deep;
+		    padding: 0;
+		    margin: 0 0 15px;
+			}
+
+			.icon-preview {
+		    width: 150px;
+		    margin: 0 auto 15px;
+			}
+
+		}
+
+		.owl-carousel .owl-nav button.owl-prev, 
+		.owl-carousel .owl-nav button.owl-next {
+    	background-image: url(../img/carousel/carousel-dark-arrow.png);
+		}	
+
+	}
+
+
+
+}/*...lookback--sections*/

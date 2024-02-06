@@ -1,0 +1,1449 @@
+# Translation of Facebook - We Think Digital in Thai
+# This file is distributed under the same license as the Facebook - We Think Digital package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-26 17:05+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Language: th\n"
+"Project-Id-Version: Facebook - We Think Digital\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: template-parts/content.php:29
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-resource.php:59
+msgid "View"
+msgstr "ดู"
+
+#: template-parts/content-resource.php:23
+msgid "Featured"
+msgstr "น่าสนใจ"
+
+#: template-parts/content-none.php:12
+msgid "Our apologies, we couldn’t find what you were looking for."
+msgstr ""
+
+#: template-maintenance-mode.php:243
+msgid "Maintenance"
+msgstr ""
+
+#: template-maintenance-mode.php:241
+msgid "This site is temporarily undergoing maintenance, please try again in a few moments."
+msgstr ""
+
+#: template-maintenance-mode.php:240
+msgid "Site Unavailable"
+msgstr ""
+
+#: single-story.php:150
+msgid "Related stories"
+msgstr "เรื่องราวที่เกี่ยวข้อง"
+
+#: single-program.php:54
+msgctxt "Program Page Partner List"
+msgid "Learn more about our partner"
+msgid_plural "Learn more about our partners"
+msgstr[0] "เรียนรู้เพิ่มเติมเกี่ยวกับสมาชิกของเรา"
+
+#: page-templates/home.php:200
+msgid "View Committee"
+msgstr "ดูคณะกรรมการ"
+
+#: page-templates/home.php:176
+msgid "Learn more"
+msgstr "เรียนรู้เพิ่มเติม"
+
+#: page-templates/home.php:150
+msgid "Explore resources"
+msgstr "สำรวจแหล่งข้อมูล"
+
+#: page-templates/home.php:98
+msgid "Discover now"
+msgstr "ค้นพบตอนนี้"
+
+#: inc/template-tags.php:222
+msgctxt "Resource File Content Type"
+msgid "Video"
+msgstr "วีดีโอ"
+
+#: inc/template-tags.php:202
+msgctxt "Resource Website Content Type"
+msgid "Lesson Plans (Website)"
+msgstr "แผนบทเรียนร่ (เว็บไซต์)"
+
+#: inc/template-tags.php:201
+msgctxt "Resource Website Content Type"
+msgid "Website"
+msgstr "เว็บไซต์"
+
+#: inc/template-tags.php:197
+msgctxt "Resource File Content Type"
+msgid "Infographic"
+msgstr "อินโฟกราฟฟิก"
+
+#: inc/template-tags.php:196
+msgctxt "Resource File Content Type"
+msgid "Learning Module (Package)"
+msgstr "(ชุด) โมดูลเรียนรู้"
+
+#: inc/template-tags.php:195
+msgctxt "Resource File Content Type"
+msgid "Learning Module"
+msgstr "โมดูลเรียนรู้"
+
+#: inc/template-tags.php:181 template-parts/content-resource.php:57
+msgid "Download"
+msgstr "ดาว์นโหลด"
+
+#: inc/template-tags.php:179 template-parts/content-resource.php:55
+msgid "Access"
+msgstr "เข้าถึง"
+
+#: inc/template-tags.php:126
+msgctxt "Resources Filter"
+msgid "everyone"
+msgstr "ทุกคน"
+
+#: inc/template-tags.php:124
+msgctxt "Resources Filter"
+msgid "for"
+msgstr "สำหรับ"
+
+#: inc/template-tags.php:116
+msgctxt "Resources Filter"
+msgid "all topics"
+msgstr "หัวข้อทั้งหมด"
+
+#: inc/template-tags.php:114
+msgctxt "Resources Filter"
+msgid "I want to learn more about"
+msgstr "ฉันต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ"
+
+#: inc/template-tags.php:97
+msgctxt "Facebook share button"
+msgid "Share"
+msgstr "แบ่งปัน"
+
+#: inc/template-tags.php:64
+msgid "Load more"
+msgstr "โหลดเพิ่มเติม"
+
+#: inc/template-functions.php:251
+msgid "Choose logo"
+msgstr ""
+
+#: inc/template-functions.php:249
+msgid "No logo selected"
+msgstr ""
+
+#: inc/template-functions.php:248
+msgid "Default"
+msgstr ""
+
+#: inc/template-functions.php:247
+msgid "Remove"
+msgstr ""
+
+#: inc/template-functions.php:246
+msgid "Change logo"
+msgstr ""
+
+#: inc/template-functions.php:245 inc/template-functions.php:250
+msgid "Select logo"
+msgstr ""
+
+#: inc/template-functions.php:243
+msgid "Logo image should have a height of at least 68 pixels."
+msgstr ""
+
+#: inc/template-functions.php:240
+msgid "Logo"
+msgstr ""
+
+#: inc/i18n/countries.php:249
+msgctxt "Countries"
+msgid "Zimbabwe"
+msgstr "ประเทศซิมบับเว"
+
+#: inc/i18n/countries.php:248
+msgctxt "Countries"
+msgid "Zambia"
+msgstr "แซมเบีย"
+
+#: inc/i18n/countries.php:247
+msgctxt "Countries"
+msgid "Yemen"
+msgstr "เยเมน"
+
+#: inc/i18n/countries.php:246
+msgctxt "Countries"
+msgid "Western Sahara"
+msgstr "ซาฮาร่าตะวันตก"
+
+#: inc/i18n/countries.php:245
+msgctxt "Countries"
+msgid "Wallis and Futuna"
+msgstr "วอลลิซและฟูทานา"
+
+#: inc/i18n/countries.php:244
+msgctxt "Countries"
+msgid "Vietnam"
+msgstr "เวียดนาม"
+
+#: inc/i18n/countries.php:243
+msgctxt "Countries"
+msgid "Venezuela"
+msgstr "เวเนซุเอลา"
+
+#: inc/i18n/countries.php:242
+msgctxt "Countries"
+msgid "Vanuatu"
+msgstr "วานูอาตู"
+
+#: inc/i18n/countries.php:241
+msgctxt "Countries"
+msgid "Uzbekistan"
+msgstr "อุซเบกิ"
+
+#: inc/i18n/countries.php:240
+msgctxt "Countries"
+msgid "Uruguay"
+msgstr "อุรุกวัย"
+
+#: inc/i18n/countries.php:239
+msgctxt "Countries"
+msgid "United States Virgin Islands"
+msgstr "หมู่เกาะเวอร์จินของสหรัฐอเมริกา"
+
+#: inc/i18n/countries.php:238
+msgctxt "Countries"
+msgid "United States of America"
+msgstr "สหรัฐอเมริกา"
+
+#: inc/i18n/countries.php:237
+msgctxt "Countries"
+msgid "United Kingdom"
+msgstr "ประเทศอังกฤษ"
+
+#: inc/i18n/countries.php:236
+msgctxt "Countries"
+msgid "United Arab Emirates"
+msgstr "สหรัฐอาหรับเอมิเรตส์"
+
+#: inc/i18n/countries.php:235
+msgctxt "Countries"
+msgid "Ukraine"
+msgstr "ยูเครน"
+
+#: inc/i18n/countries.php:234
+msgctxt "Countries"
+msgid "Uganda"
+msgstr "ยูกันดา"
+
+#: inc/i18n/countries.php:233
+msgctxt "Countries"
+msgid "Tuvalu"
+msgstr "ตูวาลู"
+
+#: inc/i18n/countries.php:232
+msgctxt "Countries"
+msgid "Turks and Caicos"
+msgstr "เติกส์และเคคอส"
+
+#: inc/i18n/countries.php:231
+msgctxt "Countries"
+msgid "Turkmenistan"
+msgstr "เติร์กเมนิสถาน"
+
+#: inc/i18n/countries.php:230
+msgctxt "Countries"
+msgid "Turkey"
+msgstr "ไก่งวง"
+
+#: inc/i18n/countries.php:229
+msgctxt "Countries"
+msgid "Tunisia"
+msgstr "ตูนิเซีย"
+
+#: inc/i18n/countries.php:228
+msgctxt "Countries"
+msgid "Trinidad and Tobago"
+msgstr "ตรินิแดดและโตเบโก"
+
+#: inc/i18n/countries.php:227
+msgctxt "Countries"
+msgid "Tonga"
+msgstr "ตองกา"
+
+#: inc/i18n/countries.php:226
+msgctxt "Countries"
+msgid "Tokelau"
+msgstr "โตเกเลา"
+
+#: inc/i18n/countries.php:225
+msgctxt "Countries"
+msgid "Togo"
+msgstr "ไป"
+
+#: inc/i18n/countries.php:224
+msgctxt "Countries"
+msgid "The Bahamas"
+msgstr "บาฮามาส"
+
+#: inc/i18n/countries.php:223
+msgctxt "Countries"
+msgid "Thailand"
+msgstr "ประเทศไทย"
+
+#: inc/i18n/countries.php:222
+msgctxt "Countries"
+msgid "Tanzania"
+msgstr "ประเทศแทนซาเนีย"
+
+#: inc/i18n/countries.php:221
+msgctxt "Countries"
+msgid "Tajikistan"
+msgstr "ทาจิกิสถาน"
+
+#: inc/i18n/countries.php:220
+msgctxt "Countries"
+msgid "Taiwan"
+msgstr "ไต้หวัน"
+
+#: inc/i18n/countries.php:219
+msgctxt "Countries"
+msgid "Switzerland"
+msgstr "ประเทศสวิสเซอร์แลนด์"
+
+#: inc/i18n/countries.php:218
+msgctxt "Countries"
+msgid "Sweden"
+msgstr "สวีเดน"
+
+#: inc/i18n/countries.php:217
+msgctxt "Countries"
+msgid "Swaziland"
+msgstr "สวาซิแลนด์"
+
+#: inc/i18n/countries.php:216
+msgctxt "Countries"
+msgid "Svalbard and Jan Mayen"
+msgstr "สฟาลบาร์และยานไมเอน"
+
+#: inc/i18n/countries.php:215
+msgctxt "Countries"
+msgid "Suriname"
+msgstr "ซูรินาเม"
+
+#: inc/i18n/countries.php:214
+msgctxt "Countries"
+msgid "St. Helena"
+msgstr "เซนต์เฮเลน่า"
+
+#: inc/i18n/countries.php:213
+msgctxt "Countries"
+msgid "Sri Lanka"
+msgstr "ศรีลังกา"
+
+#: inc/i18n/countries.php:212
+msgctxt "Countries"
+msgid "Spain"
+msgstr "สเปน"
+
+#: inc/i18n/countries.php:211
+msgctxt "Countries"
+msgid "South Sudan"
+msgstr "ซูดานใต้"
+
+#: inc/i18n/countries.php:210
+msgctxt "Countries"
+msgid "South Korea"
+msgstr "เกาหลีใต้"
+
+#: inc/i18n/countries.php:209
+msgctxt "Countries"
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "เกาะเซาท์จอร์เจียและหมู่เกาะเซาท์แซนด์วิช"
+
+#: inc/i18n/countries.php:208
+msgctxt "Countries"
+msgid "South Africa"
+msgstr "แอฟริกาใต้"
+
+#: inc/i18n/countries.php:207
+msgctxt "Countries"
+msgid "Somalia"
+msgstr "โซมาเลีย"
+
+#: inc/i18n/countries.php:206
+msgctxt "Countries"
+msgid "Solomon Islands"
+msgstr "หมู่เกาะโซโลมอน"
+
+#: inc/i18n/countries.php:205
+msgctxt "Countries"
+msgid "Slovenia"
+msgstr "สโลวะเกีย"
+
+#: inc/i18n/countries.php:204
+msgctxt "Countries"
+msgid "Slovakia"
+msgstr "สโลวะเกีย"
+
+#: inc/i18n/countries.php:203
+msgctxt "Countries"
+msgid "Sint Maarten"
+msgstr "เซนต์มาร์ติน"
+
+#: inc/i18n/countries.php:202
+msgctxt "Countries"
+msgid "Singapore"
+msgstr "สิงคโปร์"
+
+#: inc/i18n/countries.php:201
+msgctxt "Countries"
+msgid "Sierra Leone"
+msgstr "เซียร์ราลีโอน"
+
+#: inc/i18n/countries.php:200
+msgctxt "Countries"
+msgid "Seychelles"
+msgstr "เซเชลส์"
+
+#: inc/i18n/countries.php:199
+msgctxt "Countries"
+msgid "Serbia"
+msgstr "เซอร์เบีย"
+
+#: inc/i18n/countries.php:198
+msgctxt "Countries"
+msgid "Senegal"
+msgstr "ประเทศเซเนกัล"
+
+#: inc/i18n/countries.php:197
+msgctxt "Countries"
+msgid "Saudi Arabia"
+msgstr "ซาอุดิอาราเบีย"
+
+#: inc/i18n/countries.php:196
+msgctxt "Countries"
+msgid "Sao Tome and Principe"
+msgstr "เซาตูเมและปรินซิปี"
+
+#: inc/i18n/countries.php:195
+msgctxt "Countries"
+msgid "San Marino"
+msgstr "ซานมาริโน"
+
+#: inc/i18n/countries.php:194
+msgctxt "Countries"
+msgid "Samoa"
+msgstr "ซามัว"
+
+#: inc/i18n/countries.php:193
+msgctxt "Countries"
+msgid "Saint Vincent and the Grenadines"
+msgstr "เซนต์วินเซนต์และเกรนาดีนส์"
+
+#: inc/i18n/countries.php:192
+msgctxt "Countries"
+msgid "Saint Pierre and Miquelon"
+msgstr "แซงปีแยร์และมีเกอลง"
+
+#: inc/i18n/countries.php:191
+msgctxt "Countries"
+msgid "Saint Martin"
+msgstr "เซนต์มาร์ติน"
+
+#: inc/i18n/countries.php:190
+msgctxt "Countries"
+msgid "Saint Lucia"
+msgstr "เซนต์ลูเซีย"
+
+#: inc/i18n/countries.php:189
+msgctxt "Countries"
+msgid "Saint Kitts"
+msgstr "เซนต์คิตส์"
+
+#: inc/i18n/countries.php:188
+msgctxt "Countries"
+msgid "Rwanda"
+msgstr "รวันดา"
+
+#: inc/i18n/countries.php:187
+msgctxt "Countries"
+msgid "Russia"
+msgstr "รัสเซีย"
+
+#: inc/i18n/countries.php:186
+msgctxt "Countries"
+msgid "Romania"
+msgstr "โรมาเนีย"
+
+#: inc/i18n/countries.php:185
+msgctxt "Countries"
+msgid "Reunion"
+msgstr "การรวมตัวใหม่"
+
+#: inc/i18n/countries.php:184
+msgctxt "Countries"
+msgid "Qatar"
+msgstr "กาตาร์"
+
+#: inc/i18n/countries.php:183
+msgctxt "Countries"
+msgid "Puerto Rico"
+msgstr "เปอร์โตริโก้"
+
+#: inc/i18n/countries.php:182
+msgctxt "Countries"
+msgid "Portugal"
+msgstr "โปรตุเกส"
+
+#: inc/i18n/countries.php:181
+msgctxt "Countries"
+msgid "Poland"
+msgstr "โปแลนด์"
+
+#: inc/i18n/countries.php:180
+msgctxt "Countries"
+msgid "Pitcairn Islands"
+msgstr "หมู่เกาะพิตแคร์น"
+
+#: inc/i18n/countries.php:179
+msgctxt "Countries"
+msgid "Philippines"
+msgstr "ฟิลิปปินส์"
+
+#: inc/i18n/countries.php:178
+msgctxt "Countries"
+msgid "Peru"
+msgstr "เปรู"
+
+#: inc/i18n/countries.php:177
+msgctxt "Countries"
+msgid "Paraguay"
+msgstr "ประเทศปารากวัย"
+
+#: inc/i18n/countries.php:176
+msgctxt "Countries"
+msgid "Papua New Guinea"
+msgstr "ปาปัวนิวกินี"
+
+#: inc/i18n/countries.php:175
+msgctxt "Countries"
+msgid "Panama"
+msgstr "ปานามา"
+
+#: inc/i18n/countries.php:174
+msgctxt "Countries"
+msgid "Palestine"
+msgstr "ปาเลสไตน์"
+
+#: inc/i18n/countries.php:173
+msgctxt "Countries"
+msgid "Palau"
+msgstr "ปาเลา"
+
+#: inc/i18n/countries.php:172
+msgctxt "Countries"
+msgid "Pakistan"
+msgstr "ปากีสถาน"
+
+#: inc/i18n/countries.php:171
+msgctxt "Countries"
+msgid "Oman"
+msgstr "โอมาน"
+
+#: inc/i18n/countries.php:170
+msgctxt "Countries"
+msgid "Norway"
+msgstr "นอร์เวย์"
+
+#: inc/i18n/countries.php:169
+msgctxt "Countries"
+msgid "Norfolk Island"
+msgstr "เกาะนอร์โฟล์ค"
+
+#: inc/i18n/countries.php:168
+msgctxt "Countries"
+msgid "Niue"
+msgstr "นีอูเอ"
+
+#: inc/i18n/countries.php:167
+msgctxt "Countries"
+msgid "Nigeria"
+msgstr "ประเทศไนจีเรีย"
+
+#: inc/i18n/countries.php:166
+msgctxt "Countries"
+msgid "Niger"
+msgstr "ประเทศไนเธอร์"
+
+#: inc/i18n/countries.php:165
+msgctxt "Countries"
+msgid "Nicaragua"
+msgstr "นิการากัว"
+
+#: inc/i18n/countries.php:164
+msgctxt "Countries"
+msgid "New Zealand"
+msgstr "นิวซีแลนด์"
+
+#: inc/i18n/countries.php:163
+msgctxt "Countries"
+msgid "New Caledonia"
+msgstr "นิวแคลิโดเนีย"
+
+#: inc/i18n/countries.php:162
+msgctxt "Countries"
+msgid "Netherlands"
+msgstr "เนเธอร์แลนด์"
+
+#: inc/i18n/countries.php:161
+msgctxt "Countries"
+msgid "Nepal"
+msgstr "ประเทศเนปาล"
+
+#: inc/i18n/countries.php:160
+msgctxt "Countries"
+msgid "Nauru"
+msgstr "ประเทศนาอูรู"
+
+#: inc/i18n/countries.php:159
+msgctxt "Countries"
+msgid "Namibia"
+msgstr "นามิเบีย"
+
+#: inc/i18n/countries.php:158
+msgctxt "Countries"
+msgid "Myanmar"
+msgstr "พม่า"
+
+#: inc/i18n/countries.php:157
+msgctxt "Countries"
+msgid "Mozambique"
+msgstr "ประเทศโมซัมบิก"
+
+#: inc/i18n/countries.php:156
+msgctxt "Countries"
+msgid "Morocco"
+msgstr "โมร็อกโก"
+
+#: inc/i18n/countries.php:155
+msgctxt "Countries"
+msgid "Montserrat"
+msgstr "มอนต์เซอร์รัต"
+
+#: inc/i18n/countries.php:154
+msgctxt "Countries"
+msgid "Montenegro"
+msgstr "มอนเตเนโก"
+
+#: inc/i18n/countries.php:153
+msgctxt "Countries"
+msgid "Mongolia"
+msgstr "ประเทศมองโกเลีย"
+
+#: inc/i18n/countries.php:152
+msgctxt "Countries"
+msgid "Monaco"
+msgstr "โมนาโก"
+
+#: inc/i18n/countries.php:151
+msgctxt "Countries"
+msgid "Moldova"
+msgstr "มอลโดวา"
+
+#: inc/i18n/countries.php:150
+msgctxt "Countries"
+msgid "Mexico"
+msgstr "เม็กซิโก"
+
+#: inc/i18n/countries.php:149
+msgctxt "Countries"
+msgid "Mayotte"
+msgstr "มายอต"
+
+#: inc/i18n/countries.php:148
+msgctxt "Countries"
+msgid "Mauritius"
+msgstr "มอริเชียส"
+
+#: inc/i18n/countries.php:147
+msgctxt "Countries"
+msgid "Mauritania"
+msgstr "ประเทศมอริเตเนีย"
+
+#: inc/i18n/countries.php:146
+msgctxt "Countries"
+msgid "Martinique"
+msgstr "มาร์ตินีก"
+
+#: inc/i18n/countries.php:145
+msgctxt "Countries"
+msgid "Marshall Islands"
+msgstr "หมู่เกาะมาร์แชลล์"
+
+#: inc/i18n/countries.php:144
+msgctxt "Countries"
+msgid "Mariana Islands"
+msgstr "หมู่เกาะมาเรียนา"
+
+#: inc/i18n/countries.php:143
+msgctxt "Countries"
+msgid "Malta"
+msgstr "เกาะมอลตา"
+
+#: inc/i18n/countries.php:142
+msgctxt "Countries"
+msgid "Mali"
+msgstr "มาลี"
+
+#: inc/i18n/countries.php:141
+msgctxt "Countries"
+msgid "Maldives"
+msgstr "มัลดีฟส์"
+
+#: inc/i18n/countries.php:140
+msgctxt "Countries"
+msgid "Malaysia"
+msgstr "ประเทศมาเลเซีย"
+
+#: inc/i18n/countries.php:139
+msgctxt "Countries"
+msgid "Malawi"
+msgstr "มาลาวี"
+
+#: inc/i18n/countries.php:138
+msgctxt "Countries"
+msgid "Madagascar"
+msgstr "มาดากัสการ์"
+
+#: inc/i18n/countries.php:137
+msgctxt "Countries"
+msgid "Macedonia"
+msgstr "มาซิโดเนีย"
+
+#: inc/i18n/countries.php:136
+msgctxt "Countries"
+msgid "Macau"
+msgstr "มาเก๊า"
+
+#: inc/i18n/countries.php:135
+msgctxt "Countries"
+msgid "Luxembourg"
+msgstr "ลักเซมเบิร์ก"
+
+#: inc/i18n/countries.php:134
+msgctxt "Countries"
+msgid "Lithuania"
+msgstr "ประเทศลิธัวเนีย"
+
+#: inc/i18n/countries.php:133
+msgctxt "Countries"
+msgid "Liechtenstein"
+msgstr "นสไตน์"
+
+#: inc/i18n/countries.php:132
+msgctxt "Countries"
+msgid "Libya"
+msgstr "ประเทศลิบยา"
+
+#: inc/i18n/countries.php:131
+msgctxt "Countries"
+msgid "Liberia"
+msgstr "ประเทศไลบีเรีย"
+
+#: inc/i18n/countries.php:130
+msgctxt "Countries"
+msgid "Lesotho"
+msgstr "เลโซโท"
+
+#: inc/i18n/countries.php:129
+msgctxt "Countries"
+msgid "Lebanon"
+msgstr "เลบานอน"
+
+#: inc/i18n/countries.php:128
+msgctxt "Countries"
+msgid "Latvia"
+msgstr "ลัตเวีย"
+
+#: inc/i18n/countries.php:127
+msgctxt "Countries"
+msgid "Laos"
+msgstr "ลาว"
+
+#: inc/i18n/countries.php:126
+msgctxt "Countries"
+msgid "Kyrgyzstan"
+msgstr "คีร์กีสถาน"
+
+#: inc/i18n/countries.php:125
+msgctxt "Countries"
+msgid "Kuwait"
+msgstr "คูเวต"
+
+#: inc/i18n/countries.php:124
+msgctxt "Countries"
+msgid "Kosovo"
+msgstr "โคโซโว"
+
+#: inc/i18n/countries.php:123
+msgctxt "Countries"
+msgid "Kiribati"
+msgstr "ประเทศคิริบาส"
+
+#: inc/i18n/countries.php:122
+msgctxt "Countries"
+msgid "Kenya"
+msgstr "ประเทศเคนย่า"
+
+#: inc/i18n/countries.php:121
+msgctxt "Countries"
+msgid "Kazakhstan"
+msgstr "คาซัคสถาน"
+
+#: inc/i18n/countries.php:120
+msgctxt "Countries"
+msgid "Jordan"
+msgstr "จอร์แดน"
+
+#: inc/i18n/countries.php:119
+msgctxt "Countries"
+msgid "Jersey"
+msgstr "นิวเจอร์ซีย์"
+
+#: inc/i18n/countries.php:118
+msgctxt "Countries"
+msgid "Japan"
+msgstr "ประเทศญี่ปุ่น"
+
+#: inc/i18n/countries.php:117
+msgctxt "Countries"
+msgid "Jamaica"
+msgstr "เกาะจาเมกา"
+
+#: inc/i18n/countries.php:116
+msgctxt "Countries"
+msgid "Ivory Coast"
+msgstr "ชายฝั่งงาช้าง"
+
+#: inc/i18n/countries.php:115
+msgctxt "Countries"
+msgid "Italy"
+msgstr "อิตาลี"
+
+#: inc/i18n/countries.php:114
+msgctxt "Countries"
+msgid "Israel"
+msgstr "อิสราเอล"
+
+#: inc/i18n/countries.php:113
+msgctxt "Countries"
+msgid "Isle of Man"
+msgstr "ไอล์ออฟแมน"
+
+#: inc/i18n/countries.php:112
+msgctxt "Countries"
+msgid "Ireland"
+msgstr "ไอร์แลนด์"
+
+#: inc/i18n/countries.php:111
+msgctxt "Countries"
+msgid "Iraq"
+msgstr "อิรัก"
+
+#: inc/i18n/countries.php:110
+msgctxt "Countries"
+msgid "Indonesia"
+msgstr "อินโดนีเซีย"
+
+#: inc/i18n/countries.php:109
+msgctxt "Countries"
+msgid "India"
+msgstr "อินเดีย"
+
+#: inc/i18n/countries.php:108
+msgctxt "Countries"
+msgid "Iceland"
+msgstr "ประเทศไอซ์แลนด์"
+
+#: inc/i18n/countries.php:107
+msgctxt "Countries"
+msgid "Hungary"
+msgstr "ฮังการี"
+
+#: inc/i18n/countries.php:106
+msgctxt "Countries"
+msgid "Hong Kong"
+msgstr "ฮ่องกง"
+
+#: inc/i18n/countries.php:105
+msgctxt "Countries"
+msgid "Honduras"
+msgstr "ฮอนดูรัส"
+
+#: inc/i18n/countries.php:104
+msgctxt "Countries"
+msgid "Haiti"
+msgstr "ไฮติ"
+
+#: inc/i18n/countries.php:103
+msgctxt "Countries"
+msgid "Guyana"
+msgstr "กายอานา"
+
+#: inc/i18n/countries.php:102
+msgctxt "Countries"
+msgid "Guinea-Bissau"
+msgstr "กินีบิสเซา"
+
+#: inc/i18n/countries.php:101
+msgctxt "Countries"
+msgid "Guinea"
+msgstr "ประเทศกินี"
+
+#: inc/i18n/countries.php:100
+msgctxt "Countries"
+msgid "Guernsey"
+msgstr "เสื้อไหมพรม"
+
+#: inc/i18n/countries.php:99
+msgctxt "Countries"
+msgid "Guatemala"
+msgstr "กัวเตมาลา"
+
+#: inc/i18n/countries.php:98
+msgctxt "Countries"
+msgid "Guam"
+msgstr "กวม"
+
+#: inc/i18n/countries.php:97
+msgctxt "Countries"
+msgid "Guadeloupe"
+msgstr "ลุป"
+
+#: inc/i18n/countries.php:96
+msgctxt "Countries"
+msgid "Grenada"
+msgstr "เกรเนดา"
+
+#: inc/i18n/countries.php:95
+msgctxt "Countries"
+msgid "Greenland"
+msgstr "เกาะกรีนแลนด์"
+
+#: inc/i18n/countries.php:94
+msgctxt "Countries"
+msgid "Greece"
+msgstr "กรีซ"
+
+#: inc/i18n/countries.php:93
+msgctxt "Countries"
+msgid "Gibraltar"
+msgstr "ยิบรอลตา"
+
+#: inc/i18n/countries.php:92
+msgctxt "Countries"
+msgid "Ghana"
+msgstr "ประเทศกานา"
+
+#: inc/i18n/countries.php:91
+msgctxt "Countries"
+msgid "Germany"
+msgstr "ประเทศเยอรมัน"
+
+#: inc/i18n/countries.php:90
+msgctxt "Countries"
+msgid "Georgia"
+msgstr "จอร์เจีย"
+
+#: inc/i18n/countries.php:89
+msgctxt "Countries"
+msgid "Gambia"
+msgstr "แกมเบีย"
+
+#: inc/i18n/countries.php:88
+msgctxt "Countries"
+msgid "Gabon"
+msgstr "ประเทศกาบอง"
+
+#: inc/i18n/countries.php:87
+msgctxt "Countries"
+msgid "French Polynesia"
+msgstr "เฟรนช์โปลินีเซีย"
+
+#: inc/i18n/countries.php:86
+msgctxt "Countries"
+msgid "French Guyana"
+msgstr "กายอานาฝรั่งเศส"
+
+#: inc/i18n/countries.php:85
+msgctxt "Countries"
+msgid "France"
+msgstr "ฝรั่งเศส"
+
+#: inc/i18n/countries.php:84
+msgctxt "Countries"
+msgid "Finland"
+msgstr "ฟินแลนด์"
+
+#: inc/i18n/countries.php:83
+msgctxt "Countries"
+msgid "Fiji"
+msgstr "ฟิจิ"
+
+#: inc/i18n/countries.php:82
+msgctxt "Countries"
+msgid "Federated States of Micronesia"
+msgstr "สหพันธรัฐไมโครนีเซีย"
+
+#: inc/i18n/countries.php:81
+msgctxt "Countries"
+msgid "Faroe Islands"
+msgstr "หมู่เกาะแฟโร"
+
+#: inc/i18n/countries.php:80
+msgctxt "Countries"
+msgid "Falkland Islands"
+msgstr "หมู่เกาะฟอล์คแลนด์"
+
+#: inc/i18n/countries.php:79
+msgctxt "Countries"
+msgid "Ethiopia"
+msgstr "สาธารณรัฐเอธิโอเปีย"
+
+#: inc/i18n/countries.php:78
+msgctxt "Countries"
+msgid "Estonia"
+msgstr "เอสโตเนีย"
+
+#: inc/i18n/countries.php:77
+msgctxt "Countries"
+msgid "Eritrea"
+msgstr "เอริเทรี"
+
+#: inc/i18n/countries.php:76
+msgctxt "Countries"
+msgid "Equatorial Guinea"
+msgstr "อิเควทอเรียลกินี"
+
+#: inc/i18n/countries.php:75
+msgctxt "Countries"
+msgid "El Salvador"
+msgstr "เอลซัลวาดอร์"
+
+#: inc/i18n/countries.php:74
+msgctxt "Countries"
+msgid "Egypt"
+msgstr "อียิปต์"
+
+#: inc/i18n/countries.php:73
+msgctxt "Countries"
+msgid "Ecuador"
+msgstr "เอกวาดอร์"
+
+#: inc/i18n/countries.php:72
+msgctxt "Countries"
+msgid "East Timor"
+msgstr "ติมอร์ตะวันออก"
+
+#: inc/i18n/countries.php:71
+msgctxt "Countries"
+msgid "Dominican Republic"
+msgstr "สาธารณรัฐโดมินิกัน"
+
+#: inc/i18n/countries.php:70
+msgctxt "Countries"
+msgid "Dominica"
+msgstr "โดมินิกา"
+
+#: inc/i18n/countries.php:69
+msgctxt "Countries"
+msgid "Djibouti"
+msgstr "จิบูตี"
+
+#: inc/i18n/countries.php:68
+msgctxt "Countries"
+msgid "Denmark"
+msgstr "เดนมาร์ก"
+
+#: inc/i18n/countries.php:67
+msgctxt "Countries"
+msgid "Czech Republic"
+msgstr "สาธารณรัฐเช็ก"
+
+#: inc/i18n/countries.php:66
+msgctxt "Countries"
+msgid "Cyprus"
+msgstr "ประเทศไซปรัส"
+
+#: inc/i18n/countries.php:65
+msgctxt "Countries"
+msgid "Curacao"
+msgstr "คูราเซา"
+
+#: inc/i18n/countries.php:64
+msgctxt "Countries"
+msgid "Croatia"
+msgstr "โครเอเชีย"
+
+#: inc/i18n/countries.php:63
+msgctxt "Countries"
+msgid "Costa Rica"
+msgstr "คอสตาริกา"
+
+#: inc/i18n/countries.php:62
+msgctxt "Countries"
+msgid "Cook Islands"
+msgstr "หมู่เกาะคุก"
+
+#: inc/i18n/countries.php:61
+msgctxt "Countries"
+msgid "Congo, Democratic Republic"
+msgstr "สาธารณรัฐประชาธิปไตยคองโก"
+
+#: inc/i18n/countries.php:60
+msgctxt "Countries"
+msgid "Congo"
+msgstr "ประเทศคองโก"
+
+#: inc/i18n/countries.php:59
+msgctxt "Countries"
+msgid "Comoros"
+msgstr "คอโมโรส"
+
+#: inc/i18n/countries.php:58
+msgctxt "Countries"
+msgid "Colombia"
+msgstr "โคลอมเบีย"
+
+#: inc/i18n/countries.php:57
+msgctxt "Countries"
+msgid "Cocos Islands"
+msgstr "หมู่เกาะโคโคส"
+
+#: inc/i18n/countries.php:56
+msgctxt "Countries"
+msgid "Christmas Island"
+msgstr "เกาะคริสต์มาส"
+
+#: inc/i18n/countries.php:55
+msgctxt "Countries"
+msgid "China"
+msgstr "ประเทศจีน"
+
+#: inc/i18n/countries.php:54
+msgctxt "Countries"
+msgid "Chile"
+msgstr "ชิลี"
+
+#: inc/i18n/countries.php:53
+msgctxt "Countries"
+msgid "Chad"
+msgstr "ชาด"
+
+#: inc/i18n/countries.php:52
+msgctxt "Countries"
+msgid "Central African Republic"
+msgstr "สาธารณรัฐอัฟริกากลาง"
+
+#: inc/i18n/countries.php:51
+msgctxt "Countries"
+msgid "Cayman Islands"
+msgstr "หมู่เกาะเคย์แมน"
+
+#: inc/i18n/countries.php:50
+msgctxt "Countries"
+msgid "Caribbean Netherlands"
+msgstr "แคริบเบียนเนเธอร์แลนด์"
+
+#: inc/i18n/countries.php:49
+msgctxt "Countries"
+msgid "Cape Verde"
+msgstr "เคปเวิร์ด"
+
+#: inc/i18n/countries.php:48
+msgctxt "Countries"
+msgid "Canada"
+msgstr "แคนาดา"
+
+#: inc/i18n/countries.php:47
+msgctxt "Countries"
+msgid "Cameroon"
+msgstr "แคเมอรูน"
+
+#: inc/i18n/countries.php:46
+msgctxt "Countries"
+msgid "Cambodia"
+msgstr "กัมพูชา"
+
+#: inc/i18n/countries.php:45
+msgctxt "Countries"
+msgid "Burundi"
+msgstr "บุรุนดี"
+
+#: inc/i18n/countries.php:44
+msgctxt "Countries"
+msgid "Burkina Faso"
+msgstr "บูร์กินาฟาโซ"
+
+#: inc/i18n/countries.php:43
+msgctxt "Countries"
+msgid "Bulgaria"
+msgstr "บัลแกเรีย"
+
+#: inc/i18n/countries.php:42
+msgctxt "Countries"
+msgid "Brunei"
+msgstr "บรูไน"
+
+#: inc/i18n/countries.php:41
+msgctxt "Countries"
+msgid "British Virgin Islands"
+msgstr "หมู่เกาะบริติชเวอร์จิน"
+
+#: inc/i18n/countries.php:40
+msgctxt "Countries"
+msgid "Brazil"
+msgstr "บราซิล"
+
+#: inc/i18n/countries.php:39
+msgctxt "Countries"
+msgid "Botswana"
+msgstr "บอตสวานา"
+
+#: inc/i18n/countries.php:38
+msgctxt "Countries"
+msgid "Bosnia & Herzegovina"
+msgstr "บอสเนียและเฮอร์เซโกวีนา"
+
+#: inc/i18n/countries.php:37
+msgctxt "Countries"
+msgid "Bolivia"
+msgstr "โบลิเวีย"
+
+#: inc/i18n/countries.php:36
+msgctxt "Countries"
+msgid "Bhutan"
+msgstr "ภูฏาน"
+
+#: inc/i18n/countries.php:35
+msgctxt "Countries"
+msgid "Bermuda"
+msgstr "เบอร์มิวดา"
+
+#: inc/i18n/countries.php:34
+msgctxt "Countries"
+msgid "Benin"
+msgstr "ประเทศเบนิน"
+
+#: inc/i18n/countries.php:33
+msgctxt "Countries"
+msgid "Belize"
+msgstr "เบลีซ"
+
+#: inc/i18n/countries.php:32
+msgctxt "Countries"
+msgid "Belgium"
+msgstr "เบลเยียม"
+
+#: inc/i18n/countries.php:31
+msgctxt "Countries"
+msgid "Belarus"
+msgstr "เบลารุส"
+
+#: inc/i18n/countries.php:30
+msgctxt "Countries"
+msgid "Barbados"
+msgstr "บาร์เบโดส"
+
+#: inc/i18n/countries.php:29
+msgctxt "Countries"
+msgid "Bangladesh"
+msgstr "บังคลาเทศ"
+
+#: inc/i18n/countries.php:28
+msgctxt "Countries"
+msgid "Bahrain"
+msgstr "บาห์เรน"
+
+#: inc/i18n/countries.php:27
+msgctxt "Countries"
+msgid "Azerbaijan"
+msgstr "อาเซอร์ไบจาน"
+
+#: inc/i18n/countries.php:26
+msgctxt "Countries"
+msgid "Austria"
+msgstr "ออสเตรีย"
+
+#: inc/i18n/countries.php:25
+msgctxt "Countries"
+msgid "Australia"
+msgstr "ออสเตรเลีย"
+
+#: inc/i18n/countries.php:24
+msgctxt "Countries"
+msgid "Aruba"
+msgstr "อารูบา"
+
+#: inc/i18n/countries.php:23
+msgctxt "Countries"
+msgid "Armenia"
+msgstr "อาร์เมเนีย"
+
+#: inc/i18n/countries.php:22
+msgctxt "Countries"
+msgid "Argentina"
+msgstr "อาร์เจนตินา"
+
+#: inc/i18n/countries.php:21
+msgctxt "Countries"
+msgid "Antigua and Barbuda"
+msgstr "แอนติกาและบาร์บูดา"
+
+#: inc/i18n/countries.php:20
+msgctxt "Countries"
+msgid "Antarctica"
+msgstr "ทวิปแอนตาร์กติกา"
+
+#: inc/i18n/countries.php:19
+msgctxt "Countries"
+msgid "Anguilla"
+msgstr "แองกวิลลา"
+
+#: inc/i18n/countries.php:18
+msgctxt "Countries"
+msgid "Angola"
+msgstr "แองโกลา"
+
+#: inc/i18n/countries.php:17
+msgctxt "Countries"
+msgid "Andorra"
+msgstr "อันดอร์รา"
+
+#: inc/i18n/countries.php:16
+msgctxt "Countries"
+msgid "American Samoa"
+msgstr "อเมริกันซามัว"
+
+#: inc/i18n/countries.php:15
+msgctxt "Countries"
+msgid "Algeria"
+msgstr "แอลจีเรีย"
+
+#: inc/i18n/countries.php:14
+msgctxt "Countries"
+msgid "Albania"
+msgstr "แอลเบเนีย"
+
+#: inc/i18n/countries.php:13
+msgctxt "Countries"
+msgid "Afghanistan"
+msgstr "อัฟกานิสถาน"
+
+#: functions.php:329
+msgctxt "Countries"
+msgid "International"
+msgstr "ระหว่างประเทศ"
+
+#: functions.php:90
+msgid "Language Switcher"
+msgstr ""
+
+#: functions.php:89
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:88
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:74
+msgctxt "Footer Navigation"
+msgid "Terms"
+msgstr "ข้อตกลง"
+
+#: functions.php:70
+msgctxt "Footer Navigation"
+msgid "Cookies"
+msgstr "คุกกี้"
+
+#: functions.php:66
+msgctxt "Footer Navigation"
+msgid "Privacy"
+msgstr "ความเป็นส่วนตัว"
+
+#: functions.php:62
+msgctxt "Footer Navigation"
+msgid "Newsroom"
+msgstr "ห้องข่าว"
+
+#: functions.php:58
+msgctxt "Footer Navigation"
+msgid "Help"
+msgstr "ความช่วยเหลือ"
+
+#: functions.php:54
+msgctxt "Footer Navigation"
+msgid "Safety"
+msgstr "ความปลอดภัย"
+
+#: functions.php:50
+msgctxt "Footer Navigation"
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#: footer.php:9
+msgid "In collaboration with"
+msgstr "ในความร่วมมือกับ"
+
+#: archive-story.php:23
+msgctxt "Filter"
+msgid "all categories"
+msgstr "ทุกหมวดหมู่"
+
+#: archive-story.php:20
+msgctxt "Filter"
+msgid "I want to learn more about"
+msgstr "ฉันต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ"
+
+#: archive-resource.php:71
+msgid "Explore other popular resources today."
+msgstr ""
+
+#: archive-resource.php:67
+msgid "We're working on adding more resources in this section."
+msgstr ""
+
+#: archive-resource.php:30
+msgid "Search"
+msgstr "ค้นหา"
+
+#: archive-partner.php:21
+msgctxt "Filter"
+msgid "around the world"
+msgstr "ทั่วโลก"
+
+#: archive-partner.php:18
+msgctxt "Filter"
+msgid "Our partners from"
+msgstr "พาร์ทเนอร์ของเราจาก"
+
+#: 404.php:19
+msgid "It looks like the link you followed may be broken, or the page has been removed."
+msgstr ""
+
+#: 404.php:18
+msgid "Sorry. This page isn’t available."
+msgstr ""

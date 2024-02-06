@@ -1,0 +1,90 @@
+body {
+	/*background-color: #e1e2e7;*/
+}
+
+/********
+*******
+Fieldmanager all
+*******
+********/
+#poststuff h2.hndle {
+	font-size: 15px;
+}
+
+.fm-group div.fm-group-label-wrapper h4 {
+	font-size: 14px;
+}
+
+.fm-wrapper .fm-item .fm-label label {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+/********
+*******
+Global Fields page
+*******
+********/
+.appearance_page_global_fields h1 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #005B94;
+	display: block;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+.appearance_page_global_fields .fm-item .fm-item {
+	border-bottom: 1px solid #CAD1D8;
+	padding-bottom: 10px;
+}
+.appearance_page_global_fields .fm-label label {
+	font-size: 16px;
+	font-weight: 600;
+	color: #005B94;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.appearance_page_global_fields .fm-quicklinks .fm-label label {
+	font-size: 13px;
+	color: #222;
+	margin-bottom: 3px;
+}
+
+.appearance_page_global_fields .fm-item-description {
+	padding-left: 15px;
+}
+
+.appearance_page_global_fields .fm-checkbox-group .fm-option {
+	display: block;
+	margin: 0 0 3px 0;
+}
+
+.appearance_page_global_fields .fm-item-description {
+	display: block;
+	margin: 6px 0;
+}
+
+/********
+*******
+CPT Modules fieldmanager
+*******
+********/
+.post-type-module .fm-lessons-wrapper .fm-item .fm-group-label-wrapper {
+	background-color: #e9e9e9;
+}
+
+
+/********
+*******
+PAGE fieldmanager
+*******
+********/
+.post-type-page .fm-pagefields-wrapper .fm-item .fm-group-label-wrapper {
+	background-color: #e9e9e9;
+}
+
+
+

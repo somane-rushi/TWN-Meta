@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'opt_txt';
+    src: url('../fonts/optimistic-latin/Optimistic_Text_Md.eot');
+    src: url('../fonts/optimistic-latin/Optimistic_Text_Md.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic-latin/Optimistic_Text_W_Md.woff2') format('woff2'), url('../fonts/optimistic-latin/Optimistic_Text_W_Md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/**Optimistic Text - Latin**/
+
+
+@font-face {
+    font-family: 'opt_display';
+    src: url('../fonts/optimistic-latin/Optimistic_Display_Md.eot');
+    src: url('../fonts/optimistic-latin/Optimistic_Display_Md.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic-latin/Optimistic_Display_W_Md.woff2') format('woff2'), url('../fonts/optimistic-latin/Optimistic_Text_W_Md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/**Optimistic Display - Latin**/
+
+
+.fontTxt{
+    font-family: 'opt_txt';
+    font-weight: 400;
+}
+/**Optimistic Text - Latin**/
+
+.fontDisplay {
+    font-family: 'opt_display';
+}
+/**Optimistic Display - Latin**/
+
+.dirRTL {
+    direction: ltr;
+    text-align: left;
+}

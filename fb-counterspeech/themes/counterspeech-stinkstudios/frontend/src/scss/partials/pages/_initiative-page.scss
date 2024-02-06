@@ -1,0 +1,44 @@
+#initiative-page {
+
+  .top-row-copy-wrapper {
+    background-color: white;
+
+    .top-row-copy {
+      width: 51.6%;
+      margin: 0 auto;
+      letter-spacing: .4px;
+      line-height: 3.2rem;
+      padding-left: 0;
+      border-left: none;
+
+      @media #{$mq-tablet-down} {
+        width: calc(100% - 66px);
+      }
+    }
+  }
+
+  .section-wrapper.case-studies {
+    background-color: $c-off-white;
+  }
+
+  .section-wrapper.partners {
+    background-color: $c-white-1;
+
+    .section {
+      padding: 8rem 0;
+    }
+
+    .partner-item:last-of-type {
+      padding-bottom: 0;
+    }
+
+    @media #{$mq-tablet-down} {
+      .section {
+        padding: 0;
+      }
+      width: calc(100% - 66px);
+      margin: 0 auto;
+      padding: 6.5rem 3.3rem 9.4rem;
+    }
+  }
+}

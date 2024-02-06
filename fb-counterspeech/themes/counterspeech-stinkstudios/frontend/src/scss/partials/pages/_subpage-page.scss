@@ -1,0 +1,248 @@
+.gray-block a,  .bottom-gray-block a {
+
+  //color:#EEEEEE;
+
+
+}
+
+.hero.white .hero-caption{
+  color:#ffffff;
+  } 
+ol{
+  list-style:none;
+  counter-reset: item;
+  padding:0px;
+   margin:0px 0 0px 20px;
+  }
+
+  :lang(ar) ol, :lang(ur) ol{
+    margin:0px 20px 0px 0px;
+    }
+  
+ol li{
+  font-size:20px;
+  padding:15px 0px;
+  position: relative;
+  padding-left: 56px;
+  } 
+
+  :lang(ar) ol li, :lang(ur) ol li{
+    padding-left: 0px;
+    padding-right: 56px;
+    } 
+  
+ol li:before {
+  font-size:15px;
+  display:inline-block;
+  content: counter(item);
+  counter-increment: item;
+  color:#ffffff;
+  width:26px;
+  height:26px;
+  line-height:26px;
+  border-radius:100%;
+  background-color:#57717C;
+  text-align:center;
+  margin:0 30px 0 0;
+  position: absolute;
+  left: 0;
+  top: 17px;
+  } 
+
+:lang(ar) li:before, :lang(ur) li:before {
+  left: auto;
+  right: 0;
+  margin:0 0px 0 30px;
+}
+  
+.two-col-block-outer{
+  padding: 0px 0px 70px;
+
+  } 
+  
+.two-col-content{
+  display:flex; 
+  flex-wrap: wrap;
+  margin:0 -25px;
+  } 
+.two-col-block{
+  width:50%;
+  padding:0 25px;
+  } 
+  
+
+.mob-menu{
+  float:right;
+  width:30px;
+  height:20px;
+  margin:6px 0 0px 0;
+  cursor:pointer;
+  display:none;
+  position:relative;
+  }
+
+
+
+.mob-menu.close-menu span:nth-child(1){
+  position:absolute;
+  left:0px;
+  top:5px;
+  -ms-transform: rotate(48deg); /* IE 9 */
+    -webkit-transform: rotate(48deg); /* Chrome, Safari, Opera */
+    transform: rotate(48deg);
+  }
+
+
+
+.mob-menu.close-menu span:nth-child(3){
+  position:absolute;
+  left:0px;
+  bottom:7px;
+  -ms-transform: rotate(-52deg); /* IE 9 */
+    -webkit-transform: rotate(-52deg); /* Chrome, Safari, Opera */
+    transform: rotate(-52deg);
+  } 
+
+
+
+.mob-menu.close-menu span:nth-child(2){
+  display:none;
+  }
+.mob-menu.close-menu{
+  margin:9px 0 0px 0;
+  }   
+.mob-menu span{
+  display:block;
+  width:26px;
+  height:4px;
+  margin:0px 0px 3px;
+  background-color:#57717c;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+
+  } 
+  
+.two-col-block h3{
+  margin:0 0 40px 0;
+  } 
+  
+.two-col-block ul{
+  list-style:disc;
+  margin:0px;
+  padding:0px 0 0px 24px;
+  } 
+  
+.two-col-block ul li{
+  padding:12px 0 12px 20px;
+  list-style: disc;
+  line-height: normal;
+  }
+  
+.two-col-block ul ul{
+  padding:0 0 0 10px;
+  } 
+  
+.two-col-block ul ul li{
+  background-image:url(../assets/right-arrow.jpg);
+  background-repeat:no-repeat;
+  background-position: left 19px;
+    background-size: 8px;
+  padding:12px 0 12px 42px;
+  list-style:none;
+  } 
+
+:lang(ar) .two-col-block ul ul li, :lang(ur) .two-col-block ul ul li {
+  background-image:url(../assets/left-arrow.jpg);
+  padding:12px 42px 12px 0px;
+  background-position: right 19px;
+}
+  
+.description-block img{
+  width:100%;
+ height: 45vw;
+  object-fit:cover;
+  }
+  
+.title-box h4{
+  font-size:18px;
+  color:#ec9f8c;
+  margin:0 0 10px 0;
+} 
+
+.title-box h3{
+  margin:0 0 40px 0;
+  }
+  
+.description-holder{
+  padding:50px 0px;
+  } 
+
+ blockquote, blockquote p{
+  margin:0px;
+  font-size:18px;
+  color:#728694;
+  line-height:normal;
+  font-style:italic;
+  margin:0px 0 30px 0;
+  }
+  
+.description-box{
+  display:flex;
+  flex-wrap: wrap;
+  margin:0 -25px;
+  } 
+.description-box-col{
+  width:50%;
+  padding:0 25px;
+  } 
+  
+.description-block h2{
+  margin:0 0 40px 0;
+  } 
+
+
+.winner-box{
+
+  flex-wrap: wrap;
+  margin:0 -8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  }   
+  
+
+
+.winner-box-col{
+  padding:0 8px;
+  width:32%;
+  text-align:center;
+  display:inline-block;
+  } 
+  
+
+.winner-box-col img{
+  width:100%;
+  object-fit:cover;
+  margin:0 0 24px 0;
+  } 
+  
+.winner-box-col h4{
+  font-weight:400;
+  margin:0px 0 14px 0;
+  } 
+  
+.winners h2{
+  margin:0 0 35px 0;
+  } 
+.winners p{
+  max-width:330px;
+  text-align:center;
+  margin:0 auto;
+  }   
+    
+.winner-box{
+  padding:0 0 80px 0;
+  }   
+    

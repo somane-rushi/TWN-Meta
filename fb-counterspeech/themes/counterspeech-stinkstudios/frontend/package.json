@@ -1,0 +1,98 @@
+{
+  "name": "counterspeech",
+  "description": "Wordpress theme for Facebook's Counterspeech initiative",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Stink Studios",
+  "contributors": [
+    "Jp Gary",
+    "RJ Kosineski",
+    "James La Marre"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpcomvip/fb-counterspeech"
+  },
+  "bugs": {
+    "url": "https://github.com/wpcomvip/fb-counterspeech"
+  },
+  "app": {},
+  "engines": {
+    "node": "latest",
+    "npm": "latest"
+  },
+  "dependencies": {
+    "detectizr": "git://github.com/barisaydinoglu/Detectizr.git#v2.2.0"
+  },
+  "devDependencies": {
+		"autoprefixer": "7.1.1",
+    "backbone": "1.3.3",
+		"chalk": "1.1.3",
+		"concurrently": "^3.3.0",
+    "custom-event": "^1.0.0",
+		"cssnano": "3.1.0",
+    "delete": "1.0.1",
+    "eslint": "latest",
+    "exports-loader": "^0.6.3",
+		"gsap": "1.19.1",
+    "imports-loader": "^0.6.5",
+    "live-reload": "latest",
+    "node-sass": "4.5.2",
+    "node-libs-browser": "*",
+    "nodemon": "1.11.0",
+    "normalize-scss": "^6.0.0",
+    "npm": "^3.7.5",
+    "postcss": "^6.0.1",
+    "postcss-cli": "^4.0.0",
+    "postcss-load-config": "^1.2.0",
+		"prettier": "1.4.4",
+		"sass": "^0.5.0",
+    "source-map": "^0.5.3",
+    "stylelint-config-standard": "latest",
+    "underscore": "^1.8.3",
+    "vendor-prefix": "^0.1.0",
+    "webpack": "2.5.1",
+		"webpack-manifest-plugin": "1.1.0"
+  },
+  "scripts": {
+		"build:css": "npm run dev:cssapp && npm run dev:cssbase && npm run dev:cssnoscript && npm run dev:postcssapp && npm run dev:postcssbase && npm run dev:postcssnoscript",
+
+		"deploy": "concurrently \"npm run dist:js\" \"npm run dist:js-inline\" \"npm run dist:css\" ",
+    "dev": "concurrently --kill-others \"npm run dev:watch:js\" \"npm run dev:watch:js-inline\" \"npm run dev:css\" \"npm run livereload\" ",
+
+		"dev:watch:js": "ENV_PROD=false INLINE=false node config/webpack.js",
+    "dev:watch:js-inline": "ENV_PROD=false INLINE=true node config/webpack.js",
+
+		"dev:css": "npm run build:css && npm run dev:watch:css",
+		"dev:cssapp": "sass ./src/scss/app.scss:./public/css/no-prefix-app.css",
+		"dev:postcssapp": "postcss ./public/css/no-prefix-app.css -o ./public/css/app.css -c config/postcss.config.js -m -e dev",
+		"dev:cssbase": "sass ./src/scss/base.scss:./public/css/no-prefix-base.css",
+		"dev:postcssbase": "postcss ./public/css/no-prefix-base.css -o ./public/css/base.css -c config/postcss.config.js -m -e dev",
+		"dev:cssnoscript": "sass ./src/scss/app-noscript.scss:./public/css/no-prefix-app-noscript.css",
+    "dev:postcssnoscript": "postcss ./public/css/no-prefix-app-noscript.css -o ./public/css/app-noscript.css -c config/postcss.config.js -m -e dev",
+
+		"dev:watch:css": "npm run dev:watch:cssapp & npm run dev:watch:postcssapp & npm run dev:watch:cssbase & npm run dev:watch:postcssbase & npm run dev:watch:cssnoscript & npm run dev:watch:postcssnoscript",
+		"dev:watch:cssapp": "sass --watch ./src/scss/app.scss:./public/css/no-prefix-app.css",
+		"dev:watch:cssbase": "sass --watch ./src/scss/base.scss:./public/css/no-prefix-base.css",
+		"dev:watch:postcssbase": "postcss ./public/css/no-prefix-base.css -o ./public/css/base.css -c config/postcss.config.js -w -m -e dev",
+		"dev:watch:postcssapp": "postcss ./public/css/no-prefix-app.css -o ./public/css/app.css -c config/postcss.config.js -w -m -e dev",
+		"dev:watch:cssnoscript": "sass --watch ./src/scss/app-noscript.scss:./public/css/no-prefix-app-noscript.css",
+    "dev:watch:postcssnoscript": "postcss ./public/css/no-prefix-app-noscript.css -o ./public/css/app-noscript.css -c config/postcss.config.js -w -m -e dev",
+
+		"dist:js": "ENV_PROD=true INLINE=false node config/webpack.js",
+    "dist:js-inline": "ENV_PROD=true INLINE=true node config/webpack.js",
+
+		"dist:css" : "npm run build:css && npm run dist:postcssapp && npm run dist:postcssbase && npm run dist:postcssnoscript",
+		"dist:postcssapp": "postcss ./public/css/app.css > ./dist/css/app.min.css -c config/postcss.config.js -e prod",
+		"dist:postcssbase": "postcss ./public/css/base.css > ./dist/css/base.min.css -c config/postcss.config.js -e prod",
+    "dist:postcssnoscript": "postcss ./public/css/app-noscript.css > ./dist/css/app-noscript.min.css -c config/postcss.config.js -e prod",
+
+		"lint": "eslint ./src/scripts",
+    "livereload": "$(npm bin)/live-reload --port 9091 ./",
+		"prettier": "$(npm bin)/prettier --single-quote --trailing-comma es5 --write \"src/scripts/project/**/*.js\"",
+		"prettierinline": "$(npm bin)/prettier --single-quote --trailing-comma es5 --write \"src/scripts-inline/**/*.js\""
+  },
+	"eslintConfig" : {
+
+	}
+}

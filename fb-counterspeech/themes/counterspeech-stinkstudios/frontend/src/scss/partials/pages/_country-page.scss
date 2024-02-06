@@ -1,0 +1,234 @@
+#country-page {
+
+  .map-segment {
+    max-width: none;
+  }
+
+  @media #{$mq-tablet-down} {
+    .top-row-copy-wrapper {
+      padding: 7.5rem 0;
+
+      .top-row-copy {
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media #{$mq-tablet-down} {
+    .masthead .masthead-copy {
+      top: 50%;
+    }
+  }
+
+  .top-row-copy-wrapper {
+    padding: 8rem 0;
+  }
+
+  @media #{$mq-tablet-down} {
+    .top-row-copy-wrapper {
+      padding: 7.5rem 0;
+    }
+  }
+
+  .section-wrapper {
+    display: block;
+    width: 100%;
+
+    .section {
+      width: 77.5%;
+      max-width: 111.4rem;
+      margin: 0 auto;
+      padding: 8rem 0;
+
+      @media #{$mq-tablet-down} {
+        width: calc(100% - 6rem);
+        margin: 0;
+        padding: 0;
+      }
+
+      &.campaign {
+        @media #{$mq-tablet-down} {
+          width: 100%;
+        }
+      }
+    }
+
+    &.initiative {
+
+      @media #{$mq-tablet-down} {
+        width: calc(100% - 6rem);
+        margin: 0;
+        padding: 7.5rem 3rem;
+      }
+
+      .section {
+
+        @media #{$mq-tablet-down} {
+          width: 100%;
+        }
+      }
+
+      &.no-img {
+        .initiative-content {
+          .initiative-copy {
+            flex-basis: 100%;
+            margin-right: 0;
+          }
+        }
+      }
+
+      .section-header {
+        font-weight: 300;
+
+        &:after {
+          margin: 4.6rem 0 4rem;
+        }
+      }
+
+      .initiative-content {
+        display: flex;
+
+        @media #{$mq-tablet-down} {
+          display: block;
+          width: 100%;
+        }
+
+        .initiative-copy {
+          flex-basis: 43%;
+          margin-right: 17%;
+
+          @media #{$mq-tablet-down} {
+            display: block;
+            width: 100%;
+            margin: 0;
+          }
+        }
+
+        .initiative-image {
+          display: flex;
+          align-items: center;
+          flex-basis: 40%;
+          min-height: 21.3rem;
+          max-width: 34.4rem;
+          overflow: visible;
+
+          @media #{$mq-tablet-down} {
+            display: none;
+          }
+
+          img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+
+        .button {
+          margin-top: 2.4rem;
+        }
+      }
+    }
+
+    &.case-studies {
+      background-color: $c-off-white;
+    }
+
+    &.resources {
+      .section {
+        width: 100%;
+
+        .section-header {
+          // width: 77.4%;
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+
+      @media #{$mq-tablet-down} {
+        padding: 6.2rem 0;
+      }
+    }
+
+    &.partners {
+      background-color: $c-white-1;
+
+      @media #{$mq-tablet-down} {
+        width: calc(100% - 6rem);
+        margin: 0 auto;
+        padding: 7.5rem 3rem;
+      }
+
+      .section {
+        @media #{$mq-tablet-down} {
+          width: 100%;
+        }
+      }
+
+      .partner-container {
+        display: flex;
+        justify-content: center;
+
+        @media #{$mq-tablet-down} {
+          display: block;
+        }
+
+        .partner-wrapper {
+          display: flex;
+          align-items: center;
+          //position: relative;
+          // flex: 1;
+          max-width: 44rem;
+          margin-right: 3rem;
+
+          @media #{$mq-tablet-down} {
+            display: block;
+            margin: 2rem auto 0 auto;
+            // margin-top: 2rem;
+            // margin-right: 0;
+          }
+        }
+
+        .partner-wrapper:first-of-type {
+
+          @media #{$mq-tablet-down} {
+            //margin-top: 0;
+            margin: 0 auto;
+          }
+        }
+
+        .partner-wrapper:last-of-type {
+          margin: 0 auto 0 auto;
+
+          @media #{$mq-tablet-down} {
+            margin: 2rem auto 0 auto;
+          }
+        }
+      }
+    }
+
+    &.contact {
+
+      .section {
+        width: 57.5%;
+      }
+
+      @media #{$mq-tablet-down} {
+        display: block;
+        width: 100%;
+        padding: 7.5rem 3rem;
+        margin: 0 auto;
+				box-sizing: border-box;
+
+				.section {
+					margin: auto;
+          width: auto;
+				}
+      }
+    }
+  }
+}

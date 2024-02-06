@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Download Gray Hover</title>
+    <g id="Download-Gray-Hover" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(4.000000, 0.000000)" stroke="#CAD1D8" stroke-linecap="round" stroke-width="2">
+            <line x1="-1.5" y1="6.5" x2="9.5" y2="6.5" id="Line-2" transform="translate(4.000000, 6.500000) rotate(-630.000000) translate(-4.000000, -6.500000) "></line>
+            <line x1="4" y1="10" x2="7" y2="13" id="Line-2" transform="translate(5.500000, 11.500000) rotate(-630.000000) translate(-5.500000, -11.500000) "></line>
+            <line x1="1" y1="13" x2="4" y2="10" id="Line-2" transform="translate(2.500000, 11.500000) rotate(-630.000000) translate(-2.500000, -11.500000) "></line>
+        </g>
+        <path d="M3.5,2.5 L3.5,3.5 L1.50004166,3.5 L1.49895833,16.5 L14.4989583,16.5 L14.5000417,3.5 L12.5,3.5 L12.5,2.5 L15.5,2.5 L15.5,3.99995833 L15.4990001,16.00025 L15.4997499,17.5 L0.5,17.5 L0.5,2.5 L3.5,2.5 Z" id="Combined-Shape" stroke="#CAD1D8" fill="#D8D8D8"></path>
+    </g>
+</svg>

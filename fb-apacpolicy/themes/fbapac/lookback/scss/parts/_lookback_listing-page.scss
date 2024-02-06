@@ -1,0 +1,219 @@
+.lookback--sections {
+
+	&.page-template.page-template-page-lookback {
+		
+
+		.boxes--section {
+
+			&.colored-boxes {
+
+  			padding: 80px 0 50px;
+
+			  h2 {
+			    text-align: center;
+			    padding: 0;
+			    margin: 0 0 50px;
+			  }
+
+				.box-grid {
+
+				  display: flex;
+				  flex-wrap: wrap;
+
+				  .box-column {
+
+				    width: 25%;
+				    padding: 10px;
+				    position: relative;
+				    perspective: 1000px;
+
+						.box-column-inner {
+						  position: relative;
+						  width: 100%;
+						  height: 100%;
+						  transition: transform 0.8s;
+						  transform-style: preserve-3d;
+						}
+
+					  .color-box {
+
+					    text-decoration: none;
+					    width: 100%;
+					    padding: 20px;
+					    position: relative;
+					    min-height: 220px;
+					    display: flex;
+					    align-items: flex-end;
+					    -webkit-backface-visibility: hidden;
+ 							backface-visibility: hidden;
+
+						  h4 {
+						    font-weight: 500;
+						    padding: 0;
+						    margin: 0;
+						  }
+
+						  p {
+						    font-size: 14px;
+						    line-height: 16px;
+						    font-weight: 300;
+						    padding: 0;
+						    margin: 0;
+						  }
+
+							.arrow-icon {
+
+						    position: absolute;
+						    top: 20px;
+						    right: 20px;
+						    width: 22px;
+						    height: 22px;
+						    display: block;
+						    opacity: 1;
+							  -moz-transition: all .75s;
+							  -webkit-transition: all .75s;
+							  transition: all .75s; 
+
+					  		&.white {
+						      background: url(../img/arrows/tap-white.svg) no-repeat 0 0;
+						    }
+
+						  	&.blue {
+						      background: url(../img/arrows/tap-blue.svg) no-repeat 0 0;
+						    }
+
+						  	&.green {
+						      background: url(../img/arrows/tap-green.svg) no-repeat 0 0;
+						    }
+
+								&.indigo {
+									background: url(../img/arrows/tap-indigo.svg) no-repeat 0 0;
+						  	}
+
+								&.navy {
+									background: url(../img/arrows/tap-navy.svg) no-repeat 0 0;
+						  	}
+
+								&.orange {
+									background: url(../img/arrows/tap-orange.svg) no-repeat 0 0;
+						  	}
+
+								&.purple {
+									background: url(../img/arrows/tap-purple.svg) no-repeat 0 0;
+						  	}
+
+								&.red {
+									background: url(../img/arrows/tap-red.svg) no-repeat 0 0;
+						  	}
+
+							  &.teal {
+							    background: url(../img/arrows/tap-teal.svg) no-repeat 0 0;
+							  }
+
+								&.yellow {
+						      background: url(../img/arrows/tap-yellow.svg) no-repeat 0 0;
+						  	}
+
+							}
+
+						}/*...color-box*/
+
+						&:hover {
+						
+							.box-column-inner {
+						  	transform: rotateY(180deg);
+						  }
+
+						  .color-box {
+						  	.arrow-icon {
+						  		opacity: 0;
+						  	}
+						  }
+						}
+				  
+						.inner-content {
+
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							padding: 15% 6% 15% 9%;
+							-webkit-backface-visibility: hidden; /* Safari */
+ 			 				backface-visibility: hidden;
+ 			 				transform: rotateY(180deg);
+
+ 			 				background-size: cover;
+ 			 				background-repeat: no-repeat;
+ 			 				background-position: center;
+
+ 			 				a { 
+ 			 					position: absolute;
+ 			 					left: 0;
+ 			 					right: 0;
+ 			 					bottom: 0;
+ 			 					width: 85%;
+ 			 					margin: 0 7.5% 10% 7.5%;
+ 			 				}
+
+						}
+
+					}/*...box-column*/
+
+				}/*...box-grid*/
+
+				@media only screen and (max-width: 767px) {
+
+					padding: 0;
+
+					.container { 
+						padding: 0; 
+					}
+
+					h2 { 
+						display: none; 
+					}
+
+					.box-grid {
+						.box-column { 
+							width: 100%; 
+							padding: 0; 
+						}
+					}
+
+				}
+
+			}/*...colored-boxes*/
+
+		}/*...boxes--section*/
+
+
+		.pillar--section {
+
+			&.piller-content {
+
+			  padding: 35px 0;
+			  background-color: $green-light;
+			  color: $green-deep;
+
+				h2 {
+			    text-align: center;
+			    padding:0;
+			    margin: 0 0 50px;
+				}
+
+				.content-module {
+			    font-size: 14px;
+			    line-height: 16px;
+			    margin: 0 0 60px;
+				}
+
+			}
+
+		}/*...pillar--section*/
+
+
+
+	}/*...page-template.page-template-template-lookback*/
+
+}/*...lookback--sections*/

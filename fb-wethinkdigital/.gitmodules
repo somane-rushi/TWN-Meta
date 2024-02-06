@@ -1,0 +1,3 @@
+[submodule "plugins/wp-disable-authors"]
+	path = plugins/wp-disable-authors
+	url = https://github.com/firstandthird/wp-disable-authors.git

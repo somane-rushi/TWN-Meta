@@ -1,0 +1,512 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*Devs: Purvi P. and Rushi S.*/
+
+.top {
+    align-items: flex-start;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#taknakscam h3,
+.fontOpt_ExtraLight {
+    color: #596c78 !important;
+}
+
+.jika-text strong {
+    font-family: 'opt_display' !important;
+}
+
+.top-sub-nav {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    padding: 0;
+}
+
+.top-sub-nav li a {
+    font-size: 18px;
+    color: #5169ae !important;
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+}
+
+.c-site-nav .menu-item>a {
+    font-size: .80rem !important;
+}
+
+
+
+.bigtext-area {
+    padding: 80px 40px;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.big-text {
+    font-size: 2.5rem;
+    color: #4a68ae !important;
+    font-weight: bold;
+    margin-bottom: 30px !important;
+    display: block;
+}
+
+.padtop {
+    padding-top: 50px;
+}
+
+.ikuti-area {
+    align-items: center;
+    padding: 0px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.ikuti {
+    max-width: 500px !important;
+    margin: 20px !important;
+}
+
+.ikuti p {
+    font-size: 1.25rem !important;
+    color: #596c78 !important;
+}
+
+.ikuti-img {
+    vertical-align: middle;
+    background-size: contain !important;
+    background-position: center center !important;
+    margin: 0px 5px;
+    width: 100% !important;
+    max-width: 500px !important;
+    background-repeat: no-repeat !important;
+    min-height: 200px !important;
+}
+
+.c-heading2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.video-heading {
+    font-size: 2rem !important;
+}
+
+.ress .c-heading2 {
+    margin-bottom: 60px !important;
+    height: 20px;
+    font-size: 1.4rem !important;
+    line-height: 2rem;
+    padding: 30px 20px;
+    font-weight: bold;
+    text-transform: none !important;
+}
+
+.ress p {
+    padding: 0px 20px;
+    font-size: 1.125rem;
+    line-height: 1.4rem;
+}
+
+.c-listing {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+
+.sub-heading {
+    font-size: 1.25rem;
+    padding: 0px 50px !important;
+    color: #596c78 !important;
+}
+
+.cimg {
+    padding: 20px 20px 20px;
+    max-width: 250px;
+    height: 230px !important;
+    margin: 0 auto !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.cstrip {
+    padding: 0px !important;
+}
+
+.pad10 {
+    padding: 10px !important;
+}
+
+.pad0 {
+    padding: 0px !important;
+}
+
+.cstrip img {
+    width: 100%;
+}
+
+.video-area video {
+    height: 100% !important;
+}
+
+.fcenter {
+    align-items: center;
+}
+
+.blueback {
+    background-color: #8fbcfd;
+}
+
+.pad40 {
+    padding: 40px;
+}
+
+.jika-text {
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.white {
+    color: #fff;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    padding: 0;
+    margin: 10px auto;
+}
+
+.logo-area li {
+    margin: 0px 10px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.logo-area li img {
+    height: auto;
+    object-fit: contain;
+    width: 150px;
+}
+
+.hidden {
+    visibility: hidden;
+    width: 1px;
+    border: none;
+}
+
+.cimg2 {
+    height: auto !important;
+}
+
+.cimg2 img {
+    width: 100%;
+}
+
+.c-masthead:before {
+    display: none;
+}
+
+.video-area {
+    max-height: 350px;
+}
+
+.owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.owl-dot span {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    display: block;
+    margin: 5px;
+}
+
+.active span {
+    background-color: #f5b630 !important;
+}
+
+.small-heading {
+    font-size: 20px;
+    color: #596c78;
+    margin-bottom: 30px;
+    font-weight: 200 !important;
+}
+
+.main-heading {
+    font-size: 3rem !important;
+    text-transform: none !important;
+}
+
+.home-banner {
+    margin-bottom: 30px;
+}
+
+.rightal {
+    float: right;
+    clear: both;
+    padding: 0px 10px;
+    margin: 15px 0;;
+}
+
+.rightal img {
+    width: 20px !important;
+}
+
+.source-info {
+    text-align: left;
+    padding: 0px 10px;
+}
+
+.source-info li {
+    color: #596c78 !important;
+    font-size: 1.125rem;
+    line-height: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.source-info li a {
+    font-size: 18px !important;
+}
+
+.marginnone {
+    margin-top: 0px !important;
+}
+
+.fsource {
+    font-size: 15px;
+    padding-top: 30px !important;
+}
+
+.videoright {
+    width: 50%;
+}
+
+.videoleft {
+    width: 50%;
+}
+
+.videoleft img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+}
+
+.mlboxtext p:first-child {
+    display: block !important;
+}
+
+.mlboxtext p {
+    margin-bottom: 10px !important;
+    display: contents !important;
+}
+
+.select2 {
+    font-size: 1.25rem !important;
+}
+
+@media only screen and (max-width:768px) {
+    .top-sub-nav li {
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+    .o-layout {
+        margin: 0px !important;
+    }
+    .o-layout__item {
+        padding: 0px !important;
+    }
+    .video-area video {
+        width: 100% !important;
+    }
+    .jika-text {
+        font-size: 1.25rem;
+        padding: 0px;
+        text-align: left;
+    }
+    
+    .sub-heading {
+        padding: 0px !important;
+    }
+    .c-heading2 {
+        font-size: 1.5rem !important;
+    }
+    .main-heading {
+        font-size: 2rem !important;
+    }
+    .top-sub-nav li a {
+        font-size: 16px !important;
+    }
+    .videoleft {
+        width: 100% !important;
+        padding: 10px;
+    }
+    .mmt-30 {
+        margin-top: 40px !important;
+    }
+    .mmt-40 {
+        margin-top: 40px !important;
+    }
+    .mmb-20 {
+        margin-bottom: 20px !important;
+    }
+    .mmb-30 {
+        margin-bottom: 30px !important;
+    }
+    .mmb-40 {
+        margin-bottom: 40px !important;
+    }
+    .c-home-section--funfacts #taknakscam .flickity-page-dots {
+        display: none;
+    }
+    .c-home-section--funfacts #taknakscam .c-funfacts {
+        padding-bottom: 0px;
+    }
+    .ress .c-heading2 {
+        padding: 15px 20px;
+        margin-bottom: 0px !important;
+        height: auto;
+    }
+    .ikuti {
+        max-width: none;
+        width: auto;
+        margin: 0px !important;
+    }
+    .ikuti-img {
+        margin: 0px;
+    }
+    .logo-area li{
+        margin: 0px;
+    }
+    .logo-area li img {
+        height: auto;
+        object-fit: contain;
+        width: 150px;
+    }
+
+    .videoleft img {
+        width: 100%;
+        height:  auto;        
+    }
+}
+
+.scroll-margin {
+    scroll-margin-top: 30px;
+}
+
+.white p {
+    color: #ffffff !important;
+}
+
+.sub-heading p {
+    line-height: 1.4;
+}
+
+#taknakscam .c-listing-item__description {
+    line-height: 1.4;
+}
+
+.mb-60 {
+    margin-bottom: 60px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+
+.mb-40 {
+    margin-bottom: 50px !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.texttrans-none {
+    text-transform: none !important;
+}
+
+form.ikuti-area {
+    width: 100%;
+    margin: 0px !important;
+    padding: 20px !important;
+}
+.c-home-section--partners .c-home-section__body{ max-width: 500px !important; }
+
+.imdigital #infinite-handle { display: none; }
+
+/**For TakNakScam - Malaysia**/
+select#taknakYear,
+.borderBottom{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 2px solid #5169ae !important;
+}
+
+.c-heading3 {
+    font-weight: 600;
+    color: #5169ae;
+}
+
+.tnSelect{
+    outline: none;
+}
+
+select#taknakYear option{
+    background-color: #fff;
+    color: #272727;
+    border-radius: none;
+    /*font-size: 1.2rem;*/
+    padding: 0.5em 20px;
+    cursor: pointer;
+}
+
+select#taknakYear option:hover{
+    background-color: #e1e1e1;
+    color: #272727;
+    font-weight: 300;
+}
+
+.tnSelect-container--inline.tnSelect-container--open .tnSelect-dropdown--above, 
+.tnSelect-container--inline.tnSelect-container--open .tnSelect-dropdown--below{
+    border-radius: 0;
+    border: 1px solid #dbdbdb;
+    -webkit-box-shadow: 0 0 5.74px 1.26px rgb(0 0 0 / 24%);
+    box-shadow: 0 0 5.74px 1.26px rgb(0 0 0 / 24%);
+}
+
+.tnSelect-container--inline .tnSelect-results__option{
+    background: #fff;
+    padding: 0.5em 20px;
+}
+
+.tnSelect-container--inline .tnSelect-results__option--highlighted[aria-selected]{
+    background: #e1e1e1;
+    color: #272727;
+    font-weight: 300;
+}

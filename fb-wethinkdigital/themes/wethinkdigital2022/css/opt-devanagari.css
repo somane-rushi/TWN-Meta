@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'opt_txt';
+    src: url('../fonts/optimistic-devanagari/Optimistic_Text_Deva_Md.eot');
+    src: url('../fonts/optimistic-devanagari/Optimistic_Text_Deva_Md.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic-devanagari/Optimistic_Text_Deva_W_Md.woff2') format('woff2'), url('../fonts/optimistic-devanagari/Optimistic_Text_Deva_W_Md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/**Optimistic Text - Devanagari**/
+
+
+@font-face {
+    font-family: 'opt_display';
+    src: url('../fonts/optimistic-devanagari/Optimistic_Display_Deva_Md.eot');
+    src: url('../fonts/optimistic-devanagari/Optimistic_Display_Deva_Md.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic-devanagari/Optimistic_Display_Deva_W_Md.woff2') format('woff2'), url('../fonts/optimistic-devanagari/Optimistic_Display_Deva_W_Md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/**Optimistic Display - Devanagari**/
+
+
+.fontTxt{
+    font-family: 'opt_txt';
+    font-weight: 400;
+}
+/**Optimistic Text - Devanagari**/
+
+.fontDisplay {
+    font-family: 'opt_display';
+}
+/**Optimistic Display - Devanagari**/
+
+.dirRTL {
+    direction: ltr;
+    text-align: left;
+}

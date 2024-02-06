@@ -1,0 +1,32 @@
+.video-container {
+  margin-bottom: 8rem;
+  background-color: $c-light-blue;
+  position: relative;
+
+	&::before {
+		display: block;
+		content: "";
+		width: 100%;
+		padding-top: (625 / 1116) * 100%;
+	}
+
+  .fb-video {
+    position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+
+    span {
+      width: 100% !important;
+  		height: 100% !important;
+
+      iframe {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+  }
+}

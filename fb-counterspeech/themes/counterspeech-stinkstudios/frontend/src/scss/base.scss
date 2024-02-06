@@ -1,0 +1,52 @@
+//normalize import
+@import "../../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+
+
+//globals
+//font-book
+@import "globals/_font-book";
+//breakpoint mixins "table","desktop"
+@import "globals/_transitions";
+// @import "globals/_animations";
+//variables
+@import "globals/_variables";
+@import "globals/_mixins";
+
+//base element styles
+@import "globals/_base";
+//rules used across multiple pages
+@import "globals/_utils";
+@import "globals/_rtl";
+
+
+	//partials
+  //components
+  @import "partials/components/_carousel";
+  @import "partials/components/_case-studies";
+  @import "partials/components/_contact-module";
+  @import "partials/components/_footer";
+  @import "partials/components/_form";
+  @import "partials/components/_header";
+  @import "partials/components/_initiative-short-tile";
+  @import "partials/components/_map-segment";
+  @import "partials/components/_masthead";
+  @import "partials/components/_partner";
+  @import "partials/components/_resources";
+  @import "partials/components/_video";
+  //views
+  @import "partials/pages/_home-page";
+  @import "partials/pages/_country-page";
+  @import "partials/pages/_initiative-page";
+  @import "partials/pages/_resources-page";
+  @import "partials/pages/_about-page";
+  @import "partials/pages/_contact-page";
+  @import "partials/pages/_fourofour-page";
+  @import "partials/pages/_subpage-page";
+
+
+  @import "partials/components/_responsiveness";
+
+.feature-phone {
+  @import "app-noscript";
+}

@@ -1,0 +1,1600 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Facebook I am Digital\n"
+"POT-Creation-Date: "
+"2019-10-14 13:20+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Section\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: mn_MN\n"
+"X-Generator: Poedit "
+"2.4.2\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"scripts\n"
+"X-Poedit-"
+"SearchPathExcluded-1: "
+"styles\n"
+
+#: 404.php:18
+msgid ""
+"Sorry. This page isn’t "
+"available."
+msgstr ""
+"Уучлаарай. Энэ хуудас "
+"олдсонгүй."
+
+#: 404.php:19
+msgid ""
+"It looks like the link "
+"you followed may be "
+"broken, or the page has "
+"been removed."
+msgstr ""
+"Уг холбоос ажиллахгүй "
+"эсвэл хуудас устсан "
+"байна."
+
+#: archive-partner.php:18
+msgctxt "Filter"
+msgid "Our partners from"
+msgstr "Манай хамтрагчид"
+
+#: archive-partner.php:21
+msgctxt "Filter"
+msgid "around the world"
+msgstr "олон улс"
+
+#: archive-resource.php:30
+msgid "Search"
+msgstr "Хайлт хийх "
+
+#: archive-resource.php:67
+msgid ""
+"We're working on adding "
+"more resources in this "
+"section."
+msgstr ""
+"Бид энэ хэсэгт нэмэлт "
+"зүйлс оруулахаар ажиллаж "
+"байна."
+
+#: archive-resource.php:71
+msgid ""
+"Explore other popular "
+"resources today."
+msgstr ""
+"Бусад эх сурвалжийг "
+"судлах."
+
+#: archive-story.php:20
+msgctxt "Filter"
+msgid ""
+"I want to learn more "
+"about"
+msgstr "Хичээлийн сэдвүүд"
+
+#: archive-story.php:23
+msgctxt "Filter"
+msgid "all categories"
+msgstr "бүх сэдэв"
+
+#: footer.php:9
+msgid ""
+"In collaboration with"
+msgstr "хамтран ажиллах"
+
+#: functions.php:50
+msgctxt "Footer Navigation"
+msgid "About"
+msgstr "Бидний тухай"
+
+#: functions.php:54
+msgctxt "Footer Navigation"
+msgid "Safety"
+msgstr "Аюулгүй байдал"
+
+#: functions.php:58
+msgctxt "Footer Navigation"
+msgid "Help"
+msgstr "Тусламж"
+
+#: functions.php:62
+msgctxt "Footer Navigation"
+msgid "Newsroom"
+msgstr "Мэдээллийн өрөө"
+
+#: functions.php:66
+msgctxt "Footer Navigation"
+msgid "Privacy"
+msgstr "Нууцлал"
+
+#: functions.php:70
+msgctxt "Footer Navigation"
+msgid "Cookies"
+msgstr ""
+
+#: functions.php:74
+msgctxt "Footer Navigation"
+msgid "Terms"
+msgstr "Нөхцлүүд"
+
+#: functions.php:88
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:89
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:90
+msgid "Language Switcher"
+msgstr ""
+
+#: functions.php:329
+msgctxt "Countries"
+msgid "International"
+msgstr "Улс сонгох"
+
+#: inc/i18n/countries.php:13
+msgctxt "Countries"
+msgid "Afghanistan"
+msgstr "Афганистан"
+
+#: inc/i18n/countries.php:14
+msgctxt "Countries"
+msgid "Albania"
+msgstr "Албани"
+
+#: inc/i18n/countries.php:15
+msgctxt "Countries"
+msgid "Algeria"
+msgstr "Алжир"
+
+#: inc/i18n/countries.php:16
+msgctxt "Countries"
+msgid "American Samoa"
+msgstr "Америкийн Самоа"
+
+#: inc/i18n/countries.php:17
+msgctxt "Countries"
+msgid "Andorra"
+msgstr "Андорра"
+
+#: inc/i18n/countries.php:18
+msgctxt "Countries"
+msgid "Angola"
+msgstr "Ангол"
+
+#: inc/i18n/countries.php:19
+msgctxt "Countries"
+msgid "Anguilla"
+msgstr "Ангилла"
+
+#: inc/i18n/countries.php:20
+msgctxt "Countries"
+msgid "Antarctica"
+msgstr "Антарктид"
+
+#: inc/i18n/countries.php:21
+msgctxt "Countries"
+msgid "Antigua and Barbuda"
+msgstr "Антигуа ба Барбуда"
+
+#: inc/i18n/countries.php:22
+msgctxt "Countries"
+msgid "Argentina"
+msgstr "Аргентин"
+
+#: inc/i18n/countries.php:23
+msgctxt "Countries"
+msgid "Armenia"
+msgstr "Армен"
+
+#: inc/i18n/countries.php:24
+msgctxt "Countries"
+msgid "Aruba"
+msgstr "Аруба"
+
+#: inc/i18n/countries.php:25
+msgctxt "Countries"
+msgid "Australia"
+msgstr "Австрали"
+
+#: inc/i18n/countries.php:26
+msgctxt "Countries"
+msgid "Austria"
+msgstr "Австри"
+
+#: inc/i18n/countries.php:27
+msgctxt "Countries"
+msgid "Azerbaijan"
+msgstr "Азербайжан"
+
+#: inc/i18n/countries.php:28
+msgctxt "Countries"
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+#: inc/i18n/countries.php:29
+msgctxt "Countries"
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#: inc/i18n/countries.php:30
+msgctxt "Countries"
+msgid "Barbados"
+msgstr "Барбадос"
+
+#: inc/i18n/countries.php:31
+msgctxt "Countries"
+msgid "Belarus"
+msgstr "Беларусь"
+
+#: inc/i18n/countries.php:32
+msgctxt "Countries"
+msgid "Belgium"
+msgstr "Бельги"
+
+#: inc/i18n/countries.php:33
+msgctxt "Countries"
+msgid "Belize"
+msgstr "Белиз"
+
+#: inc/i18n/countries.php:34
+msgctxt "Countries"
+msgid "Benin"
+msgstr "Бенин"
+
+#: inc/i18n/countries.php:35
+msgctxt "Countries"
+msgid "Bermuda"
+msgstr "Бермуд"
+
+#: inc/i18n/countries.php:36
+msgctxt "Countries"
+msgid "Bhutan"
+msgstr "Бутан"
+
+#: inc/i18n/countries.php:37
+msgctxt "Countries"
+msgid "Bolivia"
+msgstr "Боливи"
+
+#: inc/i18n/countries.php:38
+msgctxt "Countries"
+msgid ""
+"Bosnia & Herzegovina"
+msgstr ""
+"Босни ба Герцеговина"
+
+#: inc/i18n/countries.php:39
+msgctxt "Countries"
+msgid "Botswana"
+msgstr "Ботсвана"
+
+#: inc/i18n/countries.php:40
+msgctxt "Countries"
+msgid "Brazil"
+msgstr "Бразил"
+
+#: inc/i18n/countries.php:41
+msgctxt "Countries"
+msgid ""
+"British Virgin Islands"
+msgstr ""
+"Британийн Виржинийн "
+"арлууд"
+
+#: inc/i18n/countries.php:42
+msgctxt "Countries"
+msgid "Brunei"
+msgstr "Бруней"
+
+#: inc/i18n/countries.php:43
+msgctxt "Countries"
+msgid "Bulgaria"
+msgstr "Болгар"
+
+#: inc/i18n/countries.php:44
+msgctxt "Countries"
+msgid "Burkina Faso"
+msgstr "Буркина Фасо"
+
+#: inc/i18n/countries.php:45
+msgctxt "Countries"
+msgid "Burundi"
+msgstr "Бурунди"
+
+#: inc/i18n/countries.php:46
+msgctxt "Countries"
+msgid "Cambodia"
+msgstr "Камбож"
+
+#: inc/i18n/countries.php:47
+msgctxt "Countries"
+msgid "Cameroon"
+msgstr "Камерун"
+
+#: inc/i18n/countries.php:48
+msgctxt "Countries"
+msgid "Canada"
+msgstr "Канад"
+
+#: inc/i18n/countries.php:49
+msgctxt "Countries"
+msgid "Cape Verde"
+msgstr "Кабо Верде"
+
+#: inc/i18n/countries.php:50
+msgctxt "Countries"
+msgid ""
+"Caribbean Netherlands"
+msgstr ""
+"Карибын тэнгисийн "
+"Нидерланд"
+
+#: inc/i18n/countries.php:51
+msgctxt "Countries"
+msgid "Cayman Islands"
+msgstr "Кайманы арлууд"
+
+#: inc/i18n/countries.php:52
+msgctxt "Countries"
+msgid ""
+"Central African Republic"
+msgstr ""
+"Төв Африкийн бүгд "
+"найрамдах улс"
+
+#: inc/i18n/countries.php:53
+msgctxt "Countries"
+msgid "Chad"
+msgstr "Чад"
+
+#: inc/i18n/countries.php:54
+msgctxt "Countries"
+msgid "Chile"
+msgstr "Чили"
+
+#: inc/i18n/countries.php:55
+msgctxt "Countries"
+msgid "China"
+msgstr "Хятад"
+
+#: inc/i18n/countries.php:56
+msgctxt "Countries"
+msgid "Christmas Island"
+msgstr "Зул сарын арал"
+
+#: inc/i18n/countries.php:57
+msgctxt "Countries"
+msgid "Cocos Islands"
+msgstr "Кокосын арлууд"
+
+#: inc/i18n/countries.php:58
+msgctxt "Countries"
+msgid "Colombia"
+msgstr "Колумб"
+
+#: inc/i18n/countries.php:59
+msgctxt "Countries"
+msgid "Comoros"
+msgstr "Комор арал"
+
+#: inc/i18n/countries.php:60
+msgctxt "Countries"
+msgid "Congo"
+msgstr "Конго"
+
+#: inc/i18n/countries.php:61
+msgctxt "Countries"
+msgid ""
+"Congo, Democratic "
+"Republic"
+msgstr ""
+"Бүгд Найрамдах Ардчилсан "
+"Конго Улс"
+
+#: inc/i18n/countries.php:62
+msgctxt "Countries"
+msgid "Cook Islands"
+msgstr "Күүкийн арлууд"
+
+#: inc/i18n/countries.php:63
+msgctxt "Countries"
+msgid "Costa Rica"
+msgstr "Коста Рика"
+
+#: inc/i18n/countries.php:64
+msgctxt "Countries"
+msgid "Croatia"
+msgstr "Хорват"
+
+#: inc/i18n/countries.php:65
+msgctxt "Countries"
+msgid "Curacao"
+msgstr "Куракао"
+
+#: inc/i18n/countries.php:66
+msgctxt "Countries"
+msgid "Cyprus"
+msgstr "Кипр"
+
+#: inc/i18n/countries.php:67
+msgctxt "Countries"
+msgid "Czech Republic"
+msgstr "Чех"
+
+#: inc/i18n/countries.php:68
+msgctxt "Countries"
+msgid "Denmark"
+msgstr "Дани"
+
+#: inc/i18n/countries.php:69
+msgctxt "Countries"
+msgid "Djibouti"
+msgstr "Жибути"
+
+#: inc/i18n/countries.php:70
+msgctxt "Countries"
+msgid "Dominica"
+msgstr "Доминика"
+
+#: inc/i18n/countries.php:71
+msgctxt "Countries"
+msgid "Dominican Republic"
+msgstr ""
+"Доминик Бүгд Найрамдах "
+"Улс"
+
+#: inc/i18n/countries.php:72
+msgctxt "Countries"
+msgid "East Timor"
+msgstr "Зүүн Тимор"
+
+#: inc/i18n/countries.php:73
+msgctxt "Countries"
+msgid "Ecuador"
+msgstr "Эквадор"
+
+#: inc/i18n/countries.php:74
+msgctxt "Countries"
+msgid "Egypt"
+msgstr "Египет"
+
+#: inc/i18n/countries.php:75
+msgctxt "Countries"
+msgid "El Salvador"
+msgstr "Сальвадор"
+
+#: inc/i18n/countries.php:76
+msgctxt "Countries"
+msgid "Equatorial Guinea"
+msgstr "Экваторын Гвиней"
+
+#: inc/i18n/countries.php:77
+msgctxt "Countries"
+msgid "Eritrea"
+msgstr "Эритрей"
+
+#: inc/i18n/countries.php:78
+msgctxt "Countries"
+msgid "Estonia"
+msgstr "Эстони"
+
+#: inc/i18n/countries.php:79
+msgctxt "Countries"
+msgid "Ethiopia"
+msgstr "Этиоп"
+
+#: inc/i18n/countries.php:80
+msgctxt "Countries"
+msgid "Falkland Islands"
+msgstr "Фолкландын арлууд"
+
+#: inc/i18n/countries.php:81
+msgctxt "Countries"
+msgid "Faroe Islands"
+msgstr "Фарерын арлууд"
+
+#: inc/i18n/countries.php:82
+msgctxt "Countries"
+msgid ""
+"Federated States of "
+"Micronesia"
+msgstr ""
+"Микронезийн Холбооны "
+"Улсууд"
+
+#: inc/i18n/countries.php:83
+msgctxt "Countries"
+msgid "Fiji"
+msgstr "Фижи"
+
+#: inc/i18n/countries.php:84
+msgctxt "Countries"
+msgid "Finland"
+msgstr "Финлянд"
+
+#: inc/i18n/countries.php:85
+msgctxt "Countries"
+msgid "France"
+msgstr "Франц"
+
+#: inc/i18n/countries.php:86
+msgctxt "Countries"
+msgid "French Guyana"
+msgstr "Францын Гайана"
+
+#: inc/i18n/countries.php:87
+msgctxt "Countries"
+msgid "French Polynesia"
+msgstr "Францын Полинез"
+
+#: inc/i18n/countries.php:88
+msgctxt "Countries"
+msgid "Gabon"
+msgstr "Габон"
+
+#: inc/i18n/countries.php:89
+msgctxt "Countries"
+msgid "Gambia"
+msgstr "Гамби"
+
+#: inc/i18n/countries.php:90
+msgctxt "Countries"
+msgid "Georgia"
+msgstr "Гүрж"
+
+#: inc/i18n/countries.php:91
+msgctxt "Countries"
+msgid "Germany"
+msgstr "Герман"
+
+#: inc/i18n/countries.php:92
+msgctxt "Countries"
+msgid "Ghana"
+msgstr "Гана"
+
+#: inc/i18n/countries.php:93
+msgctxt "Countries"
+msgid "Gibraltar"
+msgstr "Гибралтар"
+
+#: inc/i18n/countries.php:94
+msgctxt "Countries"
+msgid "Greece"
+msgstr "Грек"
+
+#: inc/i18n/countries.php:95
+msgctxt "Countries"
+msgid "Greenland"
+msgstr "Гренланд"
+
+#: inc/i18n/countries.php:96
+msgctxt "Countries"
+msgid "Grenada"
+msgstr "Гренада"
+
+#: inc/i18n/countries.php:97
+msgctxt "Countries"
+msgid "Guadeloupe"
+msgstr "Гваделупа"
+
+#: inc/i18n/countries.php:98
+msgctxt "Countries"
+msgid "Guam"
+msgstr "Гуам"
+
+#: inc/i18n/countries.php:99
+msgctxt "Countries"
+msgid "Guatemala"
+msgstr "Гватемал"
+
+#: inc/i18n/countries.php:100
+msgctxt "Countries"
+msgid "Guernsey"
+msgstr "Гернси"
+
+#: inc/i18n/countries.php:101
+msgctxt "Countries"
+msgid "Guinea"
+msgstr "Гвиней"
+
+#: inc/i18n/countries.php:102
+msgctxt "Countries"
+msgid "Guinea-Bissau"
+msgstr "Гвиней-Бисау"
+
+#: inc/i18n/countries.php:103
+msgctxt "Countries"
+msgid "Guyana"
+msgstr "Гайана"
+
+#: inc/i18n/countries.php:104
+msgctxt "Countries"
+msgid "Haiti"
+msgstr "Гаити"
+
+#: inc/i18n/countries.php:105
+msgctxt "Countries"
+msgid "Honduras"
+msgstr "Гондурас"
+
+#: inc/i18n/countries.php:106
+msgctxt "Countries"
+msgid "Hong Kong"
+msgstr "Хонг Конг"
+
+#: inc/i18n/countries.php:107
+msgctxt "Countries"
+msgid "Hungary"
+msgstr "Унгар"
+
+#: inc/i18n/countries.php:108
+msgctxt "Countries"
+msgid "Iceland"
+msgstr "Исланд"
+
+#: inc/i18n/countries.php:109
+msgctxt "Countries"
+msgid "India"
+msgstr "Энэтхэг"
+
+#: inc/i18n/countries.php:110
+msgctxt "Countries"
+msgid "Indonesia"
+msgstr "Индонези"
+
+#: inc/i18n/countries.php:111
+msgctxt "Countries"
+msgid "Iraq"
+msgstr "Ирак"
+
+#: inc/i18n/countries.php:112
+msgctxt "Countries"
+msgid "Ireland"
+msgstr "Ирланд"
+
+#: inc/i18n/countries.php:113
+msgctxt "Countries"
+msgid "Isle of Man"
+msgstr "Хүний арал"
+
+#: inc/i18n/countries.php:114
+msgctxt "Countries"
+msgid "Israel"
+msgstr "Израиль"
+
+#: inc/i18n/countries.php:115
+msgctxt "Countries"
+msgid "Italy"
+msgstr "Итали"
+
+#: inc/i18n/countries.php:116
+msgctxt "Countries"
+msgid "Ivory Coast"
+msgstr "Зааны Ясан эрэг"
+
+#: inc/i18n/countries.php:117
+msgctxt "Countries"
+msgid "Jamaica"
+msgstr "Ямайка"
+
+#: inc/i18n/countries.php:118
+msgctxt "Countries"
+msgid "Japan"
+msgstr "Япон"
+
+#: inc/i18n/countries.php:119
+msgctxt "Countries"
+msgid "Jersey"
+msgstr "Жерси"
+
+#: inc/i18n/countries.php:120
+msgctxt "Countries"
+msgid "Jordan"
+msgstr "Жордан"
+
+#: inc/i18n/countries.php:121
+msgctxt "Countries"
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: inc/i18n/countries.php:122
+msgctxt "Countries"
+msgid "Kenya"
+msgstr "Кени"
+
+#: inc/i18n/countries.php:123
+msgctxt "Countries"
+msgid "Kiribati"
+msgstr "Кирибати"
+
+#: inc/i18n/countries.php:124
+msgctxt "Countries"
+msgid "Kosovo"
+msgstr "Косово"
+
+#: inc/i18n/countries.php:125
+msgctxt "Countries"
+msgid "Kuwait"
+msgstr "Кувейт"
+
+#: inc/i18n/countries.php:126
+msgctxt "Countries"
+msgid "Kyrgyzstan"
+msgstr "Киргизстан"
+
+#: inc/i18n/countries.php:127
+msgctxt "Countries"
+msgid "Laos"
+msgstr "Лаос"
+
+#: inc/i18n/countries.php:128
+msgctxt "Countries"
+msgid "Latvia"
+msgstr "Латви"
+
+#: inc/i18n/countries.php:129
+msgctxt "Countries"
+msgid "Lebanon"
+msgstr "Ливан"
+
+#: inc/i18n/countries.php:130
+msgctxt "Countries"
+msgid "Lesotho"
+msgstr "Лесото"
+
+#: inc/i18n/countries.php:131
+msgctxt "Countries"
+msgid "Liberia"
+msgstr "Либери"
+
+#: inc/i18n/countries.php:132
+msgctxt "Countries"
+msgid "Libya"
+msgstr "Ливи"
+
+#: inc/i18n/countries.php:133
+msgctxt "Countries"
+msgid "Liechtenstein"
+msgstr "Лихтенштейн"
+
+#: inc/i18n/countries.php:134
+msgctxt "Countries"
+msgid "Lithuania"
+msgstr "Литва"
+
+#: inc/i18n/countries.php:135
+msgctxt "Countries"
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: inc/i18n/countries.php:136
+msgctxt "Countries"
+msgid "Macau"
+msgstr "Макао"
+
+#: inc/i18n/countries.php:137
+msgctxt "Countries"
+msgid "Macedonia"
+msgstr "Македон"
+
+#: inc/i18n/countries.php:138
+msgctxt "Countries"
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#: inc/i18n/countries.php:139
+msgctxt "Countries"
+msgid "Malawi"
+msgstr "Малави"
+
+#: inc/i18n/countries.php:140
+msgctxt "Countries"
+msgid "Malaysia"
+msgstr "Малайз"
+
+#: inc/i18n/countries.php:141
+msgctxt "Countries"
+msgid "Maldives"
+msgstr "Мальдив"
+
+#: inc/i18n/countries.php:142
+msgctxt "Countries"
+msgid "Mali"
+msgstr "Мали"
+
+#: inc/i18n/countries.php:143
+msgctxt "Countries"
+msgid "Malta"
+msgstr "Мальта"
+
+#: inc/i18n/countries.php:144
+msgctxt "Countries"
+msgid "Mariana Islands"
+msgstr "Мариана арлууд"
+
+#: inc/i18n/countries.php:145
+msgctxt "Countries"
+msgid "Marshall Islands"
+msgstr "Маршаллын арлууд"
+
+#: inc/i18n/countries.php:146
+msgctxt "Countries"
+msgid "Martinique"
+msgstr "Мартиник"
+
+#: inc/i18n/countries.php:147
+msgctxt "Countries"
+msgid "Mauritania"
+msgstr "Мавритани"
+
+#: inc/i18n/countries.php:148
+msgctxt "Countries"
+msgid "Mauritius"
+msgstr "Маврикий"
+
+#: inc/i18n/countries.php:149
+msgctxt "Countries"
+msgid "Mayotte"
+msgstr "Майотт"
+
+#: inc/i18n/countries.php:150
+msgctxt "Countries"
+msgid "Mexico"
+msgstr "Мексик"
+
+#: inc/i18n/countries.php:151
+msgctxt "Countries"
+msgid "Moldova"
+msgstr "Молдав"
+
+#: inc/i18n/countries.php:152
+msgctxt "Countries"
+msgid "Monaco"
+msgstr "Монако"
+
+#: inc/i18n/countries.php:153
+msgctxt "Countries"
+msgid "Mongolia"
+msgstr "Монгол Улс"
+
+#: inc/i18n/countries.php:154
+msgctxt "Countries"
+msgid "Montenegro"
+msgstr "Монтенегро"
+
+#: inc/i18n/countries.php:155
+msgctxt "Countries"
+msgid "Montserrat"
+msgstr "Монтсеррат"
+
+#: inc/i18n/countries.php:156
+msgctxt "Countries"
+msgid "Morocco"
+msgstr "Марокко"
+
+#: inc/i18n/countries.php:157
+msgctxt "Countries"
+msgid "Mozambique"
+msgstr "Мозамбик"
+
+#: inc/i18n/countries.php:158
+msgctxt "Countries"
+msgid "Myanmar"
+msgstr "Мьянмар"
+
+#: inc/i18n/countries.php:159
+msgctxt "Countries"
+msgid "Namibia"
+msgstr "Намиби"
+
+#: inc/i18n/countries.php:160
+msgctxt "Countries"
+msgid "Nauru"
+msgstr "Науру"
+
+#: inc/i18n/countries.php:161
+msgctxt "Countries"
+msgid "Nepal"
+msgstr "Непал"
+
+#: inc/i18n/countries.php:162
+msgctxt "Countries"
+msgid "Netherlands"
+msgstr "Нидерланд"
+
+#: inc/i18n/countries.php:163
+msgctxt "Countries"
+msgid "New Caledonia"
+msgstr "Шинэ Каледони"
+
+#: inc/i18n/countries.php:164
+msgctxt "Countries"
+msgid "New Zealand"
+msgstr "Шинэ Зеланд"
+
+#: inc/i18n/countries.php:165
+msgctxt "Countries"
+msgid "Nicaragua"
+msgstr "Никарагуа"
+
+#: inc/i18n/countries.php:166
+msgctxt "Countries"
+msgid "Niger"
+msgstr "Нигер"
+
+#: inc/i18n/countries.php:167
+msgctxt "Countries"
+msgid "Nigeria"
+msgstr "Нигери"
+
+#: inc/i18n/countries.php:168
+msgctxt "Countries"
+msgid "Niue"
+msgstr "Ниуэ"
+
+#: inc/i18n/countries.php:169
+msgctxt "Countries"
+msgid "Norfolk Island"
+msgstr "Норфолк арал"
+
+#: inc/i18n/countries.php:170
+msgctxt "Countries"
+msgid "Norway"
+msgstr "Норвеги"
+
+#: inc/i18n/countries.php:171
+msgctxt "Countries"
+msgid "Oman"
+msgstr "Оман"
+
+#: inc/i18n/countries.php:172
+msgctxt "Countries"
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#: inc/i18n/countries.php:173
+msgctxt "Countries"
+msgid "Palau"
+msgstr "Палау"
+
+#: inc/i18n/countries.php:174
+msgctxt "Countries"
+msgid "Palestine"
+msgstr "Палестин"
+
+#: inc/i18n/countries.php:175
+msgctxt "Countries"
+msgid "Panama"
+msgstr "Панам"
+
+#: inc/i18n/countries.php:176
+msgctxt "Countries"
+msgid "Papua New Guinea"
+msgstr "Папуа Шинэ Гвиней"
+
+#: inc/i18n/countries.php:177
+msgctxt "Countries"
+msgid "Paraguay"
+msgstr "Парагвай"
+
+#: inc/i18n/countries.php:178
+msgctxt "Countries"
+msgid "Peru"
+msgstr "Перу"
+
+#: inc/i18n/countries.php:179
+msgctxt "Countries"
+msgid "Philippines"
+msgstr "Филиппин"
+
+#: inc/i18n/countries.php:180
+msgctxt "Countries"
+msgid "Pitcairn Islands"
+msgstr "Питкэрний арлууд"
+
+#: inc/i18n/countries.php:181
+msgctxt "Countries"
+msgid "Poland"
+msgstr "Польш"
+
+#: inc/i18n/countries.php:182
+msgctxt "Countries"
+msgid "Portugal"
+msgstr "Португал"
+
+#: inc/i18n/countries.php:183
+msgctxt "Countries"
+msgid "Puerto Rico"
+msgstr "Пуэрто-Рико"
+
+#: inc/i18n/countries.php:184
+msgctxt "Countries"
+msgid "Qatar"
+msgstr "Катар"
+
+#: inc/i18n/countries.php:185
+msgctxt "Countries"
+msgid "Reunion"
+msgstr "Дахин уулзалт"
+
+#: inc/i18n/countries.php:186
+msgctxt "Countries"
+msgid "Romania"
+msgstr "Румын"
+
+#: inc/i18n/countries.php:187
+msgctxt "Countries"
+msgid "Russia"
+msgstr "Орос"
+
+#: inc/i18n/countries.php:188
+msgctxt "Countries"
+msgid "Rwanda"
+msgstr "Руанда"
+
+#: inc/i18n/countries.php:189
+msgctxt "Countries"
+msgid "Saint Kitts"
+msgstr "Сент Киттс"
+
+#: inc/i18n/countries.php:190
+msgctxt "Countries"
+msgid "Saint Lucia"
+msgstr "Гэгээн Люсиа"
+
+#: inc/i18n/countries.php:191
+msgctxt "Countries"
+msgid "Saint Martin"
+msgstr "Гэгээн Мартин"
+
+#: inc/i18n/countries.php:192
+msgctxt "Countries"
+msgid ""
+"Saint Pierre and Miquelon"
+msgstr ""
+"Сент Пьер ба Микелон"
+
+#: inc/i18n/countries.php:193
+msgctxt "Countries"
+msgid ""
+"Saint Vincent and the "
+"Grenadines"
+msgstr ""
+"Сент Винсент ба "
+"Гренадинууд"
+
+#: inc/i18n/countries.php:194
+msgctxt "Countries"
+msgid "Samoa"
+msgstr "Самоа"
+
+#: inc/i18n/countries.php:195
+msgctxt "Countries"
+msgid "San Marino"
+msgstr "Сан-Марино"
+
+#: inc/i18n/countries.php:196
+msgctxt "Countries"
+msgid ""
+"Sao Tome and Principe"
+msgstr ""
+"Сан Томе ба Принсипи"
+
+#: inc/i18n/countries.php:197
+msgctxt "Countries"
+msgid "Saudi Arabia"
+msgstr "Саудын Араб"
+
+#: inc/i18n/countries.php:198
+msgctxt "Countries"
+msgid "Senegal"
+msgstr "Сенегал"
+
+#: inc/i18n/countries.php:199
+msgctxt "Countries"
+msgid "Serbia"
+msgstr "Серби"
+
+#: inc/i18n/countries.php:200
+msgctxt "Countries"
+msgid "Seychelles"
+msgstr "Сейшелийн арлууд"
+
+#: inc/i18n/countries.php:201
+msgctxt "Countries"
+msgid "Sierra Leone"
+msgstr "Сьерра-Леон"
+
+#: inc/i18n/countries.php:202
+msgctxt "Countries"
+msgid "Singapore"
+msgstr "Сингапур"
+
+#: inc/i18n/countries.php:203
+msgctxt "Countries"
+msgid "Sint Maarten"
+msgstr "Синт Мартен"
+
+#: inc/i18n/countries.php:204
+msgctxt "Countries"
+msgid "Slovakia"
+msgstr "Словак"
+
+#: inc/i18n/countries.php:205
+msgctxt "Countries"
+msgid "Slovenia"
+msgstr "Словени"
+
+#: inc/i18n/countries.php:206
+msgctxt "Countries"
+msgid "Solomon Islands"
+msgstr "Соломоны арлууд"
+
+#: inc/i18n/countries.php:207
+msgctxt "Countries"
+msgid "Somalia"
+msgstr "Сомали"
+
+#: inc/i18n/countries.php:208
+msgctxt "Countries"
+msgid "South Africa"
+msgstr "Өмнөд Африк"
+
+#: inc/i18n/countries.php:209
+msgctxt "Countries"
+msgid ""
+"South Georgia and the "
+"South Sandwich Islands"
+msgstr ""
+"Өмнөд Жоржиа ба Өмнөд "
+"Сэндвичийн арлууд"
+
+#: inc/i18n/countries.php:210
+msgctxt "Countries"
+msgid "South Korea"
+msgstr "Өмнөд Солонгос"
+
+#: inc/i18n/countries.php:211
+msgctxt "Countries"
+msgid "South Sudan"
+msgstr "Өмнөд Судан"
+
+#: inc/i18n/countries.php:212
+msgctxt "Countries"
+msgid "Spain"
+msgstr "Испани"
+
+#: inc/i18n/countries.php:213
+msgctxt "Countries"
+msgid "Sri Lanka"
+msgstr "Шри Ланка"
+
+#: inc/i18n/countries.php:214
+msgctxt "Countries"
+msgid "St. Helena"
+msgstr "Гэгээн Хелена"
+
+#: inc/i18n/countries.php:215
+msgctxt "Countries"
+msgid "Suriname"
+msgstr "Суринам"
+
+#: inc/i18n/countries.php:216
+msgctxt "Countries"
+msgid ""
+"Svalbard and Jan Mayen"
+msgstr ""
+"Шпицберген ба Ян Майен "
+"нар"
+
+#: inc/i18n/countries.php:217
+msgctxt "Countries"
+msgid "Swaziland"
+msgstr "Свазиланд"
+
+#: inc/i18n/countries.php:218
+msgctxt "Countries"
+msgid "Sweden"
+msgstr "Швед"
+
+#: inc/i18n/countries.php:219
+msgctxt "Countries"
+msgid "Switzerland"
+msgstr "Швейцарь"
+
+#: inc/i18n/countries.php:220
+msgctxt "Countries"
+msgid "Taiwan"
+msgstr "Тайвань"
+
+#: inc/i18n/countries.php:221
+msgctxt "Countries"
+msgid "Tajikistan"
+msgstr "Тажикистан"
+
+#: inc/i18n/countries.php:222
+msgctxt "Countries"
+msgid "Tanzania"
+msgstr "Танзани"
+
+#: inc/i18n/countries.php:223
+msgctxt "Countries"
+msgid "Thailand"
+msgstr "Тайланд"
+
+#: inc/i18n/countries.php:224
+msgctxt "Countries"
+msgid "The Bahamas"
+msgstr "Багамын арлууд"
+
+#: inc/i18n/countries.php:225
+msgctxt "Countries"
+msgid "Togo"
+msgstr "Явах"
+
+#: inc/i18n/countries.php:226
+msgctxt "Countries"
+msgid "Tokelau"
+msgstr "Токелау"
+
+#: inc/i18n/countries.php:227
+msgctxt "Countries"
+msgid "Tonga"
+msgstr "Тонга"
+
+#: inc/i18n/countries.php:228
+msgctxt "Countries"
+msgid "Trinidad and Tobago"
+msgstr "Тринидад Тобаго"
+
+#: inc/i18n/countries.php:229
+msgctxt "Countries"
+msgid "Tunisia"
+msgstr "Тунис"
+
+#: inc/i18n/countries.php:230
+msgctxt "Countries"
+msgid "Turkey"
+msgstr "Турк"
+
+#: inc/i18n/countries.php:231
+msgctxt "Countries"
+msgid "Turkmenistan"
+msgstr "Туркменистан"
+
+#: inc/i18n/countries.php:232
+msgctxt "Countries"
+msgid "Turks and Caicos"
+msgstr "Турк, Кайкос"
+
+#: inc/i18n/countries.php:233
+msgctxt "Countries"
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#: inc/i18n/countries.php:234
+msgctxt "Countries"
+msgid "Uganda"
+msgstr "Уганда"
+
+#: inc/i18n/countries.php:235
+msgctxt "Countries"
+msgid "Ukraine"
+msgstr "Украйн"
+
+#: inc/i18n/countries.php:236
+msgctxt "Countries"
+msgid ""
+"United Arab Emirates"
+msgstr ""
+"Арабын нэгдсэн Эмират улс"
+
+#: inc/i18n/countries.php:237
+msgctxt "Countries"
+msgid "United Kingdom"
+msgstr "Нэгдсэн Вант Улс"
+
+#: inc/i18n/countries.php:238
+msgctxt "Countries"
+msgid ""
+"United States of America"
+msgstr ""
+"Америкийн нэгдсэн улс"
+
+#: inc/i18n/countries.php:239
+msgctxt "Countries"
+msgid ""
+"United States Virgin "
+"Islands"
+msgstr ""
+"АНУ-ын Виржинийн арлууд"
+
+#: inc/i18n/countries.php:240
+msgctxt "Countries"
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: inc/i18n/countries.php:241
+msgctxt "Countries"
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#: inc/i18n/countries.php:242
+msgctxt "Countries"
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#: inc/i18n/countries.php:243
+msgctxt "Countries"
+msgid "Venezuela"
+msgstr "Венесуэл"
+
+#: inc/i18n/countries.php:244
+msgctxt "Countries"
+msgid "Vietnam"
+msgstr "Вьетнам"
+
+#: inc/i18n/countries.php:245
+msgctxt "Countries"
+msgid "Wallis and Futuna"
+msgstr "Уоллис ба Футуна"
+
+#: inc/i18n/countries.php:246
+msgctxt "Countries"
+msgid "Western Sahara"
+msgstr "Баруун Сахар"
+
+#: inc/i18n/countries.php:247
+msgctxt "Countries"
+msgid "Yemen"
+msgstr "Йемен"
+
+#: inc/i18n/countries.php:248
+msgctxt "Countries"
+msgid "Zambia"
+msgstr "Замби"
+
+#: inc/i18n/countries.php:249
+msgctxt "Countries"
+msgid "Zimbabwe"
+msgstr "Зимбабве"
+
+#: inc/template-functions.php:240
+msgid "Logo"
+msgstr ""
+
+#: inc/template-functions.php:243
+msgid ""
+"Logo image should have a "
+"height of at least 68 "
+"pixels."
+msgstr ""
+
+#: inc/template-functions.php:245
+#: inc/template-functions.php:250
+msgid "Select logo"
+msgstr ""
+
+#: inc/template-functions.php:246
+msgid "Change logo"
+msgstr ""
+
+#: inc/template-functions.php:247
+msgid "Remove"
+msgstr ""
+
+#: inc/template-functions.php:248
+msgid "Default"
+msgstr ""
+
+#: inc/template-functions.php:249
+msgid "No logo selected"
+msgstr ""
+
+#: inc/template-functions.php:251
+msgid "Choose logo"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "Load more"
+msgstr "ЦААШ НЬ"
+
+#: inc/template-tags.php:97
+msgctxt ""
+"Facebook share button"
+msgid "Share"
+msgstr "Цааш түгээх"
+
+#: inc/template-tags.php:114
+msgctxt "Resources Filter"
+msgid ""
+"I want to learn more "
+"about"
+msgstr "Хичээлийн сэдвүүд"
+
+#: inc/template-tags.php:116
+msgctxt "Resources Filter"
+msgid "all topics"
+msgstr "бүх сэдэв"
+
+#: inc/template-tags.php:124
+msgctxt "Resources Filter"
+msgid "for"
+msgstr "хэнд"
+
+#: inc/template-tags.php:126
+msgctxt "Resources Filter"
+msgid "everyone"
+msgstr "хүн бүрт"
+
+#: inc/template-tags.php:179
+#: template-parts/content-resource.php:55
+msgid "Access"
+msgstr "Нэвтрэх"
+
+#: inc/template-tags.php:181
+#: template-parts/content-resource.php:57
+msgid "Download"
+msgstr "Татах"
+
+#: inc/template-tags.php:195
+msgctxt ""
+"Resource File Content "
+"Type"
+msgid "Learning Module"
+msgstr "ХИЧЭЭЛ"
+
+#: inc/template-tags.php:196
+msgctxt ""
+"Resource File Content "
+"Type"
+msgid ""
+"Learning Module (Package)"
+msgstr "ХИЧЭЭЛ (БАГЦ)"
+
+#: inc/template-tags.php:197
+msgctxt ""
+"Resource File Content "
+"Type"
+msgid "Infographic"
+msgstr "ИНФОГРАФИК"
+
+#: inc/template-tags.php:201
+msgctxt ""
+"Resource Website Content "
+"Type"
+msgid "Website"
+msgstr "ВЕБСАЙТ"
+
+#: inc/template-tags.php:202
+msgctxt ""
+"Resource Website Content "
+"Type"
+msgid ""
+"Lesson Plans (Website)"
+msgstr ""
+"Хичээлийн төлөвлөгөө"
+
+#: inc/template-tags.php:222
+msgctxt ""
+"Resource File Content "
+"Type"
+msgid "Video"
+msgstr "БИЧЛЭГ"
+
+#: page-templates/home.php:98
+msgid "Discover now"
+msgstr "НЭЭЖ ҮЗЭХ"
+
+#: page-templates/home.php:150
+msgid "Explore resources"
+msgstr "ЦААШ СУДЛАХ"
+
+#: page-templates/home.php:176
+msgid "Learn more"
+msgstr "ЦААШ ҮЗЭХ"
+
+#: page-templates/home.php:200
+msgid "View Committee"
+msgstr "ХОРООТОЙ ТАНИЛЦАХ"
+
+#: single-program.php:54
+msgctxt ""
+"Program Page Partner List"
+msgid ""
+"Learn more about our "
+"partner"
+msgid_plural ""
+"Learn more about our "
+"partners"
+msgstr[0] ""
+"Манай түншийн талаар "
+"илүү ихийг олж мэдэх"
+msgstr[1] ""
+"Манай түншүүдийн талаар "
+"илүү ихийг олж мэдэх"
+
+#: single-story.php:150
+msgid "Related stories"
+msgstr ""
+
+#: template-maintenance-mode.php:240
+msgid "Site Unavailable"
+msgstr ""
+
+#: template-maintenance-mode.php:241
+msgid ""
+"This site is temporarily "
+"undergoing maintenance, "
+"please try again in a "
+"few moments."
+msgstr ""
+
+#: template-maintenance-mode.php:243
+msgid "Maintenance"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid ""
+"Our apologies, we "
+"couldn’t find what you "
+"were looking for."
+msgstr ""
+
+#: template-parts/content-resource.php:23
+msgid "Featured"
+msgstr "ШИЛДЭГ"
+
+#: template-parts/content-resource.php:59
+msgid "View"
+msgstr "Үзэх"
+
+#: template-parts/content.php:29
+#, php-format
+msgid ""
+"Continue reading<span "
+"class=\"screen-reader-"
+"text\"> \"%s\"</span>"
+msgstr ""
+"Цааш унших<span "
+"class=“screen-reader-"
+"text”> “%s”</span>"

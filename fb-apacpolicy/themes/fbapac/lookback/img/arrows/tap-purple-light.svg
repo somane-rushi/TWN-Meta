@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tap Blue Copy 2</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.831373 0 0 0 0 0.792157 0 0 0 0 0.878431 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.984314 0 0 0 0 0.839216 0 0 0 0 0.717647 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Style-Sheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Stylesheet-Pillars" transform="translate(-186.000000, -532.000000)">
+            <g id="Tap-Light-Orange" transform="translate(187.000000, 533.000000)" filter="url(#filter-1)">
+                <g filter="url(#filter-2)" id="Tap-Yellow">
+                    <g id="Group" stroke="#FFFFFF" stroke-width="2">
+                        <polyline id="Path-2" points="0 0 20 0 20 20"></polyline>
+                        <line x1="20" y1="0" x2="0" y2="20" id="Path-3"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

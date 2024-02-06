@@ -1,0 +1,138 @@
+.lookback--sections {
+
+	.lookback-footer {
+		
+    padding: 50px 0;
+    background-color: $grey-light;
+
+    .container {
+
+			.footer-top {
+
+			    padding: 0 0 40px;
+			
+				.footer-logo {
+
+					width: 100%;
+				  max-width: 116px;
+				  height: auto;
+
+				}
+
+			}/*...footer-top*/
+
+			.footer-bottom {
+
+		    padding: 40px 0 0;
+		    border-top: $grey-medium 1px solid;
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: space-between; 
+		    flex-direction: row-reverse;
+
+		    .footer-links {
+
+		    	width: 68%;
+
+					ul {
+
+				    padding: 0;
+				    margin: 0;
+				    list-style: none;
+				    display: flex;
+				    justify-content: flex-end;
+						
+						li {
+
+					    font-size: 12px;
+					    color: #677B8C;
+					    line-height: 16px;
+					    padding: 0 0 0 10px;
+							
+							a {
+
+						    text-decoration: none;
+						    display: block;
+						    color: #677B8C;
+								
+								&:hover {
+						    	color: #000;
+						    }
+
+						  }
+
+						}
+
+					}
+
+					.credit {
+
+				    width: 30%;
+				    font-size: 14px;
+				    line-height: 16px;
+				    letter-spacing: 1px;
+				    font-weight: 400;
+				    text-transform: uppercase;
+				    color: $grey-dark;
+
+					}
+
+				}
+
+			}/*...footer-bottom*/
+
+		}/*...container*/
+
+	}/*...lookback-footer*/
+
+	@media only screen and (max-width: 767px) {
+
+		.lookback-footer { 
+
+			padding: 30px 0; 
+
+			.container {
+
+		    .footer-top { 
+
+		    	.footer-logo {
+		    		padding-top: 20px; 
+		    		padding-bottom: 10px;
+		    		margin: 0 auto;
+		    	}
+
+		    }
+
+		    .footer-bottom { 
+
+		    	padding-top: 30px; 
+		    
+			    .footer-links { 
+
+			    	width: unset;
+			    	margin: 0 auto 25px auto;
+
+			    	ul { 
+			    		display: block; 
+
+			    		li { 
+			    			padding: 0 0 8px;
+			    		}
+			    	}
+			    }
+
+			    .credit { 
+			    	width: 100%; 
+			    	text-align: center;
+			    	padding-bottom: 25px;
+			    }
+
+			  }
+
+			}
+
+		}
+
+	}
+
+}/*...lookback--sections*/

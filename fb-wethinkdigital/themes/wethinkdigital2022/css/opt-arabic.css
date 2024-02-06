@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'opt_txt';
+    src: url('../fonts/optimistic-arabic/Optimistic_Text_Arbc_Md.eot');
+    src: url('../fonts/optimistic-arabic/Optimistic_Text_Arbc_Md.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic-arabic/Optimistic_Text_Arbc_W_Md.woff2') format('woff2'), url('../fonts/optimistic-arabic/Optimistic_Text_Arbc_W_Md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/**Optimistic Text - Arabic**/
+
+
+@font-face {
+    font-family: 'opt_display';
+    src: url('../fonts/optimistic-arabic/Optimistic_Display_Arbc_A_Md.eot');
+    src: url('../fonts/optimistic-arabic/Optimistic_Display_Arbc_A_Md.eot?#iefix') format('embedded-opentype'), url('../fonts/optimistic-arabic/Optimistic_Display_Arbc_W_Md.woff2') format('woff2'), url('../fonts/optimistic-arabic/Optimistic_Display_Arbc_W_Md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/**Optimistic Display - Arabic**/
+
+
+.fontTxt{
+    font-family: 'opt_txt';
+    font-weight: 400;
+}
+/**Optimistic Text - Arabic**/
+
+.fontDisplay {
+    font-family: 'opt_display';
+}
+/**Optimistic Display - Arabic**/
+
+.dirRTL {
+    direction: rtl;
+    text-align: right;
+}

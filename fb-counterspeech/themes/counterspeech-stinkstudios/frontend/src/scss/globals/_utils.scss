@@ -1,0 +1,214 @@
+ // //for styling rules that are re-used across multiple pages but aren't about base element styling as in _base.scss
+
+.pullquote-wrapper {
+  width: 100%;
+  padding: 11.5rem 0 8.0rem;
+  background-color: $c-white-1;
+  position: relative;
+
+  @media #{$mq-tablet-down} {
+    padding: 7.5rem 0;
+  }
+
+  .quote-mark {
+    position: absolute;
+    top: 75px;
+    @include ff-fsp();
+    transform: translate3d(-16rem, 0, 0);
+    line-height: 1;
+
+    &:before {
+      content: '“';
+      display: block;
+      position: relative;
+      font-size: 34rem;
+      color: $c-light-blue;
+    }
+  }
+
+  .pullquote {
+    display: flex;
+    align-items: center;
+    width: 52.1%;
+    max-width: 83.7rem;
+    margin: 0 auto;
+    @include ff-fsp();
+    font-size: $fs-pq;
+    line-height: $lh-pq;
+    color: $c-gray-1;
+
+    @media #{$mq-tablet-down} {
+      width: calc(100% - 6rem);
+      font-size: 2.8rem;
+      line-height: 3.5rem;
+    }
+  }
+}
+
+.top-row-copy-wrapper {
+  width: 100%;
+  padding: 8rem 0;
+  background-color: $c-white-1;
+
+  @media #{$mq-tablet-down} {
+    padding: 8rem 0;
+  }
+
+  li {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+
+    @media #{$mq-tablet-down} {
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  li:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-top: 1.1rem;
+    margin-left: -2rem;
+    border-left: 1px solid $c-gray-1;
+    border-bottom: 1px solid $c-gray-1;
+
+    transform: rotate(-135deg);
+
+    @media #{$mq-tablet-down} {
+      margin-top: 0.8rem;
+    }
+  }
+
+  .top-row-copy {
+    width: 48.6%;
+    max-width: 69.6rem;
+    margin: 0 auto;
+    letter-spacing: 0.4px;
+    padding-left: 4.7rem;
+    border-left: 3px solid $c-light-blue;
+
+    @media #{$mq-tablet-down} {
+      width: calc(100% - 6rem);
+      padding-left: 0;
+      border-left: none;
+      letter-spacing: 0;
+
+      &:before {
+        content: '';
+        display: block;
+        position: relative;
+        width: 6.0rem;
+        margin-bottom: 2.0rem;
+        border-bottom: 2px solid $c-light-blue;
+      }
+    }
+  }
+}
+
+.header-line-left:after {
+ // content: '';
+ // display: block;
+ // position: relative;
+ // width: 6.0rem;
+ // margin: 4.6rem 0 4rem;
+ // border-bottom: 2px solid $c-light-blue;
+
+  // @media #{$mq-tablet-down} {
+  //   width: 3.3rem;
+  //   margin: 2.4rem 0;
+  // }
+}
+
+.header-line-left.white:after {
+  content: '';
+  border-bottom: 2px solid white;
+}
+
+.header-line-center:after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 6.0rem;
+  left: 50%;
+  margin: 2.9rem 0 4.0rem;
+  transform: translate3d(-50%, 0, 0);
+  border-bottom: 2px solid $c-light-blue;
+
+  @media #{$mq-tablet-down} {
+    left: 0;
+    //margin: 4.0rem 0 4.2rem;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.section-wrapper.contact {
+
+  background-color: $c-light-blue;
+
+  .section {
+    width: 57.5%;
+    max-width: 82.8rem;
+    margin: 0 auto;
+    // padding: 19.6rem 21.25% 15.4rem;
+    padding: 8rem 21.25%;
+    color: white;
+    text-align: center;
+
+    h3 {
+      font-weight: 200;
+    }
+
+    @media #{$mq-tablet-down} {
+      display: block;
+      width: calc(100% - 60px);
+      padding: 7.4rem 0 7.6rem;
+      margin: 0 auto;
+    }
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 4.8rem;
+    margin: 3.7rem auto 0;
+
+    @media #{$mq-tablet-down} {
+      margin: 2.1rem auto 0;
+    }
+
+    .button {
+      position: relative;
+    }
+  }
+}
+
+/* Lazy Loading Styles */
+// .lazyLoad {
+//   position: relative;
+//   width: 100%;
+//   // background-color: $c-light-blue;
+//   margin-bottom: 5%;
+//   overflow: hidden;
+// }
+//
+// .lazyLoad img {
+//   position: absolute;
+//   // top: 0;
+//   left: 0;
+//   right: 0;
+//   // bottom: 0;
+//   width: 100%;
+//   height: auto;
+//   will-change: opacity, transform;
+//   opacity: 0;
+//   transition: opacity 0.2s ease-out, transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+//   transform: scale3d(1.025, 1.025, 1.025);
+// }
+//
+// .lazyLoad.show img{
+//   opacity: 1;
+//   transform: scale3d(1, 1, 1);
+// }

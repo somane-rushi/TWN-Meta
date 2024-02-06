@@ -1,0 +1,58 @@
+.lookback--sections {
+
+	.owl-carousel .owl-nav button {
+	  &.owl-prev, &.owl-next {
+	    width: 27px;
+	    height: 27px;
+	    cursor: pointer;
+	    outline: none;
+	    background-image: url(../img/arrows/testimonial-arrow.png);
+	    background-repeat: no-repeat;
+	    margin: 0 4px;
+	  }
+
+	  &.owl-prev span, &.owl-next span {
+	    display: none;
+	  }
+
+	  &.owl-prev {
+	    background-position: 0 0;
+	  }
+
+	  &.owl-next {
+	    background-position: 0 -27px;
+	  }
+	}
+
+
+	.carousel-content {
+	  padding: 0 10px;
+	}
+
+
+  .blue-theme .owl-carousel .owl-nav button {
+    &.owl-prev, &.owl-next {
+      background-image: url(../img/carousel/carousel-blue-arrow.png);
+    }
+  }
+
+  .green-theme .owl-carousel .owl-nav button {
+    &.owl-prev, &.owl-next {
+      background-image: url(../img/carousel/carousel-green-arrow.png);
+    }
+  }
+
+  .red-theme .owl-carousel .owl-nav button {
+    &.owl-prev, &.owl-next {
+      background-image: url(../img/carousel/carousel-red-arrow.png);
+    }
+  }
+
+  .orange-theme .owl-carousel .owl-nav button {
+    &.owl-prev, &.owl-next {
+      background-image: url(../img/carousel/carousel-orange-arrow.png);
+    }
+  }
+	
+
+}/*...lookback--sections*/

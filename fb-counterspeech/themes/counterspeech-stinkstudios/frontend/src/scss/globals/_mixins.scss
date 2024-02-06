@@ -1,0 +1,39 @@
+@mixin ff-nh {
+  //font-family: 'NHaas', 'Helvetica', 'Arial', sans-serif;
+}
+
+@mixin ff-fsp {
+ // font-family: 'freight-sans-pro', 'Helvetica', 'Arial', sans-serif;
+}
+
+// Mixin to set the aspect ratio for images and videos
+@mixin aspect-ratio($width, $height) {
+	position: relative;
+
+	&::before {
+		display: table;
+		content: "";
+		width: 100%;
+		padding-top: ($height / $width) * 100%;
+	}
+
+	> img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+	}
+
+	> video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+	}
+}

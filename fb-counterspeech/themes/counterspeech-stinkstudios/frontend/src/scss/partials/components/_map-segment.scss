@@ -1,0 +1,421 @@
+
+.map-container {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  // background-color: $white;
+  background-color: $c-map-bk-blue;
+}
+
+.map-segment {
+
+  display: flex;
+  max-width: $bp-max-width;
+  height: 63.5rem;
+  margin: 0 auto;
+  background-color: $c-map-bk-blue;
+
+  // Country pages: [lang]/locations/[country code]
+  &.country {
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    @media #{$mq-tablet-h-down} {
+      height: 100%
+    }
+
+    .map-wrapper {
+      width: 100%;
+      @media #{$mq-tablet-h-down} {
+        height: 100%;
+      }
+
+      @media #{$mq-tablet-down} {
+        height: 100%;
+      }
+    }
+
+    .boundaries {
+      fill: transparent!important;
+      // stroke: $c-fb-blue!important;
+    }
+
+    .country {
+      fill: $c-fb-blue;
+      stroke: $c-map-bk-blue;
+      stroke-width: 1.0px;
+      &.PAKBKUP {
+        stroke-width: 0px;
+      }
+      &.KIA, &.KPA {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+
+    .highlight {
+      fill: $c-map-blue;
+    }
+  }
+
+  .data-sidebar {
+    position: relative;
+    flex-basis: 23%;
+    width: 23%;
+    min-width: 25rem;
+    background-color: $c-light-blue;
+  }
+
+  .map-intro-copy.default {
+    padding: 12.9rem 1rem 0 4rem;
+
+    .header-line-left {
+      position: absolute;
+      top: 45%;
+    }
+    .map-copy.small {
+      position: absolute;
+      top: 62%;
+    }
+    .map-intro-icon {
+      position: absolute;
+      top: 80%;
+    }
+  }
+
+  .map-intro-copy.data-points {
+    display: none;
+  }
+
+  .map-intro-icon {
+    position: absolute;
+    top: 80%;
+
+    &:after {
+      content: '';
+      background: url('../../public/assets/map-pointer-icon.svg');
+      background-size: cover;
+      display: block;
+      width: 6.7rem;
+      height: 8rem;
+    }
+  }
+
+  .map-data-icon {
+    position: absolute;
+    top: 80%;
+
+    &:after {
+      content: '';
+      background: url('../../public/assets/map-people-icon.svg');
+      background-size: cover;
+      width: 4.2rem;
+      height: 2.8rem;
+      display: block;
+    }
+
+    .mustache {
+      display: inline;
+      position: absolute;
+      line-height: 1.6rem;
+      width: 11rem;
+
+      top: 0;
+      left: 5rem;
+      font-size: $fs-data-unit;
+      letter-spacing: 1.5px;
+      color: white;
+      text-transform: uppercase;
+
+      @media #{$mq-tablet-h-down} {
+        width: auto;
+      }
+    }
+  }
+
+  .map-wrapper {
+    position: relative;
+    // flex-basis: 79.9%;
+    // width: 79.9%;
+    flex-basis: 77%;
+    width: 77%;
+    height: 100%;
+
+    @media #{$mq-tablet-h-down} {
+      flex-basis: 100%;
+      width: 100%;
+      height: 63.5rem;
+    }
+
+    @media #{$mq-tablet-down} {
+      height: 49.9rem;
+    }
+
+    .map, svg {
+      position: relative;
+      height: 100%;
+    }
+
+    .world-wrapper {
+      fill: $c-map-bk-blue;
+    }
+
+    .countries {
+      fill: $c-map-blue;
+    }
+
+    .boundaries {
+      fill: $c-map-blue;
+      stroke: $c-map-bk-blue;
+      stroke-width: 0.25px;
+      // stroke-linejoin: round;
+      // stroke-linecap: round;
+      // .country {
+      //   stroke: $c-map-bk-blue;
+      //   stroke-width: 0.5px;
+      //   stroke-linejoin: round;
+      //   stroke-linecap: round;
+      // }
+    }
+
+    .btn-zoom-in,
+    .btn-zoom-out {
+      position: absolute;
+      z-index: 1;
+      width: 35px;
+      height: 35px;
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 100%;
+      outline: none;
+      cursor: pointer;
+      pointer-events: all;
+
+      &::before,
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 15px;
+        height: 1px;
+        background-color: white;
+      }
+
+      &.hidden {
+        display: none;
+        pointer-events: none;
+      }
+    }
+
+    .btn-zoom-in {
+      bottom: 65px;
+      right: 20px;
+
+      &::after {
+        transform: translate(-50%, -50%) rotate(-90deg);
+      }
+    }
+
+    .btn-zoom-out {
+      bottom: 20px;
+      right: 20px;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    // .zoom {
+    //   fill: none;
+    //   stroke: #ffffff;
+    //   stroke-width: 1px;
+    //   // transform: translate3d(0, 54rem, 0);
+    //   pointer-events: all;
+    //   cursor: pointer;
+    //
+    //   &.in, .out {
+    //     display: inline-block;
+    //     position: absolute;
+    //     width: 1.8rem;
+    //     height: 0.1rem;
+    //     right: 0;
+    //     top: 50%;
+    //     border-bottom: solid 1px #ffffff;
+    //     // should never see the background fill, this is to cover the click area.
+    //     fill: $c-map-bk-blue;
+    //     fill-opacity: 0.0;
+    //   }
+    //
+    //   &.out {
+    //     // transform: translate3d(0, 59rem, 0);
+    //   }
+    // }
+
+    // .line {
+    //   cursor: pointer;
+    //   pointer-events: all;
+    // }
+
+    .country-link {
+      stroke: $c-light-blue;
+      stroke-width: 10px;
+      fill: white;
+      cursor: pointer;
+      transform-origin: 50% 50%;
+      transition: none;
+    }
+
+    .background-circle, .foreground-circle {
+      transform-origin: 50% 50%;
+    }
+
+    .background-circle {
+      fill: $c-light-blue;
+      opacity: 0;
+    }
+
+    // .country-link:hover {
+      // @include a-pop();
+    // }
+
+    // .country-link:hover .background-circle {
+      // @include a-big-fade();
+    // }
+
+    .inner-circle {
+      fill: #ffffff;
+    }
+  }
+
+  .datamaps-hoverover {
+    position: absolute;
+    width: 24.0rem;
+    left: -25.0rem!important;
+    top: 12.9rem!important;
+    color: white;
+
+    .hover-data {
+      color: white;
+    }
+
+    .divider {
+      position: absolute;
+      width: 6.0rem;
+      top: 16.6rem;
+      border-bottom: 2px solid white;
+    }
+
+    .data-point {
+      position: absolute;
+      top: 30.7rem;
+      font-size: $fs-data-point;
+      color: white;
+    }
+
+    .data-unit {
+      position: absolute;
+      top: 40.4rem;
+      font-size: $fs-data-unit;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+
+  .dropdown-wrapper {
+    display: none;
+    position: relative;
+    width: calc(100% - 6rem);
+    padding: 1.2rem 3.0rem 9.7rem;
+
+    .section {
+      position: relative;
+      padding: 1.3rem 0;
+      border-bottom: solid 1px white;
+    }
+
+    .section-icon {
+      display: inline-block;
+      position: absolute;
+      width: 1.8rem;
+      height: 0.1rem;
+      right: 0;
+      top: 50%;
+      border-bottom: solid 1px #ffffff;
+
+      transition: all 200ms $cubic-ease-out;
+
+      &:first-of-type {
+        transform: rotate(90deg);
+      }
+    }
+
+    .country-list {
+      display: none;
+    }
+
+    .section.active + .country-list {
+      display: block;
+    }
+
+    .section.active {
+      .section-icon.open {
+        opacity: 0;
+      }
+
+      .section-icon:first-of-type {
+        transform: rotate(0deg);
+      }
+    }
+
+    .country-list {
+      border-bottom: solid 1px white;
+    }
+
+    .list-item {
+      padding: 1.6rem 0;
+    }
+
+    .list-link:after {
+      content: '';
+      display: inline-block;
+      position: relative;
+      width: 0.8rem;
+      height: 0.8rem;
+      top: -1px;
+      left: 15px;
+      border-left: 1px solid white;
+      border-bottom: 1px solid white;
+
+      transition: all 500ms $cubic-ease-out;
+      transform: rotate(-135deg);
+    }
+  }
+
+  // the homepage map is already managed by JS and a class
+  // Media query resizing and js resizing will not be compatible with scrollbar viewports.
+  &.tab-mble {
+    display: block;
+    height: auto;
+
+    .dropdown-wrapper {
+      display: block;
+    }
+
+    .country {
+      height: 100%
+    }
+
+    .data-sidebar {
+      display: none;
+    }
+  }
+
+}

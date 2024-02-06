@@ -1,0 +1,75 @@
+#contact-page {
+
+  .contact-wrapper {
+
+    padding: 14.4rem 25.3% 20.5rem 24.03%;
+    background-color: $c-off-white;
+
+    @media #{$mq-tablet-down} {
+      padding: 7.5rem 3.3rem;
+    }
+
+		.contact-form {
+			label {
+				// override grunion
+				display: none;
+			}
+			input {
+				margin-bottom: 0px;
+				width: 100%;
+				max-width: 100%;
+				margin-right: 0px;
+
+				&.pushbutton-wide {
+					width: auto;
+				}
+			}
+
+			textarea {
+				width: 100%;
+			}
+		}
+
+		.contact-form-container {
+			padding-top: 20px;
+
+      h3 {
+        @include ff-nh();
+        font-size: $fs-p!important;
+        line-height: $lh-p;
+        font-weight: 300;
+      }
+		}
+
+		// no need to show a user's submission.
+		.contact-form-submission {
+			display: none;
+		}
+
+    h2:after {
+      content: '';
+      display: block;
+      position: relative;
+      width: 6.0rem;
+      margin: 2.9rem 0 4rem;
+      border-bottom: 2px solid $c-light-blue;
+    }
+
+    p {
+      color: $c-gray-2;
+    }
+
+    img {
+      display: block;
+      width: 45.3rem;
+	    height: 28.8rem;
+      margin: 18.0rem auto;
+
+      @media #{$mq-tablet-down} {
+        width: 58.3%;
+        height: auto;
+        margin: 8.8rem auto 7.6rem;
+      }
+    }
+  }
+}

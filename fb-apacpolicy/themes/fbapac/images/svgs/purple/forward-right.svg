@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Forward Right Purple</title>
+    <g id="Forward-Right-Purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" stroke="#342071">
+            <circle id="Oval" cx="12" cy="12" r="11.5"></circle>
+            <g id="Group" transform="translate(8.000000, 8.888889)" stroke-linecap="round" stroke-width="2">
+                <line x1="0.444444444" y1="3.11111111" x2="6.66666667" y2="3.11111111" id="Line-2"></line>
+                <line x1="4.88888889" y1="0.444444444" x2="7.55555556" y2="3.11111111" id="Line-2"></line>
+                <line x1="4.88888889" y1="5.77777778" x2="7.55555556" y2="3.11111111" id="Line-2"></line>
+            </g>
+        </g>
+    </g>
+</svg>

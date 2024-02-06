@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Theme Coding Standards">
+    <description>WordPress VIP Go Ruleset fof fbiamdigital theme</description>
+    <!--
+    #############################################################################
+    COMMAND LINE ARGUMENTS
+    https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml
+    #############################################################################
+    -->
+
+    <!-- Pass some flags to PHPCS:
+         p flag: Show progress of the run.
+         s flag: Show sniff codes in all reports.
+    -->
+    <arg value="ps"/>
+
+    <!-- Strip the filepaths down to the relevant bit. -->
+    <arg name="basepath" value="./"/>
+
+    <!-- Check up to 8 files simultanously. -->
+    <arg name="parallel" value="8"/>
+
+    <!-- Check all files in this directory and the directories below it. -->
+    <file>.</file>
+
+    <!-- Exclude minified -->
+    <exclude-pattern>*.min.css</exclude-pattern>
+    <exclude-pattern>*.min.js</exclude-pattern>
+
+    <!--
+    #############################################################################
+    USE THE WordPress VIP Go RULESET
+    #############################################################################
+    -->
+
+    <rule ref="WordPress-VIP-Go"/>
+
+</ruleset>

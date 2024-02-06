@@ -1,0 +1,149 @@
+@font-face {
+    font-family:'NHaas';
+    src:  url('../fonts/NHaasGroteskDSPro-25Th.eot'),
+      	  url('../fonts/NHaasGroteskDSPro-25Th.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/NHaasGroteskDSPro-25Th.woff2') format('woff2'),
+      		url('../fonts/NHaasGroteskDSPro-25Th.woff') format('woff'),
+      		url('../fonts/NHaasGroteskDSPro-25Th.ttf') format('truetype'),
+      		url('../fonts/NHaasGroteskDSPro-25Th.svg#NHaasGroteskDSPro-25Th') format('svg');
+          font-weight: 100;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'NHaas';
+    src:  url('../fonts/NHaasGroteskDSPro-55Rg.eot'),
+      	  url('../fonts/NHaasGroteskDSPro-55Rg.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/NHaasGroteskDSPro-55Rg.woff2') format('woff2'),
+      		url('../fonts/NHaasGroteskDSPro-55Rg.woff') format('woff'),
+      		url('../fonts/NHaasGroteskDSPro-55Rg.ttf') format('truetype'),
+      		url('../fonts/NHaasGroteskDSPro-55Rg.svg#NHaasGroteskDSPro-55Rg') format('svg');
+          font-weight: 300;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'NHaas';
+    src:  url('../fonts/NHaasGroteskTXPro-65Md.eot'),
+      	  url('../fonts/NHaasGroteskTXPro-65Md.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/NHaasGroteskTXPro-65Md.woff2') format('woff2'),
+      		url('../fonts/NHaasGroteskTXPro-65Md.woff') format('woff'),
+      		url('../fonts/NHaasGroteskTXPro-65Md.ttf') format('truetype'),
+      		url('../fonts/NHaasGroteskTXPro-65Md.svg#NHaasGroteskTXPro-65Md') format('svg');
+          font-weight: 500;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'NHaas';
+    src:  url('../fonts/NHaasGroteskTXPro-75Bd.eot'),
+      	  url('../fonts/NHaasGroteskTXPro-75Bd.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/NHaasGroteskTXPro-75Bd.woff2') format('woff2'),
+      		url('../fonts/NHaasGroteskTXPro-75Bd.woff') format('woff'),
+      		url('../fonts/NHaasGroteskTXPro-75Bd.ttf') format('truetype'),
+      		url('../fonts/NHaasGroteskTXPro-75Bd.svg#NHaasGroteskTXPro-75Bd') format('svg');
+          font-weight: 700;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+
+@font-face {
+    font-family:'freight-sans-pro';
+    src:  url('../fonts/FreightSansLFPro-Light.eot'),
+      	  url('../fonts/FreightSansLFPro-Light.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/FreightSansLFPro-Light.woff2') format('woff2'),
+      		url('../fonts/FreightSansLFPro-Light.woff') format('woff'),
+      		url('../fonts/FreightSansLFPro-Light.ttf') format('truetype');
+          font-weight: 300;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'freight-sans-pro';
+    src:  url('../fonts/FreightSansLFPro-Book.eot'),
+      	  url('../fonts/FreightSansLFPro-Book.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/FreightSansLFPro-Book.woff2') format('woff2'),
+      		url('../fonts/FreightSansLFPro-Book.woff') format('woff'),
+      		url('../fonts/FreightSansLFPro-Book.ttf') format('truetype');
+          font-weight: 400;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'freight-sans-pro';
+    src:  url('../fonts/FreightSansLFPro-Medium.eot'),
+      	  url('../fonts/FreightSansLFPro-Medium.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/FreightSansLFPro-Medium.woff2') format('woff2'),
+      		url('../fonts/FreightSansLFPro-Medium.woff') format('woff'),
+      		url('../fonts/FreightSansLFPro-Medium.ttf') format('truetype');
+          font-weight: 500;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'freight-sans-pro';
+    src:  url('../fonts/FreightSansLFPro-SemiBold.eot'),
+      	  url('../fonts/FreightSansLFPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/FreightSansLFPro-SemiBold.woff2') format('woff2'),
+      		url('../fonts/FreightSansLFPro-SemiBold.woff') format('woff'),
+      		url('../fonts/FreightSansLFPro-SemiBold.ttf') format('truetype');
+          font-weight: 600;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'freight-sans-pro';
+    src:  url('../fonts/FreightSansLFPro-Bold.eot'),
+      	  url('../fonts/FreightSansLFPro-Bold.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/FreightSansLFPro-Bold.woff2') format('woff2'),
+      		url('../fonts/FreightSansLFPro-Bold.woff') format('woff'),
+      		url('../fonts/FreightSansLFPro-Bold.ttf') format('truetype');
+          font-weight: 700;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'freight-sans-pro';
+    src:  url('../fonts/FreightSansLFPro-Black.eot'),
+      	  url('../fonts/FreightSansLFPro-Black.eot?#iefix') format('embedded-opentype'),
+      		url('../fonts/FreightSansLFPro-Black.woff2') format('woff2'),
+      		url('../fonts/FreightSansLFPro-Black.woff') format('woff'),
+      		url('../fonts/FreightSansLFPro-Black.ttf') format('truetype');
+          font-weight: 900;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'Facebook Reader Medium';
+    src:  url('../fonts/FacebookReader-Medium.eot'),
+          url('../fonts/FacebookReader-Medium.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/FacebookReader-Medium.woff2') format('woff2'),
+          url('../fonts/FacebookReader-Medium.woff') format('woff'),
+          url('../fonts/FacebookReader-Medium.ttf') format('truetype');
+          font-weight: 500;
+          font-style: normal;
+          font-stretch: normal;
+}
+
+@font-face {
+    font-family:'Optimistic Display Medium';
+    src: url('../fonts/Optimistic-Display-Medium.eot'),
+     url('../fonts/Optimistic-Display-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Optimistic-Display-Medium.woff2') format('woff2'),
+    url('../fonts/Optimistic-Display-Medium.woff') format('woff'),
+    url('../fonts/Optimistic-Display-Medium.svg#Optimistic Display Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+   
+}

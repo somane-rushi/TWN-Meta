@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tap light teal</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.709804 0 0 0 0 0.709804 0 0 0 0 0.858824 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.203922 0 0 0 0 0.125490 0 0 0 0 0.443137 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Style-Sheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Stylesheet-Pillars" transform="translate(-189.000000, -485.000000)">
+            <g id="Tap-Yellow" transform="translate(190.000000, 486.000000)" filter="url(#filter-1)">
+                <g filter="url(#filter-2)" id="Tap-Green">
+                    <g id="Group-5" stroke="#005A42" stroke-width="2">
+                        <line x1="20" y1="0" x2="0" y2="20" id="Path-3"></line>
+                        <polyline id="Path-2" points="0 0 20 0 20 20"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

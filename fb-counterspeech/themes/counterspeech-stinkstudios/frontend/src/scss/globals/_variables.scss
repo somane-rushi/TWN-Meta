@@ -1,0 +1,101 @@
+
+//colors
+$white:         #ffffff;
+$c-off-white:   #fafafb;
+$c-white-1:     #f5f6f7;
+$c-white-2:     #e4e5e8;
+$c-gray-1:      #596171;
+$c-gray-2:      #767c8a;
+$c-dark-gray:   #3d4452;
+
+$c-gray-blue:   #4e5665;
+$c-blue:        #4e6aa2;
+$c-map-bk-blue: #466BC2;
+$c-fb-blue:     #3C5A99;
+$c-map-blue:    #30477d;
+$c-dark-blue:   #3b5998;
+$c-royal-blue:  #2457FB;
+$c-light-blue:  #5890ff;
+
+// break points
+$bp-mobile:     414px;
+$bp-phablet:    540px;
+$bp-tablet:     768px;
+$bp-tabletmid: 	900px;
+$bp-tablet-h:   1024px;
+$bp-desktopmin: 1100px;
+$bp-desktop:    1270px;
+$bp-max-width:  1440px;
+$bp-full-width: 2440px;
+
+// media queries
+$mq-phone:      '(max-width: #{$bp-mobile})';
+$mq-phablet-down: '(max-width: #{$bp-phablet})';
+$mq-phablet:    '(min-width: #{$bp-mobile + 1}) and (max-width: #{$bp-phablet})';
+$mq-tablet-down: '(max-width: #{$bp-tablet})';
+$mq-tablet:     '(min-width: #{$bp-phablet + 1}) and (max-width: #{$bp-tablet-h})';
+$mq-tablet-h-down: '(max-width: #{$bp-tablet-h})';
+$mq-desktop:    '(min-width: #{$bp-desktop})';
+$mq-max-width-up:  '(min-width: #{$bp-max-width})';
+
+// exceptions for font sizing on homepage map.
+$mq-13inch: '(min-width: #{$bp-desktop}) and (max-width: #{$bp-max-width})';
+$mq-12inch: '(min-width: #{$bp-desktopmin}) and (max-width: #{$bp-desktop})';
+$mq-tablet: '(min-width: #{$bp-tabletmid}) and (max-width: #{$bp-desktopmin})';
+$mq-undertablet: '(max-width: #{$bp-tabletmid})';
+
+// sizing
+$s-header: 8.0rem;
+$s-mobile-header: 6rem;
+
+//font-size
+$fs-data:     8.0rem;
+$fs-h1:       7.6rem;
+$fs-h2:       6.0rem;
+$fs-h3:       4.0rem;
+$fs-pq:       3.4rem;
+$fs-cs:       3.2rem;
+$fs-h4:       2.5rem;
+$fs-h5:       2.0rem;
+$fs-p:        1.8rem;
+$fs-p-s:      1.6rem;
+$fs-logo:     1.5rem;
+$fs-s:        1.2rem;
+$fs-button:   1.2rem;
+$fs-data-point: 10rem;
+$fs-data-unit: 0.9rem;
+
+$fs-h1-m:     3.6rem;
+$fs-h2-m:     3.6rem;
+$fs-h3-m:     2.8rem;
+$fs-h4-m:     2.0rem;
+$fs-logo-m:   1.5rem;
+$fs-p-m:      1.6rem;
+$fs-s-m:      0.9rem;
+
+// line-height
+$lh-data:     9.3rem;
+$lh-h1:       8.8rem;
+$lh-h2:       7.5rem;
+$lh-h3:       5.5rem;
+$lh-pq:       4.9rem;
+$lh-cs:       3.8rem;
+$lh-h4:       3.0rem;
+$lh-h5:       2.6rem;
+$lh-p:        3rem;
+$lh-p-s:      2.8rem;
+$lh-s:        3.2rem;
+$lh-button:   1.2rem;
+
+$lh-h1-m:     4.2rem;
+$lh-h2-m:     4.2rem;
+$lh-h3-m:     3.5rem;
+$lh-h4-m:     2.8rem;
+$lh-p-m:      2.8rem;
+
+// z-index
+$z-header:    999;
+$z-header-m:  1000;
+$z-hamburger: 1001;
+
+$z-header-close-overlay: 200;

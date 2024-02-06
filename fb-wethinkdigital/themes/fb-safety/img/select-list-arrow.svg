@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="11px" viewBox="0 0 18 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Chevron Default - Dark Gray</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.282353 0 0 0 0 0.098039 0 0 0 0 0.305882 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Style-Sheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g transform="translate(-158.000000, -5357.000000)" id="Group">
+            <g transform="translate(157.000000, 5357.000000)" id="Group-10" filter="url(#filter-1)">
+                <g>
+                    <line x1="1.58928571" y1="1.21428571" x2="9.83928571" y2="9.78571429" id="Line-2" stroke="#075E54" transform="translate(5.714286, 5.500000) scale(1, -1) rotate(-90.000000) translate(-5.714286, -5.500000) "></line>
+                    <line x1="10.1607143" y1="9.78571429" x2="18.4107143" y2="1.21428571" id="Line-2" stroke="#075E54" transform="translate(14.285714, 5.500000) scale(1, -1) rotate(-90.000000) translate(-14.285714, -5.500000) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

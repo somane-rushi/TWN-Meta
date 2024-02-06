@@ -1,0 +1,147 @@
+
+
+.section-wrapper.partners {
+  display: block;
+  width: 100%;
+
+  .section {
+    width: 77.5%;
+    max-width: 111.4rem;
+    margin: 0 auto;
+    padding: 16.4rem 0 14.9rem;
+
+    @media #{$mq-tablet-down} {
+      width: 100%;
+      padding: 0;
+    }
+
+    .partner-wrapper {
+      width: 100%;
+
+      @media #{$mq-tablet-down} {
+        margin-top: 8rem;
+      }
+
+      .large-image {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        max-width: 27rem;
+        margin: 0 auto;
+        opacity: 0.9;
+        background-color: transparent;
+        transition: transform 200ms $cubic-ease-out;
+
+        @media #{$mq-tablet-down} {
+          width: 60%;
+          height: auto;
+        }
+
+        .image {
+          width: 100%;
+          height: auto;
+        }
+
+        &:hover {
+          transform: scale(0.94);
+        }
+      }
+
+      .partner-link {
+        display: none;
+      }
+
+      .copy {
+        display: block;
+        width: 50%;
+        margin: 5rem auto 0;
+        text-transform: uppercase;
+        text-align: center;
+
+        @media #{$mq-tablet-down} {
+          width: 80%;
+          margin: 1rem auto 0;
+        }
+      }
+
+      &.initiative {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+
+        @media #{$mq-tablet-down} {
+          width: 100%;
+        }
+
+        .partner-image {
+          display: block;
+          flex-basis: 17.5%;
+          width: 17.5%;
+          transition: transform 200ms $cubic-ease-out;
+
+          @media #{$mq-tablet-down} {
+            display: block;
+            width: 17rem;
+            height: auto;
+            margin: 0 auto;
+          }
+
+          .image {
+            width: 100%;
+            height: auto;
+          }
+
+          &:hover {
+            transform: scale(1.06);
+          }
+        }
+
+        .partner-item {
+          display: flex;
+          align-items: flex-start;
+          position: relative;
+          width: 100%;
+          padding: 5.1rem 0 5.7rem;
+          border-bottom: 1px solid $c-white-2;
+
+          @media #{$mq-tablet-down} {
+            display: block;
+            padding: 0 0 3.0rem;
+          }
+        }
+
+        .partner-item:last-of-type {
+          border-bottom: none;
+        }
+
+        .partner-title {
+          a {color: $c-gray-blue;}
+        }
+      }
+    }
+
+    .partner-copy {
+      flex-basis: 62.5%;
+      width: 62.5%;
+      margin-left: 1.7rem;
+
+      @media #{$mq-tablet-down} {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+
+    .partner-title {
+
+      @media #{$mq-tablet-down} {
+        margin: 3.1rem 0 2.1rem;
+      }
+    }
+
+    .partner-desc {
+      margin-top: 0.8rem;
+    }
+  }
+}

@@ -1,0 +1,157 @@
+.masthead {
+
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 48.6rem;
+  background-color: $c-light-blue;
+  // background-color: $c-white-1;
+
+  @media #{$mq-tablet-down} {
+    height: 24.2rem;
+    margin-top: 6rem;
+  }
+
+  // dynamic sizing above 1440px
+  @media #{$mq-max-width-up} {
+    height: 34vw;
+    max-height: 60vh;
+  }
+
+  .image {
+    // display flex was impacting the stretching of the masthead image on JS resize.
+    // display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .overlay {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0.2;
+      background-color: black;
+      z-index: 1;
+    }
+
+    img {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      // transition: all 50ms $quint-ease-out;
+      height: auto;
+      width: 100%;
+      opacity: 0;
+
+      &.show {
+        opacity: 1;
+      }
+    }
+  }
+
+  .masthead-copy-wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: $bp-max-width;
+    margin: auto;
+  }
+
+  .masthead-copy {
+    display: block;
+    position: relative;
+    width: 67.5%;
+    max-width: 69rem;
+    // margin: 0 auto;
+    padding-left: 11.25%;
+    // padding-top: 14.2rem;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    color: white;
+    z-index: 2;
+
+    @media #{$mq-tablet-down} {
+      width: calc(100% - 33px * 2);
+      top: 45%;
+      padding-left: 0;
+      margin: 0 auto;
+    }
+  }
+
+  .masthead-caption-wrapper {
+    display: flex;
+    position: absolute;
+    width: 77.5%;
+    left: 50%;
+    bottom: 0;
+    z-index: 2;
+    align-items: center;
+    background-color: white;
+    transform: translate3d(-50%, 50%, 0);
+
+    @media #{$mq-tablet-down} {
+      width: calc(100% - 33px * 2);
+    }
+
+    .masthead-caption {
+      padding: 1rem 2rem;
+      letter-spacing: 0.3px;
+
+      @media #{$mq-tablet-down} {
+        padding: 1.5rem;
+        letter-spacing: 0;
+      }
+    }
+  }
+
+  &.homepage {
+
+    height: 67.5rem;
+
+    // dynamic sizing above 1440px
+    @media #{$mq-max-width-up} {
+      height: 47vw;
+      max-height: 70vh;
+    }
+
+    @media #{$mq-tablet-h-down} {
+      height: 48.6rem;
+    }
+
+    @media #{$mq-tablet-down} {
+      //height: 24.2rem;
+      height: 36rem;
+    }
+
+    .masthead-copy {
+
+      top: 50%;
+      //height: 67.5rem;
+      width: auto;
+      max-width: 90rem;
+      //padding-top: 24.8rem;
+      transform: translate3d(0,-50%,0);
+
+      @media #{$mq-tablet-h-down} {
+        max-width: 70%;
+      }
+
+      @media #{$mq-tablet-down} {
+        width: calc(100% - 30px * 2);
+        max-width: 50rem;
+        //height: auto;
+        margin: 0 30px 0;
+      }
+    }
+    .masthead-caption-wrapper {
+
+      @media #{$mq-tablet-down} {
+        width: calc(100% - 30px * 2);
+      }
+    }
+  }
+}

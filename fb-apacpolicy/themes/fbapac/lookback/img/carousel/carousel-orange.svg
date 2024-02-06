@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="27px" viewBox="0 0 62 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>left right carousel copy</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.627451 0 0 0 0 0.207843 0 0 0 0 0.086275 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.627451 0 0 0 0 0.207843 0 0 0 0 0.086275 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Style-Sheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stylesheet-Pillars" transform="translate(-529.000000, -211.000000)">
+            <g id="Group-12" transform="translate(529.000000, 211.000000)">
+                <g filter="url(#filter-1)" id="Desktop-Arrow-Button">
+                    <g transform="translate(35.000000, 0.000000)" id="Group-2">
+                        <circle id="Oval" stroke="#CAD1D8" cx="13.5" cy="13.5" r="13"></circle>
+                        <g id="Group" transform="translate(9.000000, 10.000000)" stroke="#344854" stroke-linecap="square" stroke-width="2">
+                            <line x1="0.5" y1="3.5" x2="7.5" y2="3.5" id="Line-2"></line>
+                            <line x1="5.5" y1="0.5" x2="8.5" y2="3.5" id="Line-2"></line>
+                            <line x1="5.5" y1="6.5" x2="8.5" y2="3.5" id="Line-2"></line>
+                        </g>
+                    </g>
+                </g>
+                <g filter="url(#filter-2)" id="Desktop-Arrow-Button">
+                    <g transform="translate(13.500000, 13.500000) scale(-1, 1) translate(-13.500000, -13.500000) " id="Group-2">
+                        <circle id="Oval" stroke="#CAD1D8" cx="13.5" cy="13.5" r="13"></circle>
+                        <g id="Group" transform="translate(9.000000, 10.000000)" stroke="#344854" stroke-linecap="square" stroke-width="2">
+                            <line x1="0.5" y1="3.5" x2="7.5" y2="3.5" id="Line-2"></line>
+                            <line x1="5.5" y1="0.5" x2="8.5" y2="3.5" id="Line-2"></line>
+                            <line x1="5.5" y1="6.5" x2="8.5" y2="3.5" id="Line-2"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

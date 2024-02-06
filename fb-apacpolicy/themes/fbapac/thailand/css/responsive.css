@@ -1,0 +1,604 @@
+﻿@media (min-width: 1901px) {
+
+    .boxes-main-content,
+    .fullwidth-boxes {
+        min-height: 900px;
+    }
+
+    .boxes-main-content {
+        padding: 10%;
+    }
+
+    .boxes-block .boxes-txt h2 {
+        font-size: 45px;
+    }
+
+    .leftside-eco h2 {
+        font-size: 66px;
+        line-height: 80px;
+    }
+
+    .middleside-eco {
+        position: relative;
+        z-index: 1;
+        max-width: 42%;
+        margin-left: 16%;
+    }
+    
+    .middleside-eco li {
+        font-size: 34px;
+    }
+
+}
+
+@media (min-width: 2401px) {
+    
+    .boxes-main-content,
+    .fullwidth-boxes {
+        min-height: 1350px;
+    }
+    
+    .fullwidth-boxes .fullboxes-content {
+        padding: 490px 1% 150px 10%;
+    }
+    
+}
+
+@media (min-width: 2201px) and (max-width: 2400px) {
+    
+    .boxes-main-content,
+    .fullwidth-boxes {
+        min-height: 1250px;
+    }
+    
+    .fullwidth-boxes .fullboxes-content {
+        padding: 490px 1% 150px 10%;
+    }
+    
+}
+
+@media (min-width: 2001px) and (max-width: 2200px) {
+    
+    .boxes-main-content,
+    .fullwidth-boxes {
+        min-height: 1050px;
+    }
+    
+}
+
+@media (min-width: 1801px) and (max-width: 1900px) {
+
+    .boxes-main-content,
+    .fullwidth-boxes {
+        min-height: 850px;
+    }
+
+    .fullwidth-boxes .fullboxes-content {
+        padding: 290px 1% 150px 10%;
+    }
+
+}
+
+@media (min-width: 1700px) and (max-width: 1800px) {
+
+    .boxes-main-content,
+    .fullwidth-boxes {
+        min-height: 820px;
+    }
+
+    .fullwidth-boxes .fullboxes-content {
+        padding: 290px 1% 150px 10%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .atabs-block.nav-tabs > li > a {
+        padding: 9px 15px;
+        font-size: 13px;
+    }
+
+    .australia-block,
+    .eco-emp,.blogDiv, 
+    .thai-tourism {
+        padding: 100px 135px 100px;
+    }
+
+    .boxes-main-content,
+    .fullwidth-boxes {
+        min-height: 750px;
+    }
+
+    .fullwidth-boxes .fullboxes-content {
+        padding: 200px 1% 80px 6%;
+    }
+
+    .middleside-eco {
+        max-width: 56%;
+        margin-left: 8%;
+    }
+
+    .middleside-eco li {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .rightside-eco {
+        margin-bottom: 0px;
+    }
+
+    .testimonial-block {
+        /*margin: 0 30px 50px;*/
+        margin: 0;
+    }
+
+    .looking-section {
+        padding: 110px 0 100px;
+    }
+
+}
+
+
+/****Tablet****/
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .header-section {
+        padding: 30px 10px 35px;
+    }
+
+    .atabs-block {
+        padding: 25px;
+    }
+
+    .atabs-block.nav-tabs > li > a {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .australia-block,
+    .eco-emp, .blogDiv,
+    .thai-tourism {
+        padding: 100px 80px;
+    }
+
+    .australia-block h2,
+    .eco-emp h2{
+        margin-bottom: 50px;
+    }
+
+    .boxes-main-content {
+        padding: 5% 3%;
+        min-height: 500px;
+    }
+
+    .boxes-block {
+        width: 25%;
+    }
+
+    .boxes-block .boxes-txt h2 {
+        font-size: 26px;
+    }
+
+    .fullwidth-boxes {
+        min-height: 750px;
+    }
+
+    .fullwidth-boxes .fullboxes-content {
+        padding: 130px 1% 50px 5%;
+    }
+
+    .middleside-eco {
+        max-width: 48%;
+        margin-left: 5%;
+    }
+
+    .middleside-eco ul {
+        padding-left: 40px;
+        padding-right: 0;
+    }
+
+    .middleside-eco li {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .rightside-eco {
+        margin-bottom: 0px;
+    }
+
+    .page-title h2 {
+        font-size: 45px;
+    }
+
+    .testimonial-block {
+        /*padding: 80px 60px 130px 110px;
+        margin: 0 30px 30px;*/
+        padding:0;
+        margin:0;
+    }
+
+    .quote-1 img,
+    .quote-2 img {
+        max-width: 90px;
+    }
+
+    .quote-1 {
+        position: absolute;
+        top: -30px;
+        left: -30px;
+    }
+
+    .quote-2 {
+        position: absolute;
+        right: -30px;
+        bottom: -30px;
+    }
+
+    .adocacy-block p {
+        font-size: 17px;
+    }
+
+    .adocacy-block .testi-foter p {
+        font-size: 16px;
+    }
+
+    .looking-section {
+        padding: 80px 0;
+    }
+
+    .looking-ahed-block h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .looking-ahed-block p {
+        font-size: 15px;
+    }
+
+    .footer-section {
+        padding: 40px 5% 30px;
+    }
+    .blogContainer {
+		padding:50px;
+	}
+	.blogHeader{
+		padding:125px 50px 25px;
+	}
+
+
+}
+
+/*Small Tab*/
+@media (max-width: 767px) {
+    .testimonial-block {
+        /*padding: 80px 30px 130px 30px;
+        margin: 0 30px;*/
+        margin:0;
+        padding:0;
+    }
+
+    .adocacy-block p {
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .quote-1 {
+        position: absolute;
+        top: -25px;
+        left: -25px;
+    }
+
+    .quote-1 img,
+    .quote-2 img {
+        max-width: 80px;
+    }
+
+    .quote-2 {
+        position: absolute;
+        right: -25px;
+        bottom: -25px;
+    }
+
+    .adocacy-block .testi-foter p {
+        text-align: left;
+    }
+
+    .australia-block,
+    .eco-emp,
+    .thai-tourism {
+        padding: 125px 50px;
+    }
+
+    .header-section {
+        padding: 18px 20px 20px;
+    }
+
+    .header-section .container-fluid,
+    .header-section .container-fluid .col-md-12 {
+        padding: 0px;
+    }
+
+    .footer-section {
+        background: #dde2e8;
+        padding: 20px;
+    }
+
+    .footer-section .container-fluid,
+    .footer-section .container-fluid .col-md-12 {
+        padding: 0px;
+    }
+
+    .footer-logo {
+        border-bottom: 2px solid #d5dbe1;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .atabs-block {
+        padding: 20px;
+    }
+
+    .atabs-block.nav-tabs > li > a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .australia-block,
+    .eco-emp,
+    .thai-tourism {
+        padding: 100px 50px;
+    }
+
+    .australia-block h2,
+    .eco-emp h2 {
+        font-size: 46px;
+        line-height: 60px;
+        margin-bottom: 50px;
+    }
+
+    .australia-block h4,
+    .eco-emp h4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .boxes-main-content {
+        padding: 5% 5%;
+        min-height: 600px;
+    }
+
+    .boxes-block {
+        width: 50%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .fullwidth-boxes {
+        min-height: 750px;
+    }
+
+    .fullwidth-boxes .fullboxes-content {
+        padding: 70px 3% 60px 7%;
+        flex-flow: column;
+    }
+
+    .leftside-eco h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .main-content {
+        flex-flow: column;
+    }
+
+    .middleside-eco {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 60px;
+    }
+
+    .middleside-eco ul {
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .middleside-eco li {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .rightside-eco {
+        margin-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    .looking-section {
+        padding: 60px 0;
+    }
+
+    .looking-ahed-block h2 {
+        font-size: 36px;
+        line-height: 55px;
+        margin-bottom: 30px;
+    }
+
+    .looking-ahed-block p {
+        text-align: justify;
+    }
+
+    .page-title h2 {
+        font-size: 40px;
+    }
+
+    .testimonial-carousel .owl-nav {
+        left: 0;
+    }
+
+    .fullimage img {
+        object-fit: cover;
+    }
+	.blogContainer {
+		padding:50px;
+	}
+	.blogHeader{
+		padding:100px 50px 25px;
+	}
+
+
+}
+/*Mobile Devices*/
+@media (max-width: 575px) {
+
+    .atabs-block {
+        padding: 20px;
+    }
+
+    .atabs-block.nav-tabs > li > a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .australia-block,
+    .eco-emp,
+    .thai-tourism,
+    .blogDiv {
+        padding: 100px 20px 100px;
+    }
+    
+    .eco-emp h1,
+    .blogDiv  h1{
+		margin-bottom: 25px;
+	}
+
+    .australia-block h2,
+    .eco-emp h2 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .australia-block h4,
+    .eco-emp h4 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    .boxes-main-content {
+        padding: 5% 10%;
+        min-height: 750px;
+        width: 100%;
+    }
+
+    .boxes-block {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .fullwidth-boxes {
+        min-height: 750px;
+    }
+
+    .fullwidth-boxes .fullboxes-content {
+        padding: 100px 20px 50px 20px;
+        flex-flow: column;
+    }
+
+    .main-content {
+        flex-flow: column;
+    }
+
+    .leftside-eco h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .middleside-eco {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
+    .middleside-eco ul {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .middleside-eco li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .rightside-eco {
+        margin-right: 0;
+        margin-bottom: 0;
+        /*margin-top: 80px;*/
+    }
+
+    .page-title h2 {
+        font-size: 35px;
+    }
+
+    .testimonial-block {
+        /*padding: 80px 20px 130px 20px;
+        margin: 0 30px;*/
+        margin:0;
+        padding:0;
+    }
+
+    .adocacy-block p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .adocacy-block .testi-foter p {
+        text-align: left;
+    }
+
+    .looking-section {
+        padding: 50px 0;
+    }
+
+    .looking-ahed-block h2 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    .looking-ahed-block p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .testimonial-carousel .owl-nav {
+        left: 0;
+    }
+	.blogContainer {
+		padding:50px 25px;
+	}
+	.blogHeader{
+		padding:75px 25px 25px;
+	}
+	.privacy-txt ul li{
+		display: inline-block;
+		text-align:right;
+		float:left;
+		margin-bottom:25px;
+	}
+	.footerLinks{	
+		width:100%;
+	}
+	.footerLinks ul li{
+		display:block;
+		width:100%;
+	}
+	.footerLinks ul li a{
+		padding:15px 0;
+		margin:0;
+	}
+	.footerImg{
+		margin-bottom:15px;
+	}
+
+}

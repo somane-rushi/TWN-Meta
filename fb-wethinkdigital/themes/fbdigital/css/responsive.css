@@ -1,0 +1,1573 @@
+@media only screen and (min-width: 1901px) and (max-width: 1950px) {
+
+    .sectionone {
+        padding: 20px 0 50px;
+    }
+
+    .sectionone h1 {
+        padding-right: 120px;
+    }
+
+    .sectionone h2 {
+        padding-right: 36%;
+    }
+
+    .userblock:nth-child(2) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(1) h4 {
+        padding-right: 40px;
+    }
+
+    .userblock:nth-child(4) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(5) h4 {
+        padding-right: 30px;
+    }
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 67%;
+        height: 470px;
+    }
+
+    .windowimg img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tableimg {
+        top: 495px;
+        left: 140px;
+        z-index: 2;
+        width: 65%;
+    }
+
+    .boyimg {
+        top: 225px;
+        left: 28%;
+        width: 24%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 445px;
+        left: 52.2%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 299px;
+        left: 57%;
+        width: 11%;
+    }
+
+    .frameimg {
+        top: 160px;
+        left: 140px;
+        width: 8%;
+    }
+
+    .plantimg {
+        top: 340px;
+        left: 4%;
+        width: 29%;
+    }
+
+    .sectiontwo {
+        min-height: 870px;
+    }
+
+    .sectionthree {
+        min-height: 1000px;
+    }
+
+    .jerry-img1 {
+        top: 0;
+        left: 50px;
+        width: 75%;
+    }
+
+    .jerry-img2 {
+        top: 5px;
+        left: 227px;
+        width: 40%;
+    }
+
+    .jerry-img3 {
+        top: 210px;
+        left: 50px;
+        width: 30%;
+    }
+
+    .sectionthree-images {
+        height: 66%;
+    }
+
+    .alistair-img1 {
+        top: 0px;
+        left: 90px;
+        width: 77%;
+    }
+
+    .alistair-img2 {
+        top: 300px;
+        left: 55px;
+        width: 85%;
+    }
+
+    .sectionfour-images {
+        position: relative;
+        height: 65%;
+    }
+
+    .ellen-img1 {
+        top: 190px;
+        left: 375px;
+        width: 50%;
+    }
+
+    .ellen-img2 {
+        top: 110px;
+        left: 280px;
+        width: 27%;
+    }
+
+    .ellen-img3 {
+        top: -147px;
+        left: 50px;
+        width: 55%;
+    }
+
+    .sectionfive {
+        min-height: 970px;
+    }
+
+    .robert-img1 {
+        top: 0px;
+        left: 120px;
+        width: 75%;
+    }
+
+    .robert-img2 {
+        top: 165px;
+        left: -10px;
+        width: 83%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1851px) and (max-width: 1900px) {
+
+    .sectionone {
+        padding: 20px 0 50px;
+    }
+
+    .sectionone h1 {
+        padding-right: 120px;
+    }
+
+    .sectionone h2 {
+        padding-right: 36%;
+    }
+
+    .userblock:nth-child(2) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(1) h4 {
+        padding-right: 40px;
+    }
+
+    .userblock:nth-child(4) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(5) h4 {
+        padding-right: 30px;
+    }
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 67%;
+        height: 470px;
+    }
+
+    .windowimg img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tableimg {
+        top: 495px;
+        left: 140px;
+        z-index: 2;
+        width: 65%;
+    }
+
+    .boyimg {
+        top: 240px;
+        left: 28%;
+        width: 24%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 445px;
+        left: 52.2%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 307px;
+        left: 57%;
+        width: 11%;
+    }
+
+    .frameimg {
+        top: 160px;
+        left: 140px;
+        width: 8%;
+    }
+
+    .plantimg {
+        top: 340px;
+        left: 4%;
+        width: 29%;
+    }
+
+    .sectiontwo {
+        min-height: 870px;
+    }
+
+    .sectionthree {
+        min-height: 1000px;
+    }
+
+    .jerry-img1 {
+        top: 0;
+        left: 50px;
+        width: 75%;
+    }
+
+    .jerry-img2 {
+        top: 5px;
+        left: 227px;
+        width: 40%;
+    }
+
+    .jerry-img3 {
+        top: 210px;
+        left: 50px;
+        width: 30%;
+    }
+
+    .sectionthree-images {
+        height: 66%;
+    }
+
+    .alistair-img1 {
+        top: 0px;
+        left: 90px;
+        width: 77%;
+    }
+
+    .alistair-img2 {
+        top: 300px;
+        left: 55px;
+        width: 85%;
+    }
+
+    .sectionfour-images {
+        position: relative;
+        height: 65%;
+    }
+
+    .ellen-img1 {
+        top: 190px;
+        left: 375px;
+        width: 50%;
+    }
+
+    .ellen-img2 {
+        top: 110px;
+        left: 280px;
+        width: 27%;
+    }
+
+    .ellen-img3 {
+        top: -147px;
+        left: 50px;
+        width: 55%;
+    }
+
+    .sectionfive {
+        min-height: 920px;
+    }
+
+    .robert-img1 {
+        top: -20px;
+        left: 120px;
+        width: 75%;
+    }
+
+    .robert-img2 {
+        top: 140px;
+        left: -10px;
+        width: 83%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 1850px) {
+
+    .sectionone {
+        padding: 20px 0 50px;
+    }
+
+    .sectionone h1 {
+        padding-right: 120px;
+    }
+
+    .sectionone h2 {
+        padding-right: 36%;
+    }
+
+    .userblock:nth-child(2) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(1) h4 {
+        padding-right: 40px;
+    }
+
+    .userblock:nth-child(4) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(5) h4 {
+        padding-right: 30px;
+    }
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 67%;
+        height: 480px;
+    }
+
+    .windowimg img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tableimg {
+        top: 495px;
+        left: 140px;
+        z-index: 2;
+        width: 65%;
+    }
+
+    .boyimg {
+        top: 240px;
+        left: 28%;
+        width: 24%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 450px;
+        left: 52.2%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 310px;
+        left: 57%;
+        width: 11%;
+    }
+
+    .frameimg {
+        top: 160px;
+        left: 140px;
+        width: 8%;
+    }
+
+    .plantimg {
+        top: 360px;
+        left: 5.3%;
+        width: 28%;
+    }
+
+    .sectiontwo {
+        min-height: 870px;
+    }
+
+    .sectionthree {
+        min-height: 1000px;
+    }
+
+    .jerry-img1 {
+        top: 0;
+        left: 50px;
+        width: 75%;
+    }
+
+    .jerry-img2 {
+        top: 5px;
+        left: 227px;
+        width: 40%;
+    }
+
+    .jerry-img3 {
+        top: 210px;
+        left: 50px;
+        width: 30%;
+    }
+
+    .sectionthree-images {
+        height: 66%;
+    }
+
+    .alistair-img1 {
+        top: 0px;
+        left: 90px;
+        width: 77%;
+    }
+
+    .alistair-img2 {
+        top: 300px;
+        left: 55px;
+        width: 85%;
+    }
+
+    .sectionfour-images {
+        position: relative;
+        height: 65%;
+    }
+
+    .ellen-img1 {
+        top: 190px;
+        left: 375px;
+        width: 50%;
+    }
+
+    .ellen-img2 {
+        top: 110px;
+        left: 280px;
+        width: 27%;
+    }
+
+    .ellen-img3 {
+        top: -147px;
+        left: 50px;
+        width: 55%;
+    }
+
+    .sectionfive {
+        min-height: 920px;
+    }
+
+    .robert-img1 {
+        top: -20px;
+        left: 120px;
+        width: 75%;
+    }
+
+    .robert-img2 {
+        top: 140px;
+        left: -10px;
+        width: 83%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1751px) and (max-width: 1800px) {
+
+    .sectionone {
+        padding: 20px 0 50px;
+    }
+
+    .sectionone h1 {
+        padding-right: 120px;
+    }
+
+    .sectionone h2 {
+        padding-right: 36%;
+    }
+
+    .userblock:nth-child(2) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(1) h4 {
+        padding-right: 40px;
+    }
+
+    .userblock:nth-child(4) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(5) h4 {
+        padding-right: 30px;
+    }
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 67%;
+    }
+
+    .tableimg {
+        top: 495px;
+        left: 140px;
+        z-index: 2;
+        width: 65%;
+    }
+
+    .boyimg {
+        top: 250px;
+        left: 28%;
+        width: 24%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 450px;
+        left: 52.2%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 320px;
+        left: 57%;
+        width: 11%;
+    }
+
+    .frameimg {
+        top: 160px;
+        left: 140px;
+        width: 8%;
+    }
+
+    .plantimg {
+        top: 360px;
+        left: 5.3%;
+        width: 28%;
+    }
+
+    .sectiontwo {
+        min-height: 840px;
+    }
+
+    .sectionthree {
+        min-height: 1000px;
+    }
+
+    .jerry-img1 {
+        top: 0;
+        left: 50px;
+        width: 75%;
+    }
+
+    .jerry-img2 {
+        top: 5px;
+        left: 227px;
+        width: 40%;
+    }
+
+    .jerry-img3 {
+        top: 210px;
+        left: 50px;
+        width: 30%;
+    }
+
+    .sectionthree-images {
+        height: 66%;
+    }
+
+    .alistair-img1 {
+        top: 0px;
+        left: 90px;
+        width: 77%;
+    }
+
+    .alistair-img2 {
+        top: 300px;
+        left: 55px;
+        width: 85%;
+    }
+
+    .sectionfour-images {
+        position: relative;
+        height: 65%;
+    }
+
+    .ellen-img1 {
+        top: 190px;
+        left: 375px;
+        width: 55%;
+    }
+
+    .ellen-img2 {
+        top: 110px;
+        left: 280px;
+        width: 30%;
+    }
+
+    .ellen-img3 {
+        top: -147px;
+        left: 50px;
+        width: 55%;
+    }
+
+    .sectionfive {
+        min-height: 920px;
+    }
+
+    .robert-img1 {
+        top: 0px;
+        left: 120px;
+        width: 75%;
+    }
+
+    .robert-img2 {
+        top: 160px;
+        left: -10px;
+        width: 83%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1701px) and (max-width: 1750px) {
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 69%;
+    }
+
+    .sectionone h1 {
+        padding-right: 120px;
+    }
+
+    .sectionone h2 {
+        padding-right: 36%;
+    }
+
+    .userblock:nth-child(2) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(1) h4 {
+        padding-right: 40px;
+    }
+
+    .userblock:nth-child(4) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(5) h4 {
+        padding-right: 30px;
+    }
+
+    .tableimg {
+        top: 500px;
+        left: 130px;
+        z-index: 2;
+        width: 65%;
+    }
+
+    .boyimg {
+        top: 260px;
+        left: 26%;
+        width: 24%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 450px;
+        left: 50.2%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 325px;
+        left: 55%;
+        width: 11%;
+    }
+
+    .frameimg {
+        top: 160px;
+        left: 130px;
+        width: 8%;
+    }
+
+    .plantimg {
+        top: 380px;
+        left: 4.8%;
+        width: 27%;
+    }
+
+    .jerry-img1 {
+        top: 0;
+        left: 50px;
+        width: 75%;
+    }
+
+    .jerry-img2 {
+        top: 5px;
+        left: 227px;
+        width: 40%;
+    }
+
+    .jerry-img3 {
+        top: 210px;
+        left: 50px;
+        width: 30%;
+    }
+
+    .sectionthree-images {
+        height: 66%;
+    }
+
+    .alistair-img1 {
+        top: 0px;
+        left: 90px;
+        width: 77%;
+    }
+
+    .alistair-img2 {
+        top: 300px;
+        left: 55px;
+        width: 85%;
+    }
+
+    .sectionfour-images {
+        position: relative;
+        height: 65%;
+    }
+
+    .ellen-img1 {
+        top: 190px;
+        left: 375px;
+        width: 55%;
+    }
+
+    .ellen-img2 {
+        top: 110px;
+        left: 280px;
+        width: 30%;
+    }
+
+    .ellen-img3 {
+        top: -147px;
+        left: 50px;
+        width: 55%;
+    }
+
+    .sectionfive {
+        min-height: 900px;
+    }
+
+    .robert-img1 {
+        top: -10px;
+        left: 120px;
+        width: 75%;
+    }
+
+    .robert-img2 {
+        top: 145px;
+        left: -10px;
+        width: 83%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1651px) and (max-width: 1700px) {
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 69%;
+    }
+
+    .sectionone h1 {
+        padding-right: 60px;
+    }
+
+    .sectionone h2 {
+        padding-right: 30%;
+    }
+
+    .userblock:nth-child(2) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(1) h4 {
+        padding-right: 40px;
+    }
+
+    .userblock:nth-child(4) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(5) h4 {
+        padding-right: 30px;
+    }
+
+    .tableimg {
+        top: 490px;
+        left: 130px;
+        z-index: 2;
+        width: 65%;
+    }
+
+    .boyimg {
+        top: 258px;
+        left: 26%;
+        width: 24%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 442px;
+        left: 50.2%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 320px;
+        left: 55%;
+        width: 11%;
+    }
+
+    .frameimg {
+        top: 160px;
+        left: 100px;
+        width: 8%;
+    }
+
+    .plantimg {
+        top: 360px;
+        left: 4.2%;
+        width: 28%;
+    }
+
+    .jerry-img1 {
+        top: 0;
+        left: 50px;
+        width: 82%;
+    }
+
+    .jerry-img2 {
+        top: 0;
+        left: 224px;
+        width: 45%;
+    }
+
+    .jerry-img3 {
+        top: 222px;
+        left: 40px;
+        width: 33%;
+    }
+
+    .sectionthree-images {
+        height: 66%;
+    }
+
+    .alistair-img1 {
+        top: 0px;
+        left: 70px;
+        width: 85%;
+    }
+
+    .alistair-img2 {
+        top: 300px;
+        left: 55px;
+        width: 90%;
+    }
+
+    .sectionfour-images {
+        position: relative;
+        height: 65%;
+    }
+
+    .ellen-img1 {
+        top: 190px;
+        left: 375px;
+        width: 55%;
+    }
+
+    .ellen-img2 {
+        top: 110px;
+        left: 280px;
+        width: 30%;
+    }
+
+    .ellen-img3 {
+        top: -147px;
+        left: 50px;
+        width: 55%;
+    }
+
+    .sectionfive {
+        min-height: 850px;
+    }
+
+    .robert-img1 {
+        top: -24px;
+        left: 120px;
+        width: 75%;
+    }
+
+    .robert-img2 {
+        top: 125px;
+        left: 0px;
+        width: 83%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1650px) {
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 71%;
+    }
+
+    .sectionone h1 {
+        padding-right: 60px;
+    }
+
+    .sectionone h2 {
+        padding-right: 30%;
+    }
+
+    .userblock:nth-child(2) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(1) h4 {
+        padding-right: 40px;
+    }
+
+    .userblock:nth-child(4) h4 {
+        padding-right: 20px;
+    }
+
+    .userblock:nth-child(5) h4 {
+        padding-right: 30px;
+    }
+
+    .tableimg {
+        top: 490px;
+        left: 100px;
+        z-index: 2;
+        width: 65%;
+    }
+
+    .boyimg {
+        top: 265px;
+        left: 26%;
+        width: 24%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 442px;
+        left: 50.2%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 325px;
+        left: 55%;
+        width: 11%;
+    }
+
+    .frameimg {
+        top: 160px;
+        left: 100px;
+        width: 8%;
+    }
+
+    .plantimg {
+        top: 360px;
+        left: 1.8%;
+        width: 29.5%;
+    }
+
+    .jerry-img1 {
+        top: 0;
+        left: 50px;
+        width: 82%;
+    }
+
+    .jerry-img2 {
+        top: 0;
+        left: 224px;
+        width: 45%;
+    }
+
+    .jerry-img3 {
+        top: 215px;
+        left: 40px;
+        width: 33%;
+    }
+
+    .sectionthree-images {
+        height: 66%;
+    }
+
+    .alistair-img1 {
+        top: 0px;
+        left: 70px;
+        width: 85%;
+    }
+
+    .alistair-img2 {
+        top: 300px;
+        left: 55px;
+        width: 90%;
+    }
+
+    .sectionfour-images {
+        position: relative;
+        height: 65%;
+    }
+
+    .ellen-img1 {
+        top: 190px;
+        left: 375px;
+        width: 55%;
+    }
+
+    .ellen-img2 {
+        top: 110px;
+        left: 285px;
+        width: 30%;
+    }
+
+    .ellen-img3 {
+        top: -147px;
+        left: 50px;
+        width: 55%;
+    }
+
+    .sectionfive {
+        min-height: 850px;
+    }
+
+    .robert-img1 {
+        top: -30px;
+        left: 90px;
+        width: 78%;
+    }
+
+    .robert-img2 {
+        top: 132px;
+        left: -20px;
+        width: 85%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1551px) and (max-width: 1600px) {
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 72%;
+    }
+
+    .sectionone h2 {
+        padding-right: 25%;
+    }
+
+    .tableimg {
+        top: 480px;
+        left: 100px;
+        z-index: 2;
+        width: 66%;
+    }
+
+    .boyimg {
+        top: 252px;
+        left: 25%;
+        width: 25%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 440px;
+        left: 50.2%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 323px;
+        left: 55%;
+        width: 11%;
+    }
+
+    .frameimg {
+        top: 180px;
+        left: 40px;
+        width: 9%;
+    }
+
+    .plantimg {
+        top: 360px;
+        left: 3.1%;
+        width: 28%;
+    }
+
+    .sectionfive {
+        min-height: 850px;
+    }
+
+    .robert-img1 {
+        top: -24px;
+        left: 90px;
+        width: 78%;
+    }
+
+    .robert-img2 {
+        top: 132px;
+        left: -20px;
+        width: 85%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1550px) {
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 75%;
+    }
+
+    .tableimg {
+        top: 480px;
+        left: 50px;
+        z-index: 2;
+        width: 71.5%;
+    }
+
+    .boyimg {
+        top: 250px;
+        left: 21%;
+        width: 26%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 440px;
+        left: 47%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 298px;
+        left: 52.5%;
+        width: 13%;
+    }
+
+    .frameimg {
+        top: 180px;
+        left: 40px;
+        width: 9%;
+    }
+
+    .plantimg {
+        top: 370px;
+        left: -1.7%;
+        width: 29%;
+    }
+
+    .robert-img1 {
+        top: -30px;
+        left: 90px;
+        width: 78%;
+    }
+
+    .robert-img2 {
+        top: 120px;
+        left: -20px;
+        width: 85%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1451px) and (max-width: 1500px) {
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 80%;
+    }
+
+    .tableimg {
+        top: 500px;
+        left: 30px;
+        z-index: 2;
+        width: 70%;
+    }
+
+    .boyimg {
+        top: 280px;
+        left: 18%;
+        width: 26%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 460px;
+        left: 44.5%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 325px;
+        left: 49%;
+        width: 13%;
+    }
+
+    .frameimg {
+        top: 180px;
+        left: 40px;
+        width: 9%;
+    }
+
+    .plantimg {
+        top: 410px;
+        left: -3%;
+        width: 27%;
+    }
+
+    .sectionfour {
+        min-height: 900px;
+    }
+
+    .robert-img1 {
+        top: 0px;
+        left: 40px;
+        width: 76%;
+    }
+
+    .robert-img2 {
+        top: 144px;
+        left: -52px;
+        width: 81%;
+    }
+    
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1450px) {
+
+    .windowimg {
+        top: 80px;
+        right: 0px;
+        width: 80%;
+    }
+
+    .tableimg {
+        top: 480px;
+        left: 30px;
+        z-index: 2;
+        width: 70%;
+    }
+
+    .boyimg {
+        top: 265px;
+        left: 18%;
+        width: 26%;
+        z-index: 1;
+    }
+
+    .cupimg {
+        top: 440px;
+        left: 44%;
+        width: 4.5%;
+    }
+
+    .dogimg {
+        top: 310px;
+        left: 49%;
+        width: 13%;
+    }
+
+    .frameimg {
+        top: 180px;
+        left: 40px;
+        width: 9%;
+    }
+
+    .plantimg {
+        top: 390px;
+        left: -3%;
+        width: 27%;
+    }
+
+    .robert-img1 {
+        top: 0px;
+        left: 40px;
+        width: 85%;
+    }
+
+    .robert-img2 {
+        top: 170px;
+        left: -60px;
+        width: 91%;
+    }
+
+    .peopleall-img1 {
+        bottom: 9px;
+        left: 17.3%;
+        width: 7%;
+    }
+
+}
+@media (min-width: 993px) and (max-width: 1050px) { 
+	.sectionscamyou{ padding: 60px 0 40px; }
+	.sectiontwo-images img { width: 80%; }
+	.sectiontwo-content{ padding-left: 20px; padding-right: 10px; margin-top: 60px;}
+	.sectionthree-content{ padding-left: 65px; padding-right: 1px; margin-top: 60px;}
+	.sectionthree-images img { width: 80%; }
+	.sectionfour-images img { width: 70%; }
+	.sectionfour-content{ margin-top: 0px; }
+	.ellen-img2{ left: 180px;top: 85px; }
+	.ellen-img1{ top: 120px; left: 250px; }
+	.sectionfour-content{ padding-left: 20px; padding-right: 0px; } 
+	.sectionfive-images img { width: 80%; }
+	.robert-img2{ width: 95%; left: 60px; }
+	.robert-img1{ top: 70px; left: 80px; width: 90%; }
+	.sectionfive-content { padding-left: 40px; margin-top: 0px; }
+	.sectionfive p{ margin-top: 0px; padding-right: 50px; }
+	.sectionsix .ron-img img { width: 100%; }
+	.sectionsix-content{ padding-left: 40px;  margin-top: -20px; }
+	.ron-img{ top: 40px; right: -200px; }
+	.sectionsix p{ margin-top: 20px; padding-right: 30px;  }
+	.peopleall-img1{ left: 180px; }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.userblock1{ width: 16%; }
+	.sectiontwo-content{ margin-top: 75%; }
+	.sectiontwo h2{ font-size: 40px; }
+	.sectiontwo p{ font-size: 30px; }
+	.sectionthree-content{ margin-top: 95%; }
+	.sectionthree h2{ font-size: 40px; }
+	.sectionthree p{ font-size: 30px; }
+	.sectionfour-content{ margin-top: 100%; }
+	.sectionfour h2{ font-size: 40px; }
+	.sectionfour p{ font-size: 30px; }
+	.sectionfive{ min-height: 1130px; }
+	.sectionfive-content { margin-top: 0px; }
+	.sectionfive h2{ font-size: 40px; }
+	.sectionfive p{ font-size: 30px; }
+	.sectionfive .clip{ color: #fff4e1; }
+	.sectionsix .ron-img img { width:60%; }
+	.robert-img1 { position: absolute; top: 100px; left: 200px; width: 60%; }
+	.robert-img2 { position: absolute; top: 200px; left: 190px; z-index: 2; width: 60%; }
+	.sectionsix-content{ margin-top: 19%; }
+	.sectionsix h2{ font-size: 40px; }
+	.sectionsix p{ font-size: 30px; margin-top: 10px; }
+	.ron-img{ right: -280px; }
+	.sectionseven-images img{ max-width: 100%; }
+	.peopleall-img1{ left: 135px; }
+	
+	
+}
+@media (min-width: 401px) and (max-width: 767px)
+{
+	.sectionscamyou h3{ font-size: 24px; }
+	.userblock1{ width: 24%; }
+	.sectiontwo{ padding: 50px 0; min-height: auto; }
+	.sectiontwo-content{ padding-left: 15px; padding-right: 15px; margin-top: 70%; }
+	.sectiontwo h1{ font-size: 65px; }
+	.sectiontwo p{ margin-top: 20px; }
+	.sectiontwo-images img { width: 50%; }
+	.jerry-img2{ left: 112px; }
+	.jerry-img3{ top: 120px; }
+	
+	.sectionthree{ padding: 50px 0; }
+	.sectionthree-content{ padding-left: 15px; padding-right: 15px; margin-top: 90% }
+	.sectionthree-images img { width:50%; }
+	.sectionthree-images{ height: auto; }
+	.alistair-img1{ left: 50px; }
+	.alistair-img2{ top: 180px; left: 40px; }
+	.sectionthree h1{ font-size: 65px; }
+	.sectionthree p{ margin-top: 20px; padding-right: 15px; }
+	
+	.sectionfour{ padding: 150px 0 50px 0px; }
+	.sectionfour-images img { width:50%; }
+	.ellen-img1{ top: 50px; left: 150px; }
+	.ellen-img2{ top: 10px; left: 120px; }
+	.sectionfour h1{ font-size: 65px; }
+	.sectionfour p{ margin-top: 20px; padding-right: 0px; }
+	.sectionfour-content{ padding-left: 15px; padding-right: 15px; margin-top: 10px; margin-top: 75%; }
+	
+	.sectionfive{ padding: 50px 0; }
+	.sectionfive-content{ padding-left: 15px; margin-top: 10px; margin-bottom: 50px; }
+	.sectionfive h1{ font-size: 65px; }
+	.sectionfive p{ margin-top: 20px; padding-right: 0px; }
+	.sectionfive .clip{ color: #fff4e1; }
+	.sectionfive-images img { width: 60%; }
+	.robert-img1{ left: 100px; }
+	.robert-img2{ top: 60px; left: 80px;}
+	
+	.sectionsix-content { padding-left: 15px; margin-top: 0px; }
+	.sectionsix .ron-img img { width:60%; }
+	.ron-img{ right: -170px; }
+	.sectionsix h1{ font-size: 65px; padding-top: 30%; }
+	.sectionsix p{ margin-top: 5px; padding-right: 0px; color: #fff4e1; }
+	.sectionseven-content { padding: 0 15px; }
+	.sectionseven h1{ font-size: 65px; }
+	.sectionseven .clip{ margin: 25px 0; }
+	.peopleall-img1{ left: 90px; }
+	.modal-dialog{ width: 100% !important; }
+}
+@media (max-width: 400px) {
+	.sectionscamyou h3{ font-size: 22px; }
+	.userblock1{ width: 27%; }
+	.sectiontwo{ padding: 50px 0; min-height: auto; }
+	.sectiontwo-content{ padding-left: 15px; padding-right: 15px; margin-top: 75%; }
+	.sectiontwo h1{ font-size: 60px; }
+	.sectiontwo p{ margin-top: 20px; line-height: 1.5em; }
+	.sectiontwo-images img { width:50%; }
+	.jerry-img1{ left: 20px; }
+	.jerry-img2{ left: 90px; }
+	.jerry-img3{ top: 100px; left:10px; }
+	
+	.sectionthree{ padding: 50px 0; }
+	.sectionthree-content{ padding-left: 15px; padding-right: 15px; margin-top: 105% }
+	.sectionthree-images img { width:50%; }
+	.sectionthree-images{ height: auto; }
+	.alistair-img1{ left: 25px; }
+	.alistair-img2{ top: 180px; left: 20px; }
+	.sectionthree h1{ font-size: 60px; }
+	.sectionthree h2{ line-height: 1.3em; }
+	.sectionthree p{ margin-top: 20px; padding-right: 15px; line-height: 1.5em; }
+	
+	.sectionfour{ padding: 150px 0 50px 0px; }
+	.sectionfour-images img { width:50%; }
+	.ellen-img1{ top: 50px; left: 110px; }
+	.ellen-img2{ top: 0px; left: 100px; }
+	.sectionfour h1{ font-size: 60px; }
+	.sectionfour h2{ line-height: 1.3em; }
+	.sectionfour p{ margin-top: 20px; padding-right: 0px; }
+	.sectionfour-content{ padding-left: 15px; padding-right: 15px; margin-top: 10px; margin-top: 80%; }
+	
+	.sectionfive{ padding: 50px 0; }
+	.sectionfive-content{ padding-left: 15px; margin-top: 10px; margin-bottom: 50px; }
+	.sectionfive h1{ font-size: 60px; }
+	.sectionfive h2{ line-height: 1.3em; }
+	.sectionfive p{ margin-top: 20px; padding-right: 0px; line-height: 1.5em; }
+	.sectionfive .clip{ color: #fff4e1; }
+	.sectionfive-images img { width:70%; }
+	.robert-img1{ left: 70px; width: auto; }
+	.robert-img2{ top: 60px; left: 60px; width: auto; }
+	
+	.sectionsix-content { padding-left: 15px; margin-top: 0px; }
+	.sectionsix .ron-img img { width:60%; }
+	.ron-img{ right: auto; left: 100px; }
+	.sectionsix h1{ font-size: 60px; padding-top: 30%; }
+	.sectionsix h2{ line-height: 1.3em; }
+	.sectionsix p{ margin-top: 5px; padding-right: 0px; color: #fff4e1; line-height: 1.5em; font-size:20px; }
+	.sectionseven-content { padding: 0 15px; }
+	.sectionseven h1{ font-size: 60px; }
+	.sectionseven .clip{ margin: 25px 0; }
+	.peopleall-img1{ left: 90px; }
+	.modal-dialog{ width: 100% !important; }
+	.footer-section{ padding: 50px 5% 40px; }
+}
+@media (max-width: 320px) {
+	.userblock1 img { height: 90px; width: 90px; }
+	.sectiontwo h1{ font-size: 50px; }
+	.sectiontwo-content{ margin-top: 86%; }
+	.sectionthree h1{ font-size: 40px; }
+	.sectionthree-content{ margin-top: 118%; }
+	.sectionthree-images img { width: 40%; }
+	.sectionfour-images img { width: 40%; }
+	.ellen-img2 { top: -25px; left: 100px; }
+	.ellen-img1 { top: 13px; left: 110px; }
+	.sectionfour-content{ margin-top: 69%; }
+	.sectionfour h1 { font-size: 50px; }
+	.sectionfive h1 { font-size: 40px; }
+	.robert-img1{ top: 30px; }
+	.robert-img2{ top: 90px; }
+	.sectionsix h1 { font-size: 50px; padding-top: 35%; }
+	.sectionseven h1 { font-size: 50px; }
+}
